@@ -1,0 +1,28 @@
+<!--pages/my/my.wxml-->
+<view class="container">
+    <view class="header-image">
+        <image src="{{userInfo.avatarUrl}}" mode="widthFix"></image>
+        <text>{{userInfo.nickName}}</text>
+    </view>
+        <view class="vip" bindtap="vip" style="display: none">
+            <image src="../../image/start.png" mode="widthFix"></image>
+            <text class="h2">VIP暂未开通</text>
+            <text>点击购买包月套餐，30元/月</text>
+        </view>
+
+        <view class="history" bindtap="gotoHistory">
+            <text>观看历史</text><text class="fr">></text>
+        </view>
+
+        <view class="play-list" bindtap="gotoBuy">
+            <text>购买记录</text><text class="fr">></text>
+        </view>
+
+        <view class="history" bindtap="report">
+            <text>意见反馈</text><text class="fr">></text>
+        </view>
+
+        <view class="history" bindtap="clear">
+            <text>清除本地缓存</text><text class="fr">{{size}}</text>
+        </view>
+</view>

@@ -1,0 +1,71 @@
+<import src="../../common/commentslist.wxml" />
+<import src="../../wxParse/wxParse.wxml"/>
+<view id="mvpage">
+  <view id="mvheader">
+    <image id="mvideo" src="{{main.cover}}" mode="aspectFill"></image>
+  </view>
+  <view wx:if="{{loading}}" class="cntloading">加载中...
+    <view>
+      <text class="cl1"></text>
+      <text class="cl2"></text>
+      <text class="cl3"></text>
+    </view>
+  </view>
+  <view id="mvmain">
+    <view class="tab-cnt" id="mv-detail">
+      <view id="mvinfo">
+        <text id="mvname">{{main.name}}</text>
+        <view>
+          <navigator url="../artist/index?id={{main.artistId}}"> 作者：{{main.artistName}}</navigator>
+        </view>
+        <view>价格：¥{{main.price}}</view>
+        <view>购买人数：{{main.payNum}}</view>
+      </view>
+      <view id="mvdes">
+        <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+      </view>
+
+      <view class="comments">
+        <view class="item touch-active" wx:for="{{comments}}" wx:key="" wx:for-item="c">
+          <view class="i-left">
+            <image class="c-u-img" src="{{c.avatar}}"></image>
+          </view>
+          <view class="i-right">
+            <view class="top">
+              <text class="u-name">{{c.uName}}</text>
+              <text class="time">{{c.time}}</text>
+            </view>
+
+            <!--评论内容-->
+            <view class="content">
+              {{c.content}}
+            </view>
+          </view>
+        </view>
+      </view>
+
+    </view>
+
+      <view class="cf-bg" catchtap="cemojiCfBg" style="display:{{cfBg ? 'block' : 'none'}}"></view>
+      <view class="comment-fixed">
+        <view class="cf-box">
+          <text class="cf-send touch-active" bindtap="pay" data-video-id="{{id}}">{{tips}}</text>
+        </view>
+      </view>
+  </view>
+
+</view>
+
+        <!--加载更多 模版-->
+<template name="loading">
+<view class="weui-loadmore">
+  <view class="weui-loading"></view>
+  <view class="weui-loadmore__tips">正在加载</view>
+</view>
+</template>
+
+<template name="nodata">
+<view class="weui-loadmore">
+  <view class="weui-loadmore__tips" style="color:#888">就这么多了</view>
+</view>
+</template>

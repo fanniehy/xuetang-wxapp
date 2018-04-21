@@ -1,0 +1,55 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.5.2",
+	"appid": "wx00eb00cce90c9a3c",
+	"projectname": "%E7%9F%BF%E4%B8%9A%E5%AD%A6%E9%99%A2",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": 0,
+					"name": "list",
+					"pathName": "pages/list/list",
+					"query": "type=list&id=12"
+				},
+				{
+					"id": -1,
+					"name": "search",
+					"pathName": "pages/search/search",
+					"query": ""
+				},
+				{
+					"id": 2,
+					"name": "webview",
+					"pathName": "pages/webview/webview",
+					"query": "src=https%3a%2f%2fzhaopin.kuangyeyuan.com%2fcompany%2findex.php%3fc%3dshow%26id%3d543"
+				}
+			]
+		}
+	}
+}

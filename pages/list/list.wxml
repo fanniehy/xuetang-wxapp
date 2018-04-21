@@ -1,0 +1,27 @@
+<import src="../../common/template.wxml"/>
+
+<view class="index">
+<view class="banner-scroll" wx:if="{{banners.length > 0}}">
+    <swiper class="Bannerswiper">
+        <block wx:for="{{banners}}" wx:key="videoId">
+            <swiper-item>
+                <view class="swiper-item">
+                    <navigator url="{{item.webUrl}}">
+                        <view class="pic">
+                            <image src="{{item.picUrl}}" mode="aspectFill" class="slide-image" />
+                        </view>
+                        <view class="title">
+                            <text>{{item.name}}</text>
+                        </view>
+                    </navigator>
+                </view>
+            </swiper-item>
+        </block>
+    </swiper>
+</view>
+    <template is="ub-list" data="{{newList}}" />
+</view>
+<button open-type="share"  class="hongbao" style="font-size:30px;margin: 0;padding: 0; overflow: inherit;width:36px;height:0px;margin-bottom: 144px;">
+<image class="hongbao" style="margin-bottom: 145px" src="../../image/share.png" data-video-id="{{id}}"/>
+</button>
+<image class="hongbao" style="margin-bottom: 100px" src="../../image/home.png" bindtap="goHome" data-video-id="{{id}}"/>

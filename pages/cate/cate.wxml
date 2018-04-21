@@ -1,0 +1,46 @@
+
+
+<view class="wrapper">
+
+    <view class="cate">
+        <scroll-view scroll-y="true" scroll-with-animation="true" scroll-top="{{ st1 }}" class="level1">
+            <view wx:for="{{ entries }}" 
+                  wx:key="areaId"
+                  class="tab {{ curIdx == index ? 'cur' : '' }}"
+                  data-index="{{ index }}"
+                  bindtap="switchTab"
+            >{{ item.areaName }}</view>
+        </scroll-view>
+
+        <scroll-view scroll-y="true" enable-back-to-top="true" scroll-top="{{ st2 }}" bindscroll="onScroll" class="level2">
+            <block wx:for="{{ entries[curIdx].level1words }}" wx:key="keywordId" wx:for-index="cateIdx">
+                <view class="header">{{ item.keyword }}</view>
+
+                <view class="list">
+                    <view wx:for="{{ item.level2words }}"
+                          wx:key="keywordId"
+                          class="list_item"
+                          data-key="{{ item.key }}"
+                          data-cate-idx="{{ cateIdx }}"
+                          bindtap="gotoSearchList"
+                    >
+                        <view class="img">
+                            <!-- 优化加载首屏图片 -->
+                            <image wx:if="{{ item.imgIdx < IMG_NUM }}" 
+                                   data-tab="{{ curIdx }}"
+                                   src="{{ item.imageUrl }}" 
+                                   bindload="imgOnLoad" 
+                            />
+
+                            <!-- 等首屏图片加载的差不多了再加载剩余的 -->
+                            <image wx:elif="{{ imgLoadedCount >= IMG_NUM - 3 }}"
+                                   src="{{ item.imageUrl }}"
+                            />
+                        </view>
+                        <view class="name line2">{{ item.keyword }}</view>
+                    </view>
+                </view>
+            </block>
+        </scroll-view>
+    </view>
+</view>

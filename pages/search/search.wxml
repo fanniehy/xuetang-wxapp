@@ -1,0 +1,72 @@
+<import src="../../common/template.wxml"/>
+
+<view class="search">
+    <!--<view class="searchRank">-->
+        <!--<view class="form">-->
+            <!--<input confirm-type="search"-->
+                   <!--bindinput="onSearchInput"-->
+                   <!--bindfocus="onSearchFocus"-->
+                   <!--bindconfirm="onSearchConfirm"-->
+                   <!--bindblur="onSearchBlur"-->
+                   <!--type="text" class="cl" value="{{value}}" bindfocus="onFouse" bindblur="onBlue"/>-->
+            <!--<icon type="cancel" size="20" color="#fff" catchtap="deleteTxt"/>-->
+            <!--<block wx:if="{{focus}}">-->
+                <!--<view wx:if="{{hasKey}}" class="search_bar_btn search" bindtap="{{_onTapSearchConfirm}}">搜索</view>-->
+                <!--<view wx:else class="search_bar_btn" bindtap="{{_onTapSearchCancel}}">取消</view>-->
+            <!--</block>-->
+        <!--</view>-->
+    <!--</view>-->
+
+
+    <view style="position: fixed;z-index: 1;width:100%;">
+        <view class="search_bar">
+            <view class="search_bar_box">
+                <icon type="search" size="16" class="icon_search" />
+                <input type="text" placeholder="搜索矿冶园课程、资讯"
+                       value="{{value}}"
+                       focus="{{focus}}"
+                       confirm-type="search"
+                       bindinput="onSearchInput"
+                       bindfocus="onFocus"
+                       bindconfirm="onSearchConfirm"
+                       bindblur="onBlue" />
+                <icon wx:if="{{hasKey}}" type="clear" size="18" bindtap="onSearchClear" class="icon_clear" />
+            </view>
+            <block wx:if="{{show}}">
+                <view wx:if="{{hasKey}}" class="search_bar_btn search" bindtap="onSearchConfirm">搜索</view>
+                <view wx:else class="search_bar_btn" bindtap="onSearchCancel">取消</view>
+            </block>
+        </view>
+    </view>
+    <view style="margin-top: 85rpx">
+        <block wx:if="{{!show}}">
+            <template is="searchTxt" data="{{ranking}}"  />
+        </block>
+    </view>
+
+</view>
+<block wx:if="{{show}}">
+    <view class="search_fixed_view">
+        <view wx:if="{{recentSearch.length}}" class="tags_panel">
+            <view class="tags_panel_header">
+                <text>最近搜索</text>
+                <button wx:if="{{btn_text}}" plain="true" size="mini" bindtap="{{search}}">{{btn_text}}</button>
+            </view>
+            <view class="tags_panel_body">
+                <text class="tags_item" wx:for="{{recentSearch}}" wx:for-item="item" bindtap="search" data-key="{{item}}">{{item}}</text>
+            </view>
+        </view>
+
+
+        <view wx:if="{{recentSearch.length}}" class="tags_panel">
+            <view class="tags_panel_header">
+                <text>热门搜索</text>
+                <button wx:if="{{btn_text}}" plain="true" size="mini" bindtap="{{search}}">{{btn_text}}</button>
+            </view>
+            <view class="tags_panel_body">
+                <text class="tags_item" wx:for="{{hotSearch}}" wx:for-item="item" bindtap="search" data-key="{{item}}">{{item}}</text>
+            </view>
+        </view>
+    </view>
+</block>
+

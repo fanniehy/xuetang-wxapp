@@ -1,0 +1,3096 @@
+{
+  "errCode": "0",
+  "retCode": "0",
+  "projectId": "117",
+  "keywordAreas": [
+    {
+      "areaId": "813",
+      "areaName": "热搜推荐",
+      "level1words": [
+        {
+          "keywordId": "64133",
+          "keyword": "专场推荐",
+          "level2words": [
+
+          ]
+        },
+        {
+          "keywordId": "46249",
+          "keyword": "热门搜索",
+          "level2words": [
+            {
+              "keywordId": "60076",
+              "keyword": "手机",
+              "imageUrl": "jfs/t7627/106/578346726/10229/9807d5f6/59950e9cN7d3760d6.png",
+              "url": "key=%E6%89%8B%E6%9C%BA&as=0&PTAG=37110.16.4&projectId=117"
+            },
+            {
+              "keywordId": "61316",
+              "keyword": "平板电脑",
+              "imageUrl": "jfs/t7321/272/585727211/18416/5a7d7acb/59950f60Nda7c8e06.png",
+              "url": "key=%E5%B9%B3%E6%9D%BF%E7%94%B5%E8%84%91&as=0&PTAG=37110.16.2&projectId=117"
+            },
+            {
+              "keywordId": "62619",
+              "keyword": "空调",
+              "imageUrl": "jfs/t6028/269/5082591857/7797/a9475a7/5968ea51Na7659ea8.png",
+              "url": "key=%E7%A9%BA%E8%B0%83&as=0&PTAG=37110.16.1&projectId=117"
+            },
+            {
+              "keywordId": "60078",
+              "keyword": "女装",
+              "imageUrl": "jfs/t6070/268/8943020802/13606/76d2fe05/598d6977N14622506.png",
+              "url": "key=%E8%BF%9E%E8%A1%A3%E8%A3%99&as=0&PTAG=37110.16.6&projectId=117"
+            },
+            {
+              "keywordId": "60083",
+              "keyword": "男装",
+              "imageUrl": "jfs/t7165/132/1712231632/16805/97d8b21f/598d697fNf44ec63e.png",
+              "url": "key=%E7%94%B7%E8%A3%85&as=0&PTAG=37110.16.11&projectId=117"
+            },
+            {
+              "keywordId": "62620",
+              "keyword": "电风扇",
+              "imageUrl": "jfs/t6064/312/5045031284/6062/e655c0c/5968ef5aNa2a2e075.png",
+              "url": "key=%E9%A3%8E%E6%89%87&as=0&PTAG=37110.16.7&projectId=117"
+            },
+            {
+              "keywordId": "61315",
+              "keyword": "单肩包",
+              "imageUrl": "jfs/t5704/168/6315688903/16778/4941340f/5968efb4Nf4617e02.png",
+              "url": "key=%E5%A5%B3%E5%8C%85&as=0&PTAG=37110.16.3&projectId=117"
+            },
+            {
+              "keywordId": "60080",
+              "keyword": "女鞋",
+              "imageUrl": "jfs/t5716/317/6348487046/12442/739de5dd/5968f01bN338c2be5.png",
+              "url": "key=%E5%87%89%E9%9E%8B%E5%A5%B3&as=0&PTAG=37110.16.8&projectId=117"
+            },
+            {
+              "keywordId": "60077",
+              "keyword": "男鞋",
+              "imageUrl": "jfs/t5608/321/6248411649/14314/311c809e/5968f05fNfdaa3a90.png",
+              "url": "key=%E5%87%89%E9%9E%8B%E7%94%B7&as=0&PTAG=37110.16.5&projectId=117"
+            },
+            {
+              "keywordId": "60082",
+              "keyword": "钟表",
+              "imageUrl": "jfs/t5779/331/6362543838/18644/a9992f90/5968f137N2643072d.png",
+              "url": "key=%E6%89%8B%E8%A1%A8&as=0&PTAG=37110.16.10&projectId=117"
+            },
+            {
+              "keywordId": "62088",
+              "keyword": "孕妇装",
+              "imageUrl": "jfs/t6106/197/5031776412/17463/ff1a8f6/5968f18cN88bc4c8f.png",
+              "url": "key=%E5%AD%95%E5%A6%87%E8%A3%85&as=0&PTAG=37110.16.9&projectId=117"
+            },
+            {
+              "keywordId": "61873",
+              "keyword": "家居服",
+              "imageUrl": "jfs/t5824/306/6286928402/17422/27aff9a1/5968f1d2Na59feb51.png",
+              "url": "key=%E7%9D%A1%E8%A1%A3%E5%A5%B3&as=0&PTAG=37110.16.12&projectId=117"
+            },
+            {
+              "keywordId": "62089",
+              "keyword": "耳机",
+              "imageUrl": "jfs/t5695/177/6231019484/6815/c4a1a8d4/5968f211N644ff93b.png",
+              "url": "key=%E8%80%B3%E6%9C%BA&as=0&PTAG=37110.16.13&projectId=117"
+            },
+            {
+              "keywordId": "60087",
+              "keyword": "零食",
+              "imageUrl": "jfs/t5680/234/6315583030/9393/416ab62d/5968f355Nb0fb7745.jpg",
+              "url": "key=%E4%BC%91%E9%97%B2%E9%9B%B6%E9%A3%9F&as=0&PTAG=37110.16.14&projectId=117"
+            },
+            {
+              "keywordId": "60088",
+              "keyword": "化妆品",
+              "imageUrl": "jfs/t5872/251/6262586275/5780/a62264f1/5968f769N65be421c.jpg",
+              "url": "key=%E5%8C%96%E5%A6%86%E5%93%81&as=0&PTAG=37110.16.15&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "27024",
+          "keyword": "男人热搜",
+          "level2words": [
+            {
+              "keywordId": "59623",
+              "keyword": "夹克",
+              "imageUrl": "jfs/t3991/319/1807982324/8951/44315461/58c65332N648a3ebe.png",
+              "url": "key=%E5%A4%B9%E5%85%8B%E7%94%B7&as=0&PTAG=37110.16.25&projectId=117"
+            },
+            {
+              "keywordId": "62090",
+              "keyword": "T恤",
+              "imageUrl": "jfs/t4291/335/1774685451/19795/b8722ee1/58c66035N8dc568c3.png",
+              "url": "key=T%E6%81%A4%E7%94%B7&as=0&PTAG=37110.16.24&projectId=117"
+            },
+            {
+              "keywordId": "62091",
+              "keyword": "卫衣",
+              "imageUrl": "jfs/t4279/350/1754116113/23490/655a863e/58c6603dN487da465.png",
+              "url": "key=%E5%8D%AB%E8%A1%A3%E7%94%B7&as=0&PTAG=37110.16.26&projectId=117"
+            },
+            {
+              "keywordId": "46271",
+              "keyword": "牛仔裤",
+              "imageUrl": "jfs/t2386/195/909839330/5400/b30b3390/5634cfb2N68f09ef3.jpg",
+              "url": "key=%E7%89%9B%E4%BB%94%E8%A3%A4%E7%94%B7&as=0&PTAG=37110.16.27&projectId=117"
+            },
+            {
+              "keywordId": "50845",
+              "keyword": "休闲裤",
+              "imageUrl": "jfs/t2692/49/359027023/6934/de391100/570f5b10N358255e9.jpg",
+              "url": "key=%E8%A3%A4%E5%AD%90%E7%94%B7&as=0&PTAG=37110.16.29&projectId=117"
+            },
+            {
+              "keywordId": "49394",
+              "keyword": "皮带",
+              "imageUrl": "jfs/t2182/115/2240370043/9436/bdda03dc/56ce7798N48f95617.jpg",
+              "url": "key=%E4%BC%91%E9%97%B2%E7%9A%AE%E5%B8%A6&as=0&PTAG=37110.16.28&projectId=117"
+            },
+            {
+              "keywordId": "62092",
+              "keyword": "男士袜子",
+              "imageUrl": "jfs/t4342/87/1781709858/8759/37a42571/58c65747N91e094ed.png",
+              "url": "key=%E7%94%B7%E5%A3%AB%E8%A2%9C%E5%AD%90&as=0&PTAG=37110.16.30&projectId=117"
+            },
+            {
+              "keywordId": "62093",
+              "keyword": "棒球帽",
+              "imageUrl": "jfs/t3304/83/8452366572/18847/88b38c80/58c6576fN3f925f65.png",
+              "url": "key=%E6%A3%92%E7%90%83%E5%B8%BD&as=0&PTAG=37110.16.32&projectId=117"
+            },
+            {
+              "keywordId": "62094",
+              "keyword": "太阳镜",
+              "imageUrl": "jfs/t4348/125/1773637366/14275/56a927e6/58c657c0Nad10557c.png",
+              "url": "key=%E5%A4%AA%E9%98%B3%E9%95%9C&as=0&PTAG=37110.16.21&projectId=117"
+            },
+            {
+              "keywordId": "62095",
+              "keyword": "皮鞋",
+              "imageUrl": "jfs/t3301/41/8515570795/12900/89a7322/58c658bfNfbab739e.png",
+              "url": "key=%E7%9A%AE%E9%9E%8B&as=0&PTAG=37110.16.23&projectId=117"
+            },
+            {
+              "keywordId": "48655",
+              "keyword": "打火机",
+              "imageUrl": "jfs/t4177/30/1759750717/12081/4bc34e55/58c658d6Nca649a2a.png",
+              "url": "key=%E6%89%93%E7%81%AB%E6%9C%BA&as=0&PTAG=37110.16.31&projectId=117"
+            },
+            {
+              "keywordId": "62096",
+              "keyword": "钱包",
+              "imageUrl": "jfs/t4279/302/1783285290/11737/6a297e99/58c6590eNa00121c8.png",
+              "url": "key=%E9%92%B1%E5%8C%85&as=0&PTAG=37110.16.22&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "46277",
+          "keyword": "女人热搜",
+          "level2words": [
+            {
+              "keywordId": "62103",
+              "keyword": "T恤",
+              "imageUrl": "jfs/t4213/360/1873564559/18902/acf87bfc/58c7b661Nb1fbcaad.png",
+              "url": "key=T%E6%81%A4%E5%A5%B3&as=0&PTAG=37110.16.44&projectId=117"
+            },
+            {
+              "keywordId": "59625",
+              "keyword": "打底衫",
+              "imageUrl": "jfs/t3736/165/1927995141/8378/d0a0d631/58364de6N1b3c1cf0.jpg",
+              "url": "key=%E6%89%93%E5%BA%95%E8%A1%AB%E5%A5%B3&as=0&PTAG=37110.16.43&projectId=117"
+            },
+            {
+              "keywordId": "61280",
+              "keyword": "连衣裙",
+              "imageUrl": "jfs/t3262/57/6151591517/4500/a53f7dd/589d7384N390075c2.jpg",
+              "url": "key=%E8%BF%9E%E8%A1%A3%E8%A3%99&as=0&PTAG=37110.16.51&projectId=117"
+            },
+            {
+              "keywordId": "49714",
+              "keyword": "牛仔裤",
+              "imageUrl": "jfs/t2002/335/1763989787/7146/fade9ff8/56d7f29dN5b678b81.jpg",
+              "url": "key=%E7%89%9B%E4%BB%94%E8%A3%A4%E5%A5%B3&as=0&PTAG=37110.16.45&projectId=117"
+            },
+            {
+              "keywordId": "62104",
+              "keyword": "短外套",
+              "imageUrl": "jfs/t4363/242/1852507286/9036/c11391da/58c7b7eaN4696c3a1.png",
+              "url": "key=%E7%9F%AD%E5%A4%96%E5%A5%97&as=0&PTAG=37110.16.42&projectId=117"
+            },
+            {
+              "keywordId": "46286",
+              "keyword": "女士内裤",
+              "imageUrl": "jfs/t3862/181/685429694/8987/90ba150a/585ba44bNc920bca5.jpg",
+              "url": "key=%E5%86%85%E8%A3%A4%E5%A5%B3&as=0&PTAG=37110.16.49&projectId=117"
+            },
+            {
+              "keywordId": "48661",
+              "keyword": "口红",
+              "imageUrl": "jfs/t2536/215/1419576299/6290/d34238d2/56c432ccNae8a5a01.jpg",
+              "url": "key=%E5%8F%A3%E7%BA%A2&as=0&PTAG=37110.16.46&projectId=117"
+            },
+            {
+              "keywordId": "48662",
+              "keyword": "香水",
+              "imageUrl": "jfs/t2029/42/2133453152/12444/446658b/56c432d7N1f9c92b0.jpg",
+              "url": "key=%E9%A6%99%E6%B0%B4&as=0&PTAG=37110.16.47&projectId=117"
+            },
+            {
+              "keywordId": "62105",
+              "keyword": "文胸",
+              "imageUrl": "jfs/t3283/362/8637737062/14503/eb4dbdfb/58c7b70eNd8932c02.png",
+              "url": "key=%E6%96%87%E8%83%B8&as=0&PTAG=37110.16.41&projectId=117"
+            },
+            {
+              "keywordId": "62106",
+              "keyword": "时尚饰品",
+              "imageUrl": "jfs/t4246/187/1907288095/8591/9e6637e4/58c7b77aNa30907eb.png",
+              "url": "key=%E6%97%B6%E5%B0%9A%E9%A5%B0%E5%93%81&as=0&PTAG=37110.16.50&projectId=117"
+            },
+            {
+              "keywordId": "59746",
+              "keyword": "护肤套装",
+              "imageUrl": "jfs/t3169/219/4319066502/8479/7e1e4235/583e8eceN6f0eb84f.jpg",
+              "url": "key=%E6%8A%A4%E8%82%A4%E4%BF%9D%E6%B9%BF%E5%A5%97%E8%A3%85&as=0&PTAG=37110.16.52&projectId=117"
+            },
+            {
+              "keywordId": "62107",
+              "keyword": "高跟鞋",
+              "imageUrl": "jfs/t4378/32/1878412932/13623/cd33978f/58c7b7acN596648b8.png",
+              "url": "key=%E9%AB%98%E8%B7%9F%E9%9E%8B&as=0&PTAG=37110.16.48&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "46290",
+          "keyword": "生活热搜",
+          "level2words": [
+            {
+              "keywordId": "48102",
+              "keyword": "床",
+              "imageUrl": "jfs/t2557/160/1131114050/13457/8678cece/568dc7fbNfc5e87a3.jpg",
+              "url": "key=%E5%BA%8A&as=0&PTAG=37110.16.61&projectId=117"
+            },
+            {
+              "keywordId": "63075",
+              "keyword": "凉席",
+              "imageUrl": "jfs/t5605/45/323832686/21279/f72e698b/591eae77N23a4eb4f.png",
+              "url": "key=%20%E5%87%89%E5%B8%AD&as=0&PTAG=37110.16.63&projectId=117"
+            },
+            {
+              "keywordId": "61278",
+              "keyword": "沙发",
+              "imageUrl": "jfs/t3943/167/1940791815/11262/aec9bbcb/589d71cbNb18ac9e7.jpg",
+              "url": "key=%E6%B2%99%E5%8F%91&as=0&PTAG=37110.16.62&projectId=117"
+            },
+            {
+              "keywordId": "46294",
+              "keyword": "茶具",
+              "imageUrl": "jfs/t1975/157/955421015/15270/b300e855/5634d267N602c8399.jpg",
+              "url": "key=%E8%8C%B6%E5%85%B7&as=0&PTAG=37110.16.64&projectId=117"
+            },
+            {
+              "keywordId": "48666",
+              "keyword": "儿童玩具",
+              "imageUrl": "jfs/t2227/13/2131943078/8941/5ca7977f/56c43568Nd21f63ca.jpg",
+              "url": "key=%E5%84%BF%E7%AB%A5%E7%8E%A9%E5%85%B7&as=0&PTAG=37110.16.65&projectId=117"
+            },
+            {
+              "keywordId": "50007",
+              "keyword": "耳机",
+              "imageUrl": "jfs/t1990/328/2675527871/8281/e2895154/56ea60b3N7f270ebf.jpg",
+              "url": "key=%E8%93%9D%E7%89%99%E8%80%B3%E6%9C%BA&as=0&PTAG=37110.16.69&projectId=117"
+            },
+            {
+              "keywordId": "48104",
+              "keyword": "汽车用品",
+              "imageUrl": "jfs/t2053/180/1199953130/8131/935a59ac/568dc84eN32a0a4c2.jpg",
+              "url": "key=%E6%B1%BD%E8%BD%A6%E7%94%A8%E5%93%81&as=0&PTAG=37110.16.67&projectId=117"
+            },
+            {
+              "keywordId": "48668",
+              "keyword": "洗衣液",
+              "imageUrl": "jfs/t2467/199/2136675662/11919/f0e95ad3/56c43585N22a9b4db.jpg",
+              "url": "key=%E6%B4%97%E8%A1%A3%E6%B6%B2&as=0&PTAG=37110.16.68&projectId=117"
+            },
+            {
+              "keywordId": "61279",
+              "keyword": "充电宝",
+              "imageUrl": "jfs/t3865/204/1917045989/3622/57c57bdb/589d72ecN56e865e2.jpg",
+              "url": "key=%E5%85%85%E7%94%B5%E5%AE%9D&as=0&PTAG=37110.16.66&projectId=117"
+            },
+            {
+              "keywordId": "46300",
+              "keyword": "储物家具",
+              "imageUrl": "jfs/t2494/261/920779078/16420/cd41b7c2/5634d342Nfbd7a213.jpg",
+              "url": "key=%E5%82%A8%E7%89%A9%E5%AE%B6%E5%85%B7&as=0&PTAG=37110.16.70&projectId=117"
+            },
+            {
+              "keywordId": "46301",
+              "keyword": "十字绣",
+              "imageUrl": "jfs/t2068/300/909905502/12329/6c7b1874/5634d349Nfd9bc389.jpg",
+              "url": "key=%E5%8D%81%E5%AD%97%E7%BB%A3&as=0&PTAG=37110.16.71&projectId=117"
+            },
+            {
+              "keywordId": "62108",
+              "keyword": "山地车",
+              "imageUrl": "jfs/t4192/178/1897463852/5463/f48b6c7a/58c7bb16N7199b9ff.jpg",
+              "url": "key=%E5%B1%B1%E5%9C%B0%E8%BD%A6&as=0&PTAG=37110.16.72&projectId=117"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "areaId": "626",
+      "areaName": "手机数码",
+      "level1words": [
+        {
+          "keywordId": "18432",
+          "keyword": "大牌手机",
+          "level2words": [
+            {
+              "keywordId": "18434",
+              "keyword": "Apple",
+              "imageUrl": "jfs/t2368/61/347208767/3327/59ccaf65/56012fc5N84ef6c52.jpg",
+              "url": "key=iPhone&as=0&PTAG=37110.1.1&projectId=117"
+            },
+            {
+              "keywordId": "42728",
+              "keyword": "小米",
+              "imageUrl": "jfs/t1966/47/333219446/4342/9e0d01f6/56012fb9N7a393688.jpg",
+              "url": "key=%E5%B0%8F%E7%B1%B3&PTAG=37110.1.3&projectId=117"
+            },
+            {
+              "keywordId": "42729",
+              "keyword": "荣耀",
+              "imageUrl": "jfs/t3934/122/298438274/1263/85fa68d8/5847b1c7N8bae62af.png",
+              "url": "key=%E8%8D%A3%E8%80%80&as=0&PTAG=37110.1.6&projectId=117"
+            },
+            {
+              "keywordId": "18437",
+              "keyword": "华为",
+              "imageUrl": "jfs/t2386/46/346455308/6943/de97e365/56012fb1Neaa0b965.jpg",
+              "url": "key=%E5%8D%8E%E4%B8%BA&as=0&PTAG=37110.1.4&projectId=117"
+            },
+            {
+              "keywordId": "49889",
+              "keyword": "乐视",
+              "imageUrl": "jfs/t2677/102/2397952871/6922/9b8b9e15/5764310fN57ded5e9.jpg",
+              "url": "key=%E4%B9%90%E8%A7%86%E6%89%8B%E6%9C%BA&as=0&PTAG=37110.1.14&projectId=117"
+            },
+            {
+              "keywordId": "25749",
+              "keyword": "魅族",
+              "imageUrl": "jfs/t2401/216/340142465/5134/9788b1b2/560274b2N8aad551a.jpg",
+              "url": "key=%E9%AD%85%E6%97%8F&as=0&PTAG=37110.1.5&projectId=117"
+            },
+            {
+              "keywordId": "42730",
+              "keyword": "OPPO",
+              "imageUrl": "jfs/t2227/39/347317817/3972/26d7c150/56010924N860f66fb.jpg",
+              "url": "key=OPPO&PTAG=37110.1.11&projectId=117"
+            },
+            {
+              "keywordId": "42733",
+              "keyword": "vivo",
+              "imageUrl": "jfs/t2500/52/566831847/5366/984a11cb/56173052N89c4e1b2.jpg",
+              "url": "key=vivo&PTAG=37110.1.10&projectId=117"
+            },
+            {
+              "keywordId": "18436",
+              "keyword": "三星",
+              "imageUrl": "jfs/t1882/139/355410724/5293/a941c874/5601086cN57c248e7.jpg",
+              "url": "key=%E4%B8%89%E6%98%9F&as=0&PTAG=37110.1.2&projectId=117"
+            },
+            {
+              "keywordId": "21766",
+              "keyword": "努比亚",
+              "imageUrl": "jfs/t2446/323/344191417/3900/bbbac249/56010905N0ff22e20.jpg",
+              "url": "key=%E5%8A%AA%E6%AF%94%E4%BA%9A&as=0&PTAG=37110.1.8&projectId=117"
+            },
+            {
+              "keywordId": "49888",
+              "keyword": "360手机",
+              "imageUrl": "jfs/t2950/67/2247990356/9591/d4a39cfe/579ff720N8efdd277.jpg",
+              "url": "key=360%E6%89%8B%E6%9C%BA&as=0&PTAG=37110.1.12&projectId=117"
+            },
+            {
+              "keywordId": "18837",
+              "keyword": "联想",
+              "imageUrl": "jfs/t2269/23/359693981/3998/bf7a346e/5601090fN50db5e48.jpg",
+              "url": "key=%E8%81%94%E6%83%B3%E6%89%8B%E6%9C%BA&as=0&PTAG=37110.1.9&projectId=117"
+            },
+            {
+              "keywordId": "60682",
+              "keyword": "一加",
+              "imageUrl": "jfs/t4090/232/1167047300/5355/25481b35/586c724bN9a0c0e72.jpg",
+              "url": "key=%E4%B8%80%E5%8A%A0&as=0&PTAG=37110.1.13&projectId=117"
+            },
+            {
+              "keywordId": "60683",
+              "keyword": "锤子",
+              "imageUrl": "jfs/t4060/262/1157420570/8357/d8b1360f/586c7266Ne277cc82.jpg",
+              "url": "key=%E9%94%A4%E5%AD%90&as=0&PTAG=37110.1.16&projectId=117"
+            },
+            {
+              "keywordId": "60684",
+              "keyword": "美图",
+              "imageUrl": "jfs/t4045/303/1162803154/5927/c889fca5/586c726cN79201b0c.jpg",
+              "url": "key=%E7%BE%8E%E5%9B%BE&as=0&PTAG=37110.1.15&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "43007",
+          "keyword": "热销推荐",
+          "level2words": [
+            {
+              "keywordId": "56699",
+              "keyword": "iPhone7",
+              "imageUrl": "jfs/t5782/128/78995175/8867/4d526da5/5915634bN146f99ca.png",
+              "url": "key=iPhone7&as=0&PTAG=37110.1.69&projectId=117"
+            },
+            {
+              "keywordId": "62628",
+              "keyword": "荣耀V9",
+              "imageUrl": "jfs/t4549/228/3309766719/20987/aee55dfb/58fdb355N3d2d403e.jpg",
+              "url": "key=%E8%8D%A3%E8%80%80V9&as=0&PTAG=37110.1.95&projectId=117"
+            },
+            {
+              "keywordId": "62627",
+              "keyword": "华为P10",
+              "imageUrl": "jfs/t5974/21/1160609303/16892/7cad66a4/592faf9aNf5662006.jpg",
+              "url": "key=%E5%8D%8E%E4%B8%BAP10&as=0&PTAG=37110.1.96&projectId=117"
+            },
+            {
+              "keywordId": "63563",
+              "keyword": "一加5",
+              "imageUrl": "jfs/t5662/293/4296815250/20753/b2f1ec78/594cb005Na90036b5.png",
+              "url": "key=%E4%B8%80%E5%8A%A0&as=0&PTAG=37110.1.98&projectId=117"
+            },
+            {
+              "keywordId": "63561",
+              "keyword": "OPPOR11",
+              "imageUrl": "jfs/t6655/185/1210793825/28975/29968419/594cadacN24b1d7b3.png",
+              "url": "key=OPPO%20R11&as=0&PTAG=37110.1.74&projectId=117"
+            },
+            {
+              "keywordId": "63049",
+              "keyword": "三星",
+              "imageUrl": "jfs/t5695/353/75927352/8972/2b052dd5/59156491Ncb0ab8e5.png",
+              "url": "key=%E4%B8%89%E6%98%9F&as=0&PTAG=37110.1.75&projectId=117"
+            },
+            {
+              "keywordId": "62629",
+              "keyword": "小米6",
+              "imageUrl": "jfs/t5275/60/1891954308/9305/3ac459ba/591565d7N8d7171c2.png",
+              "url": "key=%E5%B0%8F%E7%B1%B36&as=0&PTAG=37110.1.97&projectId=117"
+            },
+            {
+              "keywordId": "63232",
+              "keyword": "荣耀6A",
+              "imageUrl": "jfs/t5929/191/1167275176/10979/1aba027c/592faf65N8494316a.png",
+              "url": "key=%E8%8D%A3%E8%80%806A&as=0&PTAG=37110.1.68&projectId=117"
+            },
+            {
+              "keywordId": "59385",
+              "keyword": "vivoX9",
+              "imageUrl": "jfs/t5497/79/1860749410/8521/ee4cb04b/59156312N3f8b6a8a.png",
+              "url": "key=vivo%20X9&as=0&PTAG=37110.1.76&projectId=117"
+            },
+            {
+              "keywordId": "60685",
+              "keyword": "平板电脑",
+              "imageUrl": "jfs/t3892/184/1201183215/10713/558c0173/586c92f0N3f7320f5.jpg",
+              "url": "key=%E5%B9%B3%E6%9D%BF%E7%94%B5%E8%84%91&as=0&PTAG=37110.2.129&projectId=117"
+            },
+            {
+              "keywordId": "60690",
+              "keyword": "手机支架",
+              "imageUrl": "jfs/t3877/245/1189970056/10898/f48dc0ad/586c9947N09135267.jpg",
+              "url": "key=%E6%89%8B%E6%9C%BA%E6%94%AF%E6%9E%B6&as=0&PTAG=37110.2.132&projectId=117"
+            },
+            {
+              "keywordId": "60692",
+              "keyword": "蓝牙音箱",
+              "imageUrl": "jfs/t3961/238/1150535609/10942/effe8e37/586c9c16N1db6c3e8.jpg",
+              "url": "key=%E8%93%9D%E7%89%99%E9%9F%B3%E7%AE%B1&as=0&PTAG=37110.2.134&projectId=117"
+            },
+            {
+              "keywordId": "60693",
+              "keyword": "智能手表",
+              "imageUrl": "jfs/t3856/94/1154870630/10624/401ee4cc/586c9c68N63f54f62.jpg",
+              "url": "key=%E6%99%BA%E8%83%BD%E6%89%8B%E8%A1%A8&as=0&PTAG=37110.2.135&projectId=117"
+            },
+            {
+              "keywordId": "60694",
+              "keyword": "内存卡",
+              "imageUrl": "jfs/t3217/3/5472757003/10853/9702234d/586c9c9fN44c54006.jpg",
+              "url": "key=%E5%86%85%E5%AD%98%E5%8D%A1&as=0&PTAG=37110.2.136&projectId=117"
+            },
+            {
+              "keywordId": "60695",
+              "keyword": "mp3",
+              "imageUrl": "jfs/t3850/336/2839294766/10429/ea810d06/586c9ce1Nde134d31.jpg",
+              "url": "key=mp3&as=0&PTAG=37110.2.137&projectId=117"
+            },
+            {
+              "keywordId": "60696",
+              "keyword": "行车记录仪",
+              "imageUrl": "jfs/t3058/361/5355928315/10734/824de43f/586ca004Nfb431601.jpg",
+              "url": "key=%E8%A1%8C%E8%BD%A6%E8%AE%B0%E5%BD%95%E4%BB%AA&as=0&PTAG=37110.2.138&projectId=117"
+            },
+            {
+              "keywordId": "60697",
+              "keyword": "vr眼镜",
+              "imageUrl": "jfs/t3847/171/2875354749/9362/b6ca00a1/586ca011N130f8f60.jpg",
+              "url": "key=vr%E7%9C%BC%E9%95%9C&as=0&PTAG=37110.2.139&projectId=117"
+            },
+            {
+              "keywordId": "60698",
+              "keyword": "单反相机",
+              "imageUrl": "jfs/t3844/52/2900275798/10981/120feda4/586ca01dN5f5f7516.jpg",
+              "url": "key=%E5%8D%95%E5%8F%8D%E7%9B%B8%E6%9C%BA&as=0&PTAG=37110.2.140&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "62637",
+          "keyword": "手机配件",
+          "level2words": [
+            {
+              "keywordId": "62649",
+              "keyword": "蓝牙耳机",
+              "imageUrl": "jfs/t4438/294/3520268605/3094/5f38bd0b/58ff3289N0b52d23a.jpg",
+              "url": "key=%E8%93%9D%E7%89%99%E8%80%B3%E6%9C%BA&as=0&PTAG=37110.2.141&projectId=117"
+            },
+            {
+              "keywordId": "62657",
+              "keyword": "移动电源",
+              "imageUrl": "jfs/t5176/9/396583103/1862/130d1db3/58ff3291N3c0b0a0b.jpg",
+              "url": "key=%E7%A7%BB%E5%8A%A8%E7%94%B5%E6%BA%90&as=0&PTAG=37110.2.142&projectId=117"
+            },
+            {
+              "keywordId": "62647",
+              "keyword": "苹果周边",
+              "imageUrl": "jfs/t5023/115/2418604256/1822/94eb67cc/58ff329aN5700f36a.jpg",
+              "url": "key=%E8%8B%B9%E6%9E%9C%E5%91%A8%E8%BE%B9&as=0&PTAG=37110.2.143&projectId=117"
+            },
+            {
+              "keywordId": "62651",
+              "keyword": "手机耳机",
+              "imageUrl": "jfs/t4978/30/2414468404/3412/2bf7e890/58ff336fN5bba1e2c.jpg",
+              "url": "key=%E6%89%8B%E6%9C%BA%E8%80%B3%E6%9C%BA&as=0&PTAG=37110.2.144&projectId=117"
+            },
+            {
+              "keywordId": "62645",
+              "keyword": "充电器",
+              "imageUrl": "jfs/t5050/84/2403574771/2141/81da6b6/58ff32b1N934f608b.jpg",
+              "url": "key=%E5%85%85%E7%94%B5%E5%99%A8&as=0&PTAG=37110.2.145&projectId=117"
+            },
+            {
+              "keywordId": "62658",
+              "keyword": "手机贴膜",
+              "imageUrl": "jfs/t5176/68/396115942/4764/3ad2b21a/58ff32bfN5bd8d44b.jpg",
+              "url": "key=%E6%89%8B%E6%9C%BA%E8%B4%B4%E8%86%9C&as=0&PTAG=37110.2.146&projectId=117"
+            },
+            {
+              "keywordId": "62653",
+              "keyword": "数据线",
+              "imageUrl": "jfs/t5419/93/404074350/2214/2111caa2/58ff32c8N81fef9cd.jpg",
+              "url": "key=%E6%95%B0%E6%8D%AE%E7%BA%BF&as=0&PTAG=37110.2.147&projectId=117"
+            },
+            {
+              "keywordId": "62646",
+              "keyword": "内存卡",
+              "imageUrl": "jfs/t5032/62/2387219428/4303/efcf4bfe/58ff32d1Ned8335a0.jpg",
+              "url": "key=%E5%86%85%E5%AD%98%E5%8D%A1&as=0&PTAG=37110.2.148&projectId=117"
+            },
+            {
+              "keywordId": "62655",
+              "keyword": "手机支架",
+              "imageUrl": "jfs/t4813/65/2450059998/3448/ad0fda9f/58ff32daNaa18273b.jpg",
+              "url": "key=%E6%89%8B%E6%9C%BA%E6%94%AF%E6%9E%B6&as=0&PTAG=37110.2.149&projectId=117"
+            },
+            {
+              "keywordId": "62648",
+              "keyword": "手机饰品",
+              "imageUrl": "jfs/t5455/115/425678283/1839/3e4a3950/58ff32e4Nf54343c7.jpg",
+              "url": "key=%E6%89%8B%E6%9C%BA%E9%A5%B0%E5%93%81&as=0&PTAG=37110.2.150&projectId=117"
+            },
+            {
+              "keywordId": "62650",
+              "keyword": "自拍杆",
+              "imageUrl": "jfs/t4966/230/2393036451/2416/d74df2f6/58ff32ecN8358e87f.jpg",
+              "url": "key=%E8%87%AA%E6%8B%8D%E6%9D%86&as=0&PTAG=37110.2.151&projectId=117"
+            },
+            {
+              "keywordId": "62656",
+              "keyword": "手机壳",
+              "imageUrl": "jfs/t5248/82/439846719/3483/faffcdd5/58ff32f5N522a5bb5.jpg",
+              "url": "key=%E6%89%8B%E6%9C%BA%E5%A3%B3&as=0&PTAG=37110.2.152&projectId=117"
+            },
+            {
+              "keywordId": "62659",
+              "keyword": "手机指环",
+              "imageUrl": "jfs/t4795/227/2387319139/4273/77e42f69/58ff3300Ne7f92205.jpg",
+              "url": "key=%E6%89%8B%E6%9C%BA%E6%8C%87%E7%8E%AF&as=0&PTAG=37110.2.153&projectId=117"
+            },
+            {
+              "keywordId": "62654",
+              "keyword": "手机电池",
+              "imageUrl": "jfs/t5278/87/428111720/4077/a752be13/58ff3308Nf4d60392.jpg",
+              "url": "key=%E6%89%8B%E6%9C%BA%E7%94%B5%E6%B1%A0&as=0&PTAG=37110.2.154&projectId=117"
+            },
+            {
+              "keywordId": "62652",
+              "keyword": "创意配件",
+              "imageUrl": "jfs/t5221/138/436202189/4801/9cfab099/58ff3311N77f2f9da.jpg",
+              "url": "key=%E5%88%9B%E6%84%8F%E9%85%8D%E4%BB%B6&as=0&PTAG=37110.2.155&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "42287",
+          "keyword": "摄影摄像",
+          "level2words": [
+            {
+              "keywordId": "42288",
+              "keyword": "数码相机",
+              "imageUrl": "jfs/t2377/295/25278581/3957/3125e963/55e73209Ne34036f0.jpg",
+              "url": "key=%E6%95%B0%E7%A0%81%E7%9B%B8%E6%9C%BA&as=0&PTAG=37110.2.82&projectId=117"
+            },
+            {
+              "keywordId": "42289",
+              "keyword": "单电/微单相机",
+              "imageUrl": "jfs/t1714/134/1451830864/7784/1ac96f06/55e7367cNf13ffe9c.jpg",
+              "url": "key=%E5%8D%95%E7%94%B5%2F%E5%BE%AE%E5%8D%95%E7%9B%B8%E6%9C%BA&PTAG=37110.2.83&projectId=117"
+            },
+            {
+              "keywordId": "42290",
+              "keyword": "单反相机",
+              "imageUrl": "jfs/t2029/142/25203700/5226/fa1d4c14/55e73686N3101524f.jpg",
+              "url": "key=%E5%8D%95%E5%8F%8D%E7%9B%B8%E6%9C%BA&PTAG=37110.2.84&projectId=117"
+            },
+            {
+              "keywordId": "42291",
+              "keyword": "拍立得",
+              "imageUrl": "jfs/t2413/65/23658962/5729/c01b49b1/55e7368dNd1889498.jpg",
+              "url": "key=%E6%8B%8D%E7%AB%8B%E5%BE%97&PTAG=37110.2.85&projectId=117"
+            },
+            {
+              "keywordId": "42292",
+              "keyword": "运动相机",
+              "imageUrl": "jfs/t2296/141/25683392/4821/6fc43224/55e73695Ncf70bcc4.jpg",
+              "url": "key=%E8%BF%90%E5%8A%A8%E7%9B%B8%E6%9C%BA&PTAG=37110.2.86&projectId=117"
+            },
+            {
+              "keywordId": "42293",
+              "keyword": "摄像机",
+              "imageUrl": "jfs/t1756/177/1372146459/4792/45a988ea/55e7369cNeb7d187f.jpg",
+              "url": "key=%E6%91%84%E5%83%8F%E6%9C%BA&PTAG=37110.2.87&projectId=117"
+            },
+            {
+              "keywordId": "42294",
+              "keyword": "镜头",
+              "imageUrl": "jfs/t1735/175/1401863536/4301/d230cee3/55e736a5N28aa1b78.jpg",
+              "url": "key=%E9%95%9C%E5%A4%B4&PTAG=37110.2.88&projectId=117"
+            },
+            {
+              "keywordId": "42295",
+              "keyword": "户外器材",
+              "imageUrl": "jfs/t2503/148/35585698/5339/e0479d38/55e736b1N6a7fa865.jpg",
+              "url": "key=%E6%88%B7%E5%A4%96%E5%99%A8%E6%9D%90&as=0&PTAG=37110.2.89&projectId=117"
+            },
+            {
+              "keywordId": "42296",
+              "keyword": "影棚器材",
+              "imageUrl": "jfs/t1483/92/1200141435/4290/ae8e61eb/55e736b8N04a59286.jpg",
+              "url": "key=%E5%BD%B1%E6%A3%9A%E5%99%A8%E6%9D%90&PTAG=37110.2.90&projectId=117"
+            },
+            {
+              "keywordId": "42297",
+              "keyword": "数码相框",
+              "imageUrl": "jfs/t2065/70/24958125/4503/fd35e20f/55e736bfN4f7bb82a.jpg",
+              "url": "key=%E6%95%B0%E7%A0%81%E7%9B%B8%E6%A1%86&PTAG=37110.2.91&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "42319",
+          "keyword": "智能设备",
+          "level2words": [
+            {
+              "keywordId": "42320",
+              "keyword": "智能手环",
+              "imageUrl": "jfs/t1660/67/1260124950/5962/46efb182/55e73791N076d468d.jpg",
+              "url": "key=%E6%99%BA%E8%83%BD%E6%89%8B%E7%8E%AF&as=0&PTAG=37110.2.111&projectId=117"
+            },
+            {
+              "keywordId": "42321",
+              "keyword": "智能手表",
+              "imageUrl": "jfs/t2296/176/26453713/5582/3a8fb266/55e73799Nd0824191.jpg",
+              "url": "key=%E6%99%BA%E8%83%BD%E6%89%8B%E8%A1%A8&PTAG=37110.2.112&projectId=117"
+            },
+            {
+              "keywordId": "42322",
+              "keyword": "智能眼镜",
+              "imageUrl": "jfs/t2080/103/26799018/2752/50d1c52f/55e7379fN10eadf03.jpg",
+              "url": "key=%E6%99%BA%E8%83%BD%E7%9C%BC%E9%95%9C&PTAG=37110.2.113&projectId=117"
+            },
+            {
+              "keywordId": "42323",
+              "keyword": "智能机器人",
+              "imageUrl": "jfs/t2152/105/25049447/4499/138c07c8/55e737a5Nb97a3c23.jpg",
+              "url": "key=%E6%99%BA%E8%83%BD%E6%9C%BA%E5%99%A8%E4%BA%BA&PTAG=37110.2.114&projectId=117"
+            },
+            {
+              "keywordId": "42324",
+              "keyword": "运动追踪器",
+              "imageUrl": "jfs/t2464/103/24678986/4045/b6ee2606/55e737abN86f93b03.jpg",
+              "url": "key=%E8%BF%90%E5%8A%A8%E8%BF%BD%E8%B8%AA%E5%99%A8&PTAG=37110.2.115&projectId=117"
+            },
+            {
+              "keywordId": "42325",
+              "keyword": "健康检测",
+              "imageUrl": "jfs/t1339/213/1122037167/1972/a0086e32/55e737b1N721dd318.jpg",
+              "url": "key=%E5%81%A5%E5%BA%B7%E6%A3%80%E6%B5%8B&PTAG=37110.2.116&projectId=117"
+            },
+            {
+              "keywordId": "42326",
+              "keyword": "智能配饰",
+              "imageUrl": "jfs/t1981/105/25200487/3167/170db1d2/55e737bcN6d914c95.jpg",
+              "url": "key=%E6%99%BA%E8%83%BD%E9%85%8D%E9%A5%B0&PTAG=37110.2.117&projectId=117"
+            },
+            {
+              "keywordId": "42327",
+              "keyword": "智能家居",
+              "imageUrl": "jfs/t1975/107/26240328/2787/2d1b7487/55e737c6Nff7b44c1.jpg",
+              "url": "key=%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85&PTAG=37110.2.118&projectId=117"
+            },
+            {
+              "keywordId": "42329",
+              "keyword": "体感车",
+              "imageUrl": "jfs/t2263/107/28111066/4408/8520f70f/55e737cfN3745f857.jpg",
+              "url": "key=%E4%BD%93%E6%84%9F%E8%BD%A6&PTAG=37110.2.119&projectId=117"
+            },
+            {
+              "keywordId": "42330",
+              "keyword": "无人机",
+              "imageUrl": "jfs/t2500/183/30890750/4632/81134c74/55e737d7N585d1d44.jpg",
+              "url": "key=%E6%B4%BE%E8%AF%BA%E7%89%B9%E6%97%A0%E4%BA%BA%E6%9C%BA&PTAG=37110.2.120&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "42311",
+          "keyword": "影音娱乐",
+          "level2words": [
+            {
+              "keywordId": "42312",
+              "keyword": "耳机/耳麦",
+              "imageUrl": "jfs/t2095/168/26113688/4691/66fa5182/55e73751N9cc31e04.jpg",
+              "url": "key=%E8%80%B3%E6%9C%BA&as=0&PTAG=37110.2.104&projectId=117"
+            },
+            {
+              "keywordId": "42313",
+              "keyword": "音箱/音响",
+              "imageUrl": "jfs/t2002/92/29178088/4453/3b58dc71/55e7375aNef38c157.jpg",
+              "url": "key=%E9%9F%B3%E7%AE%B1%2F%E9%9F%B3%E5%93%8D&PTAG=37110.2.105&projectId=117"
+            },
+            {
+              "keywordId": "42314",
+              "keyword": "收音机",
+              "imageUrl": "jfs/t1465/225/1276966120/5970/8b19546d/55e73762Nf55fce39.jpg",
+              "url": "key=%E6%94%B6%E9%9F%B3%E6%9C%BA&PTAG=37110.2.106&projectId=117"
+            },
+            {
+              "keywordId": "42315",
+              "keyword": "麦克风",
+              "imageUrl": "jfs/t1585/215/1276307626/2512/d17027ce/55e73769Nc989c0b6.jpg",
+              "url": "key=%E9%BA%A6%E5%85%8B%E9%A3%8E&PTAG=37110.2.107&projectId=117"
+            },
+            {
+              "keywordId": "42316",
+              "keyword": "MP3/MP4",
+              "imageUrl": "jfs/t1933/97/26139944/4063/1ebbeb62/55e7376fN62c525d0.jpg",
+              "url": "key=MP3%2FMP4&PTAG=37110.2.108&projectId=117"
+            },
+            {
+              "keywordId": "42317",
+              "keyword": "专业音频",
+              "imageUrl": "jfs/t2470/173/22009522/4617/bb310fbb/55e7377dN4341c268.jpg",
+              "url": "key=%E4%B8%93%E4%B8%9A%E9%9F%B3%E9%A2%91&PTAG=37110.2.109&projectId=117"
+            },
+            {
+              "keywordId": "42318",
+              "keyword": "苹果周边",
+              "imageUrl": "jfs/t2017/174/29574267/2245/52951c4d/55e73784N27fce69e.jpg",
+              "url": "key=%E8%8B%B9%E6%9E%9C%E5%91%A8%E8%BE%B9&PTAG=37110.2.110&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "42298",
+          "keyword": "数码配件",
+          "level2words": [
+            {
+              "keywordId": "42299",
+              "keyword": "存储卡",
+              "imageUrl": "jfs/t2437/76/23585998/4914/71da155a/55e736ceN8566c686.jpg",
+              "url": "key=%E5%AD%98%E5%82%A8%E5%8D%A1&as=0&PTAG=37110.2.92&projectId=117"
+            },
+            {
+              "keywordId": "42300",
+              "keyword": "读卡器",
+              "imageUrl": "jfs/t1819/154/1331831487/4447/3a44d004/55e736d7Nc0f0edc3.jpg",
+              "url": "key=%E8%AF%BB%E5%8D%A1%E5%99%A8&PTAG=37110.2.93&projectId=117"
+            },
+            {
+              "keywordId": "42301",
+              "keyword": "支架",
+              "imageUrl": "jfs/t2209/153/28470970/3583/265ae34e/55e736dfN3f38639e.jpg",
+              "url": "key=%E6%94%AF%E6%9E%B6&PTAG=37110.2.94&projectId=117"
+            },
+            {
+              "keywordId": "42302",
+              "keyword": "滤镜",
+              "imageUrl": "jfs/t1753/164/1463515960/6060/b7af74a2/55e736e7N5c718c0b.jpg",
+              "url": "key=%E6%BB%A4%E9%95%9C&PTAG=37110.2.95&projectId=117"
+            },
+            {
+              "keywordId": "42303",
+              "keyword": "闪光灯/手柄",
+              "imageUrl": "jfs/t2494/156/25022874/4329/acade866/55e736f4N5a7fc983.jpg",
+              "url": "key=%E9%97%AA%E5%85%89%E7%81%AF%2F%E6%89%8B%E6%9F%84&PTAG=37110.2.96&projectId=117"
+            },
+            {
+              "keywordId": "42304",
+              "keyword": "相机包",
+              "imageUrl": "jfs/t2356/157/22628446/5796/b0c7ea52/55e73700N6eb4b8f7.jpg",
+              "url": "key=%E7%9B%B8%E6%9C%BA%E5%8C%85&PTAG=37110.2.97&projectId=117"
+            },
+            {
+              "keywordId": "42305",
+              "keyword": "三脚架/云台",
+              "imageUrl": "jfs/t2425/82/28956252/4156/f54871ac/55e73707N19e0bacf.jpg",
+              "url": "key=%E4%B8%89%E8%84%9A%E6%9E%B6%2F%E4%BA%91%E5%8F%B0&PTAG=37110.2.98&projectId=117"
+            },
+            {
+              "keywordId": "42306",
+              "keyword": "相机清洁/贴膜",
+              "imageUrl": "jfs/t2392/160/27692809/5519/33e416a9/55e73710Nf9a89756.jpg",
+              "url": "key=%E7%9B%B8%E6%9C%BA%E6%B8%85%E6%B4%81%2F%E8%B4%B4%E8%86%9C&PTAG=37110.2.99&projectId=117"
+            },
+            {
+              "keywordId": "42307",
+              "keyword": "机身附件",
+              "imageUrl": "jfs/t1756/186/1321797165/4753/728eca6d/55e73718N0407e21c.jpg",
+              "url": "key=%E6%9C%BA%E8%BA%AB%E9%99%84%E4%BB%B6&PTAG=37110.2.100&projectId=117"
+            },
+            {
+              "keywordId": "42308",
+              "keyword": "镜头附件",
+              "imageUrl": "jfs/t1909/159/27821249/3711/ce65b6bf/55e7371fN62304554.jpg",
+              "url": "key=%E9%95%9C%E5%A4%B4%E9%99%84%E4%BB%B6&PTAG=37110.2.132&projectId=117"
+            },
+            {
+              "keywordId": "42309",
+              "keyword": "电池/充电器",
+              "imageUrl": "jfs/t1405/234/1252455780/6345/e09c54c9/55e7372eN9bc9aa16.jpg",
+              "url": "key=%E7%94%B5%E6%B1%A0%2F%E5%85%85%E7%94%B5%E5%99%A8&PTAG=37110.2.102&projectId=117"
+            },
+            {
+              "keywordId": "42310",
+              "keyword": "移动电源",
+              "imageUrl": "jfs/t1732/3/1443923643/2094/a54b1745/55e73743N5bc36bbe.jpg",
+              "url": "key=%E7%A7%BB%E5%8A%A8%E7%94%B5%E6%BA%90&PTAG=37110.2.103&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "42331",
+          "keyword": "电子教育",
+          "level2words": [
+            {
+              "keywordId": "42332",
+              "keyword": "学生平板",
+              "imageUrl": "jfs/t1933/121/29804486/5501/6632f939/55e73852N2fefec6f.jpg",
+              "url": "key=%E5%AD%A6%E7%94%9F%E5%B9%B3%E6%9D%BF&as=0&PTAG=37110.2.122&projectId=117"
+            },
+            {
+              "keywordId": "42333",
+              "keyword": "点读机/笔",
+              "imageUrl": "jfs/t2068/198/24964882/4915/94c6bd09/55e7385cNc74cfa36.jpg",
+              "url": "key=%E7%82%B9%E8%AF%BB%E6%9C%BA%2F%E7%AC%94&PTAG=37110.2.123&projectId=117"
+            },
+            {
+              "keywordId": "42334",
+              "keyword": "早教益智",
+              "imageUrl": "jfs/t1696/48/1266727506/7302/ce0d665b/55e73865N8abc3973.jpg",
+              "url": "key=%E6%97%A9%E6%95%99%E7%9B%8A%E6%99%BA&PTAG=37110.2.124&projectId=117"
+            },
+            {
+              "keywordId": "42335",
+              "keyword": "录音笔",
+              "imageUrl": "jfs/t2449/127/29221077/4154/dddee773/55e7386cNecba6fee.jpg",
+              "url": "key=%E5%BD%95%E9%9F%B3%E7%AC%94&PTAG=37110.2.125&projectId=117"
+            },
+            {
+              "keywordId": "42336",
+              "keyword": "电纸书",
+              "imageUrl": "jfs/t2062/207/29732099/4183/3ec4adce/55e738a1N339c018a.jpg",
+              "url": "key=%E7%94%B5%E7%BA%B8%E4%B9%A6&PTAG=37110.2.126&projectId=117"
+            },
+            {
+              "keywordId": "42337",
+              "keyword": "电子词典",
+              "imageUrl": "jfs/t2131/208/31412577/5821/faaba83c/55e738a7N1d4639bb.jpg",
+              "url": "key=%E7%94%B5%E5%AD%90%E8%AF%8D%E5%85%B8&PTAG=37110.2.127&projectId=117"
+            },
+            {
+              "keywordId": "42338",
+              "keyword": "复读机",
+              "imageUrl": "jfs/t1837/210/29693502/5212/ec65feda/55e738b4N3baa2945.jpg",
+              "url": "key=%E5%A4%8D%E8%AF%BB%E6%9C%BA&PTAG=37110.2.128&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "18801",
+          "keyword": "智能配件",
+          "level2words": [
+            {
+              "keywordId": "25754",
+              "keyword": "苹果配件",
+              "imageUrl": "jfs/t2035/156/2882979557/3929/2217d343/56fb794cNfb77e0f2.jpg",
+              "url": "key=%E8%8B%B9%E6%9E%9C%E9%85%8D%E4%BB%B6&as=0&PTAG=37110.1.25&projectId=117"
+            },
+            {
+              "keywordId": "18802",
+              "keyword": "移动电源",
+              "imageUrl": "jfs/t2806/178/14812078/2094/a54b1745/56fb832dNcad4797a.jpg",
+              "url": "key=%E7%A7%BB%E5%8A%A8%E7%94%B5%E6%BA%90&as=0&PTAG=37110.1.26&projectId=117"
+            },
+            {
+              "keywordId": "18803",
+              "keyword": "蓝牙耳机",
+              "imageUrl": "jfs/t1984/240/2935674704/2981/1522d436/56fb8b1cN6f1d5e66.jpg",
+              "url": "key=%E8%93%9D%E7%89%99%E8%80%B3%E6%9C%BA&as=0&PTAG=37110.1.27&projectId=117"
+            },
+            {
+              "keywordId": "18807",
+              "keyword": "数据线",
+              "imageUrl": "jfs/t2893/323/15014447/3919/3d0511fb/56fb8b99N64f0ac52.jpg",
+              "url": "key=%E6%95%B0%E6%8D%AE%E7%BA%BF&as=0&PTAG=37110.1.28&projectId=117"
+            },
+            {
+              "keywordId": "18804",
+              "keyword": "保护套",
+              "imageUrl": "jfs/t1966/319/2308559640/3346/610348c3/56fb8c03N47fa1f5c.jpg",
+              "url": "key=%E4%BF%9D%E6%8A%A4%E5%A5%97&as=0&PTAG=37110.1.29&projectId=117"
+            },
+            {
+              "keywordId": "25752",
+              "keyword": "手机电池",
+              "imageUrl": "jfs/t2725/117/14111878/4635/6a79c9c4/56fb79a8Nabd8405d.jpg",
+              "url": "key=%E6%89%8B%E6%9C%BA%E7%94%B5%E6%B1%A0&as=0&PTAG=37110.1.30&projectId=117"
+            },
+            {
+              "keywordId": "25753",
+              "keyword": "创意配件",
+              "imageUrl": "jfs/t2011/318/2213211651/3535/3c502902/56fb79c5Naf01bcdd.jpg",
+              "url": "key=%E5%88%9B%E6%84%8F%E9%85%8D%E4%BB%B6&as=0&PTAG=37110.1.31&projectId=117"
+            },
+            {
+              "keywordId": "18806",
+              "keyword": "手机耳机",
+              "imageUrl": "jfs/t2788/314/19298628/4047/6ff1e2df/56fb8c41N0488d6c4.jpg",
+              "url": "key=%E6%89%8B%E6%9C%BA%E8%80%B3%E6%9C%BA&as=0&PTAG=37110.1.32&projectId=117"
+            },
+            {
+              "keywordId": "18805",
+              "keyword": "存储卡",
+              "imageUrl": "jfs/t2902/246/13671425/4914/71da155a/56fb8d27N49616059.jpg",
+              "url": "key=%E5%AD%98%E5%82%A8%E5%8D%A1&as=0&PTAG=37110.1.33&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "19496",
+          "keyword": "主题手机",
+          "level2words": [
+            {
+              "keywordId": "59982",
+              "keyword": "双摄手机",
+              "imageUrl": "jfs/t3514/31/2288206250/9572/33df93cc/584ea820N62935225.jpg",
+              "url": "key=%E5%8F%8C%E6%91%84%E5%83%8F%E5%A4%B4%E6%89%8B%E6%9C%BA&as=0&PTAG=37110.1.49&projectId=117"
+            },
+            {
+              "keywordId": "25756",
+              "keyword": "老人手机",
+              "imageUrl": "jfs/t2608/140/3494981426/5103/ff0d13c5/578f19c7N07444f8f.jpg",
+              "url": "key=%E8%80%81%E4%BA%BA%E6%89%8B%E6%9C%BA&as=0&PTAG=37110.1.48&projectId=117"
+            },
+            {
+              "keywordId": "59984",
+              "keyword": "超级续航",
+              "imageUrl": "jfs/t3259/82/4658779913/6330/51703e2c/584ead27N6c3114b3.jpg",
+              "url": "key=%E9%95%BF%E7%BB%AD%E8%88%AA%E6%89%8B%E6%9C%BA&as=0&PTAG=37110.1.50&projectId=117"
+            },
+            {
+              "keywordId": "19511",
+              "keyword": "大屏手机",
+              "imageUrl": "jfs/t3826/94/2103016393/6547/64cf0c5d/584ea776Nab76a7f6.jpg",
+              "url": "key=%E5%A4%A7%E5%B1%8F%E6%89%8B%E6%9C%BA&as=0&PTAG=37110.1.45&projectId=117"
+            },
+            {
+              "keywordId": "19499",
+              "keyword": "自拍美颜",
+              "imageUrl": "jfs/t4015/342/427541627/7702/5bc013c2/584ead34Nf0588a20.jpg",
+              "url": "key=%E6%8B%8D%E7%85%A7%E6%89%8B%E6%9C%BA&as=0&PTAG=37110.1.43&projectId=117"
+            },
+            {
+              "keywordId": "19512",
+              "keyword": "双卡双待",
+              "imageUrl": "jfs/t3880/24/381777275/8501/53220cfa/584ea7cdNc354d1bd.jpg",
+              "url": "key=%E5%8F%8C%E5%8D%A1%E5%8F%8C%E5%BE%85&as=0&PTAG=37110.1.46&projectId=117"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "areaId": "629",
+      "areaName": "女装内衣",
+      "level1words": [
+        {
+          "keywordId": "18711",
+          "keyword": "热销品类",
+          "level2words": [
+            {
+              "keywordId": "62702",
+              "keyword": "连衣裙",
+              "imageUrl": "jfs/t5584/332/2324843080/8290/72852a84/592fcb48N9b70f742.jpg",
+              "url": "key=%E8%BF%9E%E8%A1%A3%E8%A3%99&as=0&PTAG=37110.4.2&projectId=117"
+            },
+            {
+              "keywordId": "62368",
+              "keyword": "衬衫",
+              "imageUrl": "jfs/t5821/229/2362564701/8866/5e350bf6/592fcb64N9a7722b0.jpg",
+              "url": "key=%E8%A1%AC%E8%A1%AB%E5%A5%B3&as=0&PTAG=37110.4.4&projectId=117"
+            },
+            {
+              "keywordId": "62693",
+              "keyword": "牛仔裤",
+              "imageUrl": "jfs/t5785/355/2360890697/9444/4a089ef9/592fcb6bN3a8c544e.jpg",
+              "url": "key=%E7%89%9B%E4%BB%94%E8%A3%A4%20%E5%A5%B3&as=0&PTAG=37110.4.5&projectId=117"
+            },
+            {
+              "keywordId": "64148",
+              "keyword": "休闲裤",
+              "imageUrl": "jfs/t7708/203/715849058/4357/ac4db8df/59969ac4N0893e74f.jpg",
+              "url": "key=%E4%BC%91%E9%97%B2%E8%A3%A4%E5%A5%B3&as=0&PTAG=37110.4.106&projectId=117"
+            },
+            {
+              "keywordId": "64146",
+              "keyword": "卫衣",
+              "imageUrl": "jfs/t7873/352/709896137/4094/c7afcc9e/59968d45Nb15b320f.jpg",
+              "url": "key=%E5%8D%AB%E8%A1%A3%E5%A5%B3&as=0&PTAG=37110.4.104&projectId=117"
+            },
+            {
+              "keywordId": "64147",
+              "keyword": "针织衫",
+              "imageUrl": "jfs/t7357/363/764747960/6589/e7fe2297/599697d5N2e21d1de.jpg",
+              "url": "key=针织衫女&sf=12&as=0&version=V11&PTAG=37110.4.105&projectId=117"
+            },
+            {
+              "keywordId": "62694",
+              "keyword": "打底衫",
+              "imageUrl": "jfs/t6118/295/1095020848/6958/e7dde0df/592fcb77N2e02d0d2.jpg",
+              "url": "key=%E6%89%93%E5%BA%95%E8%A1%AB%20%E5%A5%B3&as=0&PTAG=37110.4.6&projectId=117"
+            },
+            {
+              "keywordId": "62695",
+              "keyword": "短外套",
+              "imageUrl": "jfs/t6115/318/1054857019/8657/783b8a4/592fcb80N99ef37fe.jpg",
+              "url": "key=%E7%9F%AD%E5%A4%96%E5%A5%97%20%E5%A5%B3&as=0&PTAG=37110.4.7&projectId=117"
+            },
+            {
+              "keywordId": "62697",
+              "keyword": "半身裙",
+              "imageUrl": "jfs/t5650/292/2331289441/6346/9048f9bb/592fcba7N184f717e.jpg",
+              "url": "key=%E5%8D%8A%E8%BA%AB%E8%A3%99&as=0&PTAG=37110.4.9&projectId=117"
+            },
+            {
+              "keywordId": "62698",
+              "keyword": "套装",
+              "imageUrl": "jfs/t5413/95/609035002/6933/e424446d/5903100aN8d2c9449.jpg",
+              "url": "key=%E5%A5%97%E8%A3%85%20%E5%A5%B3&as=0&PTAG=37110.4.10&projectId=117"
+            },
+            {
+              "keywordId": "62699",
+              "keyword": "风衣",
+              "imageUrl": "jfs/t5566/95/605470600/9491/724bb2d8/59031014Nbf242408.jpg",
+              "url": "key=%E9%A3%8E%E8%A1%A3%20%E5%A5%B3&as=0&PTAG=37110.4.11&projectId=117"
+            },
+            {
+              "keywordId": "62592",
+              "keyword": "自营女装",
+              "imageUrl": "jfs/t4855/5/2645751628/9445/60eefa65/5903102aN33832d3e.jpg",
+              "url": "key=%E8%87%AA%E8%90%A5%E5%A5%B3%E8%A3%85&as=0&PTAG=37110.4.12&projectId=117"
+            },
+            {
+              "keywordId": "62700",
+              "keyword": "文胸",
+              "imageUrl": "jfs/t5467/360/597582929/4233/3f68f191/590316ecNc4343ad2.jpg",
+              "url": "key=%E6%96%87%E8%83%B8&as=0&PTAG=37110.4.13&projectId=117"
+            },
+            {
+              "keywordId": "62701",
+              "keyword": "内裤",
+              "imageUrl": "jfs/t4669/174/3595245691/3436/d11d798c/59031710N6923a810.jpg",
+              "url": "key=%E5%86%85%E8%A3%A4%20%E5%A5%B3&as=0&PTAG=37110.4.14&projectId=117"
+            },
+            {
+              "keywordId": "62372",
+              "keyword": "美腿丝袜",
+              "imageUrl": "jfs/t4426/145/2451605736/3826/fc5aef7b/58ef78f7N4d3a24d2.jpg",
+              "url": "key=%E4%B8%9D%E8%A2%9C%20%E5%A5%B3&as=0&PTAG=37110.4.15&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "28655",
+          "keyword": "裙子",
+          "level2words": [
+            {
+              "keywordId": "62703",
+              "keyword": "连衣裙",
+              "imageUrl": "jfs/t7879/48/727575979/5962/a4db4977/59969d78Nf40eb6f5.jpg",
+              "url": "key=%E6%98%A5%E5%A4%8F%E8%BF%9E%E8%A1%A3%E8%A3%99&as=0&PTAG=37110.4.16&projectId=117"
+            },
+            {
+              "keywordId": "62704",
+              "keyword": "吊带裙",
+              "imageUrl": "jfs/t7591/88/734995256/4944/e5690b07/59969e2fN8f354a0b.jpg",
+              "url": "key=%E5%90%8A%E5%B8%A6%E8%A3%99&as=0&PTAG=37110.4.17&projectId=117"
+            },
+            {
+              "keywordId": "61240",
+              "keyword": "套装裙",
+              "imageUrl": "jfs/t7339/336/738180809/4722/6dbe70da/59969e70Nb514ec96.jpg",
+              "url": "key=%E5%A5%97%E8%A3%85%E8%A3%99&as=0&PTAG=37110.4.18&projectId=117"
+            },
+            {
+              "keywordId": "61239",
+              "keyword": "蕾丝连衣裙",
+              "imageUrl": "jfs/t7678/53/749235877/5431/b477855f/5996dc5fN207c1fe6.jpg",
+              "url": "key=%E8%95%BE%E4%B8%9D%E8%BF%9E%E8%A1%A3%E8%A3%99&as=0&PTAG=37110.4.20&projectId=117"
+            },
+            {
+              "keywordId": "64183",
+              "keyword": "一字肩",
+              "imageUrl": "jfs/t7597/268/748207843/5436/6d7b0e67/5996dcd0N86d23c0f.jpg",
+              "url": "key=%E4%B8%80%E5%AD%97%E8%82%A9&as=0&PTAG=37110.4.107&projectId=117"
+            },
+            {
+              "keywordId": "64184",
+              "keyword": "长袖",
+              "imageUrl": "jfs/t7267/111/757456508/5983/d4685964/5996dd97Ne161449d.jpg",
+              "url": "key=%E9%95%BF%E8%A2%96%E8%BF%9E%E8%A1%A3%E8%A3%99&as=0&PTAG=37110.4.108&projectId=117"
+            },
+            {
+              "keywordId": "64185",
+              "keyword": "不规则",
+              "imageUrl": "jfs/t7105/107/2544516954/6944/3a4da6c7/5996de0fNcc65b884.jpg",
+              "url": "key=%E4%B8%8D%E8%A7%84%E5%88%99%E8%BF%9E%E8%A1%A3%E8%A3%99&as=0&PTAG=37110.4.109&projectId=117"
+            },
+            {
+              "keywordId": "64186",
+              "keyword": "线织裙",
+              "imageUrl": "jfs/t6019/141/9652885254/6589/e7fe2297/5996df04N330d3c1f.jpg",
+              "url": "key=%E9%92%88%E7%BB%87%E8%A3%99&as=0&PTAG=37110.4.110&projectId=117"
+            },
+            {
+              "keywordId": "64187",
+              "keyword": "荷叶裙",
+              "imageUrl": "jfs/t7351/7/748848584/6443/c863f3be/5996df09N09da78ab.jpg",
+              "url": "key=%E8%8D%B7%E5%8F%B6%E8%A3%99&as=0&PTAG=37110.4.111&projectId=117"
+            },
+            {
+              "keywordId": "62706",
+              "keyword": "半身裙",
+              "imageUrl": "jfs/t4459/161/3725121208/6718/11a89dd4/5903116fNbf08f849.jpg",
+              "url": "key=%E5%8D%8A%E8%BA%AB%E8%A3%99&as=0&PTAG=37110.4.22&projectId=117"
+            },
+            {
+              "keywordId": "62707",
+              "keyword": "包臀裙",
+              "imageUrl": "jfs/t4912/45/2583213740/5018/af6a84cb/59031180N1ab73628.jpg",
+              "url": "key=%E5%8C%85%E8%87%80%E8%A3%99&as=0&PTAG=37110.4.23&projectId=117"
+            },
+            {
+              "keywordId": "62710",
+              "keyword": "长裙",
+              "imageUrl": "jfs/t4864/156/2557523213/8214/70248bfa/590311b7Ncbac6e02.jpg",
+              "url": "key=%E9%95%BF%E8%A3%99&as=0&PTAG=37110.4.26&projectId=117"
+            },
+            {
+              "keywordId": "62711",
+              "keyword": "牛仔裙",
+              "imageUrl": "jfs/t5341/127/610736822/9783/a32e7018/590311caN9a5f9e9d.jpg",
+              "url": "key=%E7%89%9B%E4%BB%94%E8%A3%99&as=0&PTAG=37110.4.27&projectId=117"
+            },
+            {
+              "keywordId": "62712",
+              "keyword": "百褶裙",
+              "imageUrl": "jfs/t5131/117/594305259/7918/74061006/590311deN7f72860c.jpg",
+              "url": "key=%E7%99%BE%E8%A4%B6%E8%A3%99&as=0&PTAG=37110.4.28&projectId=117"
+            },
+            {
+              "keywordId": "62714",
+              "keyword": "碎花裙",
+              "imageUrl": "jfs/t5263/242/606853889/9424/7da151e0/5903120fN132128cc.jpg",
+              "url": "key=%E7%A2%8E%E8%8A%B1%E8%A3%99&as=0&PTAG=37110.4.30&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "62720",
+          "keyword": "舒适内搭",
+          "level2words": [
+            {
+              "keywordId": "64188",
+              "keyword": "T恤",
+              "imageUrl": "jfs/t7105/259/2529115091/6072/321a627f/5996e01dN98abc3f3.jpg",
+              "url": "key=T%E6%81%A4%E5%A5%B3&as=0&PTAG=37110.4.31&projectId=117"
+            },
+            {
+              "keywordId": "64189",
+              "keyword": "长袖衬衫",
+              "imageUrl": "jfs/t5917/150/9802329426/5808/1c427803/5996e059Na938d583.jpg",
+              "url": "key=%E9%95%BF%E8%A2%96%E8%A1%AC%E8%A1%AB%E5%A5%B3&as=0&PTAG=37110.4.32&projectId=117"
+            },
+            {
+              "keywordId": "64190",
+              "keyword": "打底衫",
+              "imageUrl": "jfs/t5995/71/9687316472/5737/e730e245/5996e0c1N50b57a18.jpg",
+              "url": "key=%E6%89%93%E5%BA%95%E8%A1%AB%E5%A5%B3&as=0&PTAG=37110.4.33&projectId=117"
+            },
+            {
+              "keywordId": "64191",
+              "keyword": "毛衣",
+              "imageUrl": "jfs/t6091/147/9765569776/7758/d2638a14/5996e0e8N1ee1df80.jpg",
+              "url": "key=%E6%AF%9B%E8%A1%A3%E5%A5%B3&as=0&PTAG=37110.4.34&projectId=117"
+            },
+            {
+              "keywordId": "64192",
+              "keyword": "羊绒衫",
+              "imageUrl": "jfs/t7363/125/769713086/6110/7ddc57cc/5996e12aNb4400c76.jpg",
+              "url": "key=%E7%BE%8A%E7%BB%92%E8%A1%AB%E5%A5%B3&as=0&PTAG=37110.4.35&projectId=117"
+            },
+            {
+              "keywordId": "64193",
+              "keyword": "雪纺衫",
+              "imageUrl": "jfs/t7432/157/755245597/7522/8560fe74/5996e367N24057cf5.jpg",
+              "url": "key=%E9%9B%AA%E7%BA%BA%E8%A1%AB%E5%A5%B3&as=0&PTAG=37110.4.36&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "62733",
+          "keyword": "时尚外套",
+          "level2words": [
+            {
+              "keywordId": "64194",
+              "keyword": "卫衣",
+              "imageUrl": "jfs/t6097/27/9718391003/6098/8bbe05de/5996e375N275c9d57.jpg",
+              "url": "key=%E5%8D%AB%E8%A1%A3%E5%A5%B3&as=0&PTAG=37110.4.37&projectId=117"
+            },
+            {
+              "keywordId": "64195",
+              "keyword": "牛仔外套",
+              "imageUrl": "jfs/t6046/82/9712938199/5808/85bce084/5996e3a0Nce7a14b8.jpg",
+              "url": "key=%E7%89%9B%E4%BB%94%E5%A4%96%E5%A5%97%E5%A5%B3&as=0&PTAG=37110.4.38&projectId=117"
+            },
+            {
+              "keywordId": "64196",
+              "keyword": "棒球衫",
+              "imageUrl": "jfs/t7159/17/2498836308/6401/deca0a16/5996e438Nc78a4d5b.jpg",
+              "url": "key=%E6%A3%92%E7%90%83%E8%A1%AB%E5%A5%B3&as=0&PTAG=37110.4.39&projectId=117"
+            },
+            {
+              "keywordId": "64197",
+              "keyword": "皮衣",
+              "imageUrl": "jfs/t7393/6/777018568/5248/3fe9f958/5996e442N1f7a8b0e.jpg",
+              "url": "key=%E7%9A%AE%E8%A1%A3%E5%A5%B3&as=0&PTAG=37110.4.40&projectId=117"
+            },
+            {
+              "keywordId": "64198",
+              "keyword": "风衣",
+              "imageUrl": "jfs/t6103/261/9665984186/5555/78bfc0f3/5996e44fN1247c752.jpg",
+              "url": "key=%E9%A3%8E%E8%A1%A3%E5%A5%B3&as=0&PTAG=37110.4.41&projectId=117"
+            },
+            {
+              "keywordId": "64199",
+              "keyword": "毛呢大衣",
+              "imageUrl": "jfs/t7471/84/760860183/5777/25770fa8/5996e44eN1c1f1fd5.jpg",
+              "url": "key=%E6%AF%9B%E5%91%A2%E5%A4%A7%E8%A1%A3%E5%A5%B3&as=0&PTAG=37110.4.42&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "28656",
+          "keyword": "裤子",
+          "level2words": [
+            {
+              "keywordId": "55138",
+              "keyword": "牛仔裤",
+              "imageUrl": "jfs/t5281/87/606662235/9022/1547c2fa/590314f4Nad3d88c8.jpg",
+              "url": "key=%E7%89%9B%E4%BB%94%E8%A3%A4%E5%A5%B3%E7%A7%8B&as=0&PTAG=37110.4.52&projectId=117"
+            },
+            {
+              "keywordId": "61267",
+              "keyword": "阔腿裤",
+              "imageUrl": "jfs/t4990/307/2560791416/6100/fb9450bc/59031504N42ee2690.jpg",
+              "url": "key=%E9%98%94%E8%85%BF%E8%A3%A4%E5%A5%B3&as=0&PTAG=37110.4.53&projectId=117"
+            },
+            {
+              "keywordId": "55140",
+              "keyword": "小脚裤",
+              "imageUrl": "jfs/t5473/344/591934864/8233/c2424ece/5903151fN95d24288.jpg",
+              "url": "key=%E5%B0%8F%E8%84%9A%E8%A3%A4%E5%A5%B3&as=0&PTAG=37110.4.54&projectId=117"
+            },
+            {
+              "keywordId": "55139",
+              "keyword": "休闲裤",
+              "imageUrl": "jfs/t5011/338/2640246283/7874/6dd1011b/5903152fNb2064482.jpg",
+              "url": "key=%E4%BC%91%E9%97%B2%E8%A3%A4%E5%A5%B3%E7%A7%8B&as=0&PTAG=37110.4.55&projectId=117"
+            },
+            {
+              "keywordId": "62715",
+              "keyword": "破洞裤",
+              "imageUrl": "jfs/t5077/272/609282644/9724/9d0e81a0/5903153dN5d708f0f.jpg",
+              "url": "key=%E7%A0%B4%E6%B4%9E%E8%A3%A4%20%E5%A5%B3&as=0&PTAG=37110.4.56&projectId=117"
+            },
+            {
+              "keywordId": "62716",
+              "keyword": "背带裤",
+              "imageUrl": "jfs/t4708/71/3528309119/6628/52e17c0e/59031549N3aa11801.jpg",
+              "url": "key=%E8%83%8C%E5%B8%A6%E8%A3%A4&as=0&PTAG=37110.4.57&projectId=117"
+            },
+            {
+              "keywordId": "62718",
+              "keyword": "九分裤",
+              "imageUrl": "jfs/t4630/115/3738103057/7911/8d9eb0d9/59031570N0dc8e4a2.jpg",
+              "url": "key=%E4%B9%9D%E5%88%86%E8%A3%A4%20%E5%A5%B3&as=0&PTAG=37110.4.59&projectId=117"
+            },
+            {
+              "keywordId": "62719",
+              "keyword": "七分裤",
+              "imageUrl": "jfs/t5341/87/595455857/9010/72889e66/59031588Nda32957c.jpg",
+              "url": "key=%E4%B8%83%E5%88%86%E8%A3%A4%E5%A5%B3&as=0&PTAG=37110.4.60&projectId=117"
+            },
+            {
+              "keywordId": "61266",
+              "keyword": "哈伦裤",
+              "imageUrl": "jfs/t4762/261/2593089921/8720/893cc79e/59031599Neab80253.jpg",
+              "url": "key=%E5%93%88%E4%BC%A6%E8%A3%A4%E5%A5%B3&as=0&PTAG=37110.4.61&projectId=117"
+            },
+            {
+              "keywordId": "62717",
+              "keyword": "高腰裤",
+              "imageUrl": "jfs/t4513/198/3699753790/6123/97832cef/590315a4N80a0ffc9.jpg",
+              "url": "key=%E9%AB%98%E8%85%B0%E8%A3%A4&as=0&PTAG=37110.4.62&projectId=117"
+            },
+            {
+              "keywordId": "61268",
+              "keyword": "喇叭裤",
+              "imageUrl": "jfs/t5437/131/603925800/6985/885cbb1/590315acNa523ce91.jpg",
+              "url": "key=%E5%96%87%E5%8F%AD%E8%A3%A4%E5%A5%B3&as=0&PTAG=37110.4.63&projectId=117"
+            },
+            {
+              "keywordId": "64200",
+              "keyword": "打底裤",
+              "imageUrl": "jfs/t7495/131/747915431/3160/48ae24de/5996e4fdN269929b7.jpg",
+              "url": "key=%E6%89%93%E5%BA%95%E8%A3%A4%E5%A5%B3&as=0&PTAG=37110.4.43&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "62735",
+          "keyword": "特色女装",
+          "level2words": [
+            {
+              "keywordId": "62751",
+              "keyword": "大码女装",
+              "imageUrl": "jfs/t7135/2/2557083147/8101/e23b7cf6/5996e552N0717656f.jpg",
+              "url": "key=%E5%A4%A7%E7%A0%81%E5%A5%B3%E8%A3%85&as=0&PTAG=37110.4.70&projectId=117"
+            },
+            {
+              "keywordId": "62752",
+              "keyword": "妈妈装",
+              "imageUrl": "jfs/t7858/324/763619465/10169/c4c04b86/5996e55bNe6ecc4d8.jpg",
+              "url": "key=%E5%A6%88%E5%A6%88%E8%A3%85&as=0&PTAG=37110.4.71&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "28657",
+          "keyword": "女士内衣",
+          "level2words": [
+            {
+              "keywordId": "61981",
+              "keyword": "文胸套装",
+              "imageUrl": "jfs/t4480/142/3759116392/4582/5298eff6/5902ee28Nab415289.jpg",
+              "url": "key=%E6%96%87%E8%83%B8%E5%A5%97%E8%A3%85&as=0&PTAG=37110.4.76&projectId=117"
+            },
+            {
+              "keywordId": "62687",
+              "keyword": "聚拢文胸",
+              "imageUrl": "jfs/t5155/76/615687413/4823/32971294/5902ee62N2c984b17.jpg",
+              "url": "key=%E8%81%9A%E6%8B%A2%E6%96%87%E8%83%B8&as=0&PTAG=37110.4.77&projectId=117"
+            },
+            {
+              "keywordId": "62689",
+              "keyword": "棉质内裤",
+              "imageUrl": "jfs/t4825/253/2621297959/2555/d6884706/5902eebdN654e3fd3.jpg",
+              "url": "key=%E6%A3%89%E8%B4%A8%E5%86%85%E8%A3%A4%20%E5%A5%B3&as=0&PTAG=37110.4.79&projectId=117"
+            },
+            {
+              "keywordId": "62690",
+              "keyword": "无痕内裤",
+              "imageUrl": "jfs/t4744/250/2561718093/3992/2d3825e9/5902eecdN67b9f195.jpg",
+              "url": "key=%E6%97%A0%E7%97%95%E5%86%85%E8%A3%A4%20%E5%A5%B3&as=0&PTAG=37110.4.80&projectId=117"
+            },
+            {
+              "keywordId": "62691",
+              "keyword": "渔网袜",
+              "imageUrl": "jfs/t4630/67/3752289414/4642/d13eb490/5902eef3N595f0ade.jpg",
+              "url": "key=%E6%B8%94%E7%BD%91%E8%A2%9C%20%E5%A5%B3&as=0&PTAG=37110.4.81&projectId=117"
+            },
+            {
+              "keywordId": "61978",
+              "keyword": "美腿丝袜",
+              "imageUrl": "jfs/t4861/268/2602213509/4050/96c55f2a/5903173cN2a2e3b95.jpg",
+              "url": "key=%E7%BE%8E%E8%85%BF%E4%B8%9D%E8%A2%9C&as=0&PTAG=37110.4.82&projectId=117"
+            },
+            {
+              "keywordId": "50875",
+              "keyword": "棉袜/船袜",
+              "imageUrl": "jfs/t4972/202/2579100300/3642/3878fafe/5902ef62Nd29c454b.jpg",
+              "url": "key=%E6%A3%89%E8%A2%9C%20%E5%A5%B3&as=0&PTAG=37110.4.83&projectId=117"
+            },
+            {
+              "keywordId": "62692",
+              "keyword": "打底裤袜",
+              "imageUrl": "jfs/t5464/306/620723907/4449/c12eec1b/5902efabN7eff776e.jpg",
+              "url": "key=%E6%89%93%E5%BA%95%E8%A3%A4%E8%A2%9C%20%E5%A5%B3&as=0&PTAG=37110.4.84&projectId=117"
+            },
+            {
+              "keywordId": "62686",
+              "keyword": "睡衣",
+              "imageUrl": "jfs/t4735/345/2604333430/5958/894148af/5902efc4N1ad073ad.jpg",
+              "url": "key=%E5%A4%8F%E7%9D%A1%E8%A1%A3%20%E5%A5%B3&as=0&PTAG=37110.4.85&projectId=117"
+            },
+            {
+              "keywordId": "61980",
+              "keyword": "情侣睡衣",
+              "imageUrl": "jfs/t4624/202/3729132734/7838/f7a4600d/5902f001N6666d7ad.jpg",
+              "url": "key=%E6%83%85%E4%BE%A3%E7%9D%A1%E8%A1%A3&as=0&PTAG=37110.4.86&projectId=117"
+            },
+            {
+              "keywordId": "61979",
+              "keyword": "背心吊带",
+              "imageUrl": "jfs/t3151/8/7399539667/4004/5752a077/58b6ad38N2772a116.jpg",
+              "url": "key=%E8%83%8C%E5%BF%83%E5%90%8A%E5%B8%A6%E5%A5%B3&as=0&PTAG=37110.4.87&projectId=117"
+            },
+            {
+              "keywordId": "63065",
+              "keyword": "自营内衣",
+              "imageUrl": "jfs/t5539/126/2445201277/12821/15500c60/591ac362N477b671b.jpg",
+              "url": "key=%E8%87%AA%E8%90%A5%E5%86%85%E8%A1%A3%E5%A5%B3&as=0&PTAG=37110.4.78&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "28806",
+          "keyword": "潮流配饰",
+          "level2words": [
+            {
+              "keywordId": "62681",
+              "keyword": "太阳镜",
+              "imageUrl": "jfs/t5329/359/585454273/8801/f5d1abd2/5902ea29Ne1c69b27.png",
+              "url": "key=%E5%A4%AA%E9%98%B3%E9%95%9C%20%E5%A5%B3&as=0&PTAG=37110.4.88&projectId=117"
+            },
+            {
+              "keywordId": "62682",
+              "keyword": "框架镜",
+              "imageUrl": "jfs/t4804/228/2603240846/7886/83cb7e1/5902ea37N3d88390c.png",
+              "url": "key=%E6%A1%86%E6%9E%B6%E9%95%9C%20%E5%A5%B3&as=0&PTAG=37110.4.89&projectId=117"
+            },
+            {
+              "keywordId": "62683",
+              "keyword": "遮阳帽",
+              "imageUrl": "jfs/t5371/190/585140473/9442/46ea5205/5902ea43N2e702f99.png",
+              "url": "key=%E9%81%AE%E9%98%B3%E5%B8%BD%20%E5%A5%B3&as=0&PTAG=37110.4.90&projectId=117"
+            },
+            {
+              "keywordId": "62684",
+              "keyword": "腰带",
+              "imageUrl": "jfs/t5470/180/605156611/5815/f0a372a2/5902ea53N6559be35.png",
+              "url": "key=%E8%85%B0%E5%B8%A6%20%E5%A5%B3&as=0&PTAG=37110.4.91&projectId=117"
+            },
+            {
+              "keywordId": "62685",
+              "keyword": "棒球帽",
+              "imageUrl": "jfs/t4768/169/2561801312/8996/e196151/5902ea62Nf47bd1fe.png",
+              "url": "key=%E6%A3%92%E7%90%83%E5%B8%BD%20%E5%A5%B3&as=0&PTAG=37110.4.92&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "55161",
+          "keyword": "推荐好店",
+          "level2words": [
+            {
+              "keywordId": "62152",
+              "keyword": "烟花烫",
+              "imageUrl": "jfs/t3115/18/9170734069/2696/e896b400/58cf90c0N9cdabdea.jpg",
+              "url": "key=%E7%83%9F%E8%8A%B1%E7%83%AB&as=0&PTAG=37110.4.93&projectId=117"
+            },
+            {
+              "keywordId": "62153",
+              "keyword": "妖精的口袋",
+              "imageUrl": "jfs/t4591/344/430165542/5704/359cbae2/58cf9c76Ne260be4d.png",
+              "url": "key=%E5%A6%96%E7%B2%BE%E7%9A%84%E5%8F%A3%E8%A2%8B&as=0&PTAG=37110.4.94&projectId=117"
+            },
+            {
+              "keywordId": "62154",
+              "keyword": "韩都衣舍",
+              "imageUrl": "jfs/t3289/341/9066300092/7063/e00556ea/58cf928fNd2b44197.jpg",
+              "url": "key=%E9%9F%A9%E9%83%BD%E8%A1%A3%E8%88%8D&as=0&PTAG=37110.4.95&projectId=117"
+            },
+            {
+              "keywordId": "62155",
+              "keyword": "VEROMODA",
+              "imageUrl": "jfs/t3070/167/9205774621/2692/389af421/58cf9363N786f35e9.jpg",
+              "url": "key=VERO%20MODA&as=0&PTAG=37110.4.96&projectId=117"
+            },
+            {
+              "keywordId": "62156",
+              "keyword": "茵曼",
+              "imageUrl": "jfs/t4228/106/2313101600/3626/f88af04f/58cf9484N1c607eb5.jpg",
+              "url": "key=%E8%8C%B5%E6%9B%BC&as=0&PTAG=37110.4.97&projectId=117"
+            },
+            {
+              "keywordId": "62157",
+              "keyword": "only",
+              "imageUrl": "jfs/t4528/241/439786780/3341/82ab2cb6/58cf9523N943122ff.jpg",
+              "url": "key=only&as=0&PTAG=37110.4.98&projectId=117"
+            },
+            {
+              "keywordId": "62158",
+              "keyword": "璞衣",
+              "imageUrl": "jfs/t3085/316/9184704500/4357/d17c6030/58cf95afN91c5f850.jpg",
+              "url": "key=%E7%92%9E%E8%A1%A3&as=0&PTAG=37110.4.99&projectId=117"
+            },
+            {
+              "keywordId": "62159",
+              "keyword": "洛诗琳",
+              "imageUrl": "jfs/t3259/149/9207548738/3864/3df7f113/58cf961fN489526e2.jpg",
+              "url": "key=%E6%B4%9B%E8%AF%97%E7%90%B3%E5%A5%B3%E8%A3%85&as=0&PTAG=37110.4.100&projectId=117"
+            },
+            {
+              "keywordId": "62160",
+              "keyword": "ONEBUYE",
+              "imageUrl": "jfs/t4183/357/2310413740/2802/b3737344/58cf96cfN8a8c8bd0.jpg",
+              "url": "key=ONEBUYE&as=0&PTAG=37110.4.101&projectId=117"
+            },
+            {
+              "keywordId": "61984",
+              "keyword": "都市丽人",
+              "imageUrl": "jfs/t4348/6/636981974/3102/30ad3739/58b790a8N4decc4a5.png",
+              "url": "key=%E9%83%BD%E5%B8%82%E4%B8%BD%E4%BA%BA%E5%86%85%E8%A1%A3&as=0&PTAG=37110.4.102&projectId=117"
+            },
+            {
+              "keywordId": "61983",
+              "keyword": "秋鹿",
+              "imageUrl": "jfs/t3106/112/7483733453/6334/9624dc87/58b7906cNc5ccc72c.png",
+              "url": "key=%E7%A7%8B%E9%B9%BF&as=0&PTAG=37110.4.103&projectId=117"
+            },
+            {
+              "keywordId": "57006",
+              "keyword": "爱慕",
+              "imageUrl": "jfs/t3274/230/2164700036/5891/651f358/57de3de1Nbfba68af.png",
+              "url": "key=%E7%88%B1%E6%85%95&as=0&PTAG=37110.4.104&projectId=117"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "areaId": "665",
+      "areaName": "男装内衣",
+      "level1words": [
+        {
+          "keywordId": "62162",
+          "keyword": "热销品类",
+          "level2words": [
+            {
+              "keywordId": "62666",
+              "keyword": "短袖T恤",
+              "imageUrl": "jfs/t5104/52/571248978/8918/9775dde6/5902ae7bNc480403c.jpg",
+              "url": "key=%E7%9F%AD%E8%A2%96T%E6%81%A4%E7%94%B7&as=0&PTAG=37110.15.1&projectId=117"
+            },
+            {
+              "keywordId": "62667",
+              "keyword": "牛仔裤",
+              "imageUrl": "jfs/t4552/7/3512772275/16854/10fd5f02/5902ae94Nd0707e04.png",
+              "url": "key=%E7%89%9B%E4%BB%94%E8%A3%A4%E7%94%B7&as=0&PTAG=37110.15.2&projectId=117"
+            },
+            {
+              "keywordId": "62668",
+              "keyword": "休闲裤",
+              "imageUrl": "jfs/t5017/237/2594465663/6996/4160cb8d/5902aea7Ncb5a302f.png",
+              "url": "key=%E4%BC%91%E9%97%B2%E8%A3%A4%E7%94%B7&as=0&PTAG=37110.15.3&projectId=117"
+            },
+            {
+              "keywordId": "62669",
+              "keyword": "衬衫",
+              "imageUrl": "jfs/t5236/154/570080938/17216/1950b2af/5902aeb7N2819b6a0.png",
+              "url": "key=%E8%A1%AC%E8%A1%AB%E7%94%B7&as=0&PTAG=37110.15.4&projectId=117"
+            },
+            {
+              "keywordId": "62670",
+              "keyword": "短外套",
+              "imageUrl": "jfs/t5218/222/563710185/11969/b9ee31fd/5902aed0N2fd48e4b.png",
+              "url": "key=%E7%9F%AD%E5%A4%96%E5%A5%97%E7%94%B7&as=0&PTAG=37110.15.5&projectId=117"
+            },
+            {
+              "keywordId": "62671",
+              "keyword": "卫衣",
+              "imageUrl": "jfs/t4639/9/3709320750/8831/49ae0963/5902aee0N4af22eee.png",
+              "url": "key=%E5%8D%AB%E8%A1%A3%E7%94%B7&as=0&PTAG=37110.15.6&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "58247",
+          "keyword": "新品T恤",
+          "level2words": [
+            {
+              "keywordId": "61421",
+              "keyword": "短袖T恤",
+              "imageUrl": "jfs/t5596/67/2367464977/10689/5d64ae71/592fe770N6a60d25c.png",
+              "url": "key=%E7%9F%AD%E8%A2%96T%E6%81%A4%20%E7%94%B7&as=0&PTAG=37110.15.11&projectId=117"
+            },
+            {
+              "keywordId": "61420",
+              "keyword": "长袖T恤",
+              "imageUrl": "jfs/t5839/348/2430864361/11503/6657bc6d/592fe786Naa7abcc7.png",
+              "url": "key=%E9%95%BF%E8%A2%96T%E6%81%A4%20%E7%94%B7&as=0&PTAG=37110.15.12&projectId=117"
+            },
+            {
+              "keywordId": "61422",
+              "keyword": "纯棉T恤",
+              "imageUrl": "jfs/t5890/190/2359089102/16960/5ed74129/592fe7a1N3cac1bb5.png",
+              "url": "key=%E7%BA%AF%E6%A3%89T%E6%81%A4%20%E7%94%B7&as=0&PTAG=37110.15.13&projectId=117"
+            },
+            {
+              "keywordId": "61423",
+              "keyword": "印花T恤",
+              "imageUrl": "jfs/t5968/230/1180764537/19378/6e592184/592fe7b5Nc05f5518.png",
+              "url": "key=%E5%8D%B0%E8%8A%B1T%E6%81%A4%20%E7%94%B7&as=0&PTAG=37110.15.14&projectId=117"
+            },
+            {
+              "keywordId": "61424",
+              "keyword": "纯色T恤",
+              "imageUrl": "jfs/t5695/25/2329746412/10113/d22a3fa1/592fe7c6Nb7d10df0.png",
+              "url": "key=%E7%BA%AF%E8%89%B2T%E6%81%A4&as=0&PTAG=37110.15.15&projectId=117"
+            },
+            {
+              "keywordId": "61426",
+              "keyword": "条纹T恤",
+              "imageUrl": "jfs/t5605/50/2333549073/10665/77d70d90/592fe7d0N29569029.png",
+              "url": "key=%E6%9D%A1%E7%BA%B9T%E6%81%A4%20%E7%94%B7&as=0&PTAG=37110.15.16&projectId=117"
+            },
+            {
+              "keywordId": "61425",
+              "keyword": "翻领T恤",
+              "imageUrl": "jfs/t5866/120/2381518169/8965/4e6bd87e/592fe7dbN7eb53096.png",
+              "url": "key=%E7%BF%BB%E9%A2%86T%E6%81%A4%20%E7%94%B7&as=0&PTAG=37110.15.17&projectId=117"
+            },
+            {
+              "keywordId": "61427",
+              "keyword": "亚麻T恤",
+              "imageUrl": "jfs/t5842/256/2340402838/9825/e97af5dd/592fe82aN0de4459d.png",
+              "url": "key=%E4%BA%9A%E9%BA%BBT%E6%81%A4%20%E7%94%B7&as=0&PTAG=37110.15.18&projectId=117"
+            },
+            {
+              "keywordId": "62672",
+              "keyword": "圆领T恤",
+              "imageUrl": "jfs/t5692/119/2327396354/15694/461ef26e/592fe80aN204d4622.png",
+              "url": "key=%E5%9C%86%E9%A2%86T%E6%81%A4%E7%94%B7&as=0&PTAG=37110.15.19&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "58237",
+          "keyword": "牛仔裤",
+          "level2words": [
+            {
+              "keywordId": "61429",
+              "keyword": "直筒牛仔",
+              "imageUrl": "jfs/t3997/118/2185490598/8667/33e88d59/58a443fbN59f3627d.jpg",
+              "url": "key=%E7%9B%B4%E7%AD%92%E7%89%9B%E4%BB%94%20%E7%94%B7&as=0&PTAG=37110.15.21&projectId=117"
+            },
+            {
+              "keywordId": "61430",
+              "keyword": "修身牛仔",
+              "imageUrl": "jfs/t5413/52/585952615/14309/4f54f37b/5902b2e7Nedc6c1dc.png",
+              "url": "key=%E4%BF%AE%E8%BA%AB%E7%89%9B%E4%BB%94%20%E7%94%B7&as=0&PTAG=37110.15.22&projectId=117"
+            },
+            {
+              "keywordId": "61435",
+              "keyword": "破洞牛仔",
+              "imageUrl": "jfs/t3079/349/6354677618/17851/3bcec2f1/58a444d6Nb567110c.png",
+              "url": "key=%E7%A0%B4%E6%B4%9E%E7%89%9B%E4%BB%94%20%E7%94%B7&as=0&PTAG=37110.15.23&projectId=117"
+            },
+            {
+              "keywordId": "61432",
+              "keyword": "小脚牛仔",
+              "imageUrl": "jfs/t5146/99/589524773/12457/8a2632f4/5902b315Nc6a7c0be.png",
+              "url": "key=%E5%B0%8F%E8%84%9A%E7%89%9B%E4%BB%94%20%E7%94%B7&as=0&PTAG=37110.15.24&projectId=117"
+            },
+            {
+              "keywordId": "61433",
+              "keyword": "弹力牛仔",
+              "imageUrl": "jfs/t4918/265/2603984317/15051/459c5c93/5902b330N83cf9dd7.png",
+              "url": "key=%E5%BC%B9%E5%8A%9B%E7%89%9B%E4%BB%94%20%E7%94%B7&as=0&PTAG=37110.15.25&projectId=117"
+            },
+            {
+              "keywordId": "61431",
+              "keyword": "纯色牛仔",
+              "imageUrl": "jfs/t3859/241/2175175238/14672/3bba791c/58a44461Nc0079986.png",
+              "url": "key=%E7%BA%AF%E8%89%B2%E7%89%9B%E4%BB%94%20%E7%94%B7&as=0&PTAG=37110.15.26&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "58274",
+          "keyword": "男士内搭",
+          "level2words": [
+            {
+              "keywordId": "62673",
+              "keyword": "T恤",
+              "imageUrl": "jfs/t4393/256/3734121420/8918/9775dde6/5902b47aNf6ed12df.jpg",
+              "url": "key=T%E6%81%A4%E7%94%B7&as=0&PTAG=37110.15.31&projectId=117"
+            },
+            {
+              "keywordId": "62674",
+              "keyword": "衬衫",
+              "imageUrl": "jfs/t5038/16/2586669246/11571/67d98519/5902b48aN3230d975.jpg",
+              "url": "key=%E8%A1%AC%E8%A1%AB%20%E7%94%B7&as=0&PTAG=37110.15.32&projectId=117"
+            },
+            {
+              "keywordId": "61645",
+              "keyword": "polo衫",
+              "imageUrl": "jfs/t5404/237/578443696/13648/6cde26c6/5902b49bN50762e2a.jpg",
+              "url": "key=polo%E8%A1%AB%20%E7%94%B7&as=0&PTAG=37110.15.33&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "58290",
+          "keyword": "男士外套",
+          "level2words": [
+            {
+              "keywordId": "61650",
+              "keyword": "风衣",
+              "imageUrl": "jfs/t3169/360/6539883771/9981/5671184f/58aa9777Nf3106207.jpg",
+              "url": "key=%E9%A3%8E%E8%A1%A3%20%E7%94%B7&as=0&PTAG=37110.15.34&projectId=117"
+            },
+            {
+              "keywordId": "61649",
+              "keyword": "夹克",
+              "imageUrl": "jfs/t5350/92/590511233/11969/b9ee31fd/5902b546N3dae9a75.png",
+              "url": "key=%E5%A4%B9%E5%85%8B%20%E7%94%B7&as=0&PTAG=37110.15.35&projectId=117"
+            },
+            {
+              "keywordId": "62675",
+              "keyword": "牛仔",
+              "imageUrl": "jfs/t4840/96/2604014261/11326/8e74cd0f/5902b553N79705b6c.png",
+              "url": "key=%E7%89%9B%E4%BB%94%20%E7%94%B7&as=0&PTAG=37110.15.36&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "58282",
+          "keyword": "男士裤装",
+          "level2words": [
+            {
+              "keywordId": "61660",
+              "keyword": "牛仔裤",
+              "imageUrl": "jfs/t3070/57/6723630549/15707/ba88a357/58aa9b55Nb7c32f21.png",
+              "url": "key=%E7%89%9B%E4%BB%94%E8%A3%A4%20%E7%94%B7&as=0&PTAG=37110.15.41&projectId=117"
+            },
+            {
+              "keywordId": "61661",
+              "keyword": "休闲裤",
+              "imageUrl": "jfs/t4933/157/2603338966/11871/6407824/5902b766N65ec4e2a.png",
+              "url": "key=%E4%BC%91%E9%97%B2%E8%A3%A4%20%E7%94%B7&as=0&PTAG=37110.15.42&projectId=117"
+            },
+            {
+              "keywordId": "62676",
+              "keyword": "短裤",
+              "imageUrl": "jfs/t4933/10/2566507650/10495/ff1ecc3f/5902b715Ne2cd6ec8.png",
+              "url": "key=%E7%9F%AD%E8%A3%A4%20%E7%94%B7&as=0&PTAG=37110.15.43&projectId=117"
+            },
+            {
+              "keywordId": "61663",
+              "keyword": "运动裤",
+              "imageUrl": "jfs/t4084/59/2511805438/10048/e05cecf9/58aa9bb8N6f2cfb01.png",
+              "url": "key=%E8%BF%90%E5%8A%A8%E8%A3%A4%20%E7%94%B7&as=0&PTAG=37110.15.44&projectId=117"
+            },
+            {
+              "keywordId": "61664",
+              "keyword": "阔腿裤",
+              "imageUrl": "jfs/t4795/66/2585610922/9632/cd46bd8a/5902b72dN74625fb3.png",
+              "url": "key=%E9%98%94%E8%85%BF%E8%A3%A4%20%E7%94%B7&as=0&PTAG=37110.15.45&projectId=117"
+            },
+            {
+              "keywordId": "61659",
+              "keyword": "工装裤",
+              "imageUrl": "jfs/t4084/206/2458348640/13437/96c66097/58aa9abeN1027e366.png",
+              "url": "key=%E5%B7%A5%E8%A3%85%E8%A3%A4%20%E7%94%B7&as=0&PTAG=37110.15.46&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "58297",
+          "keyword": "个性特色",
+          "level2words": [
+            {
+              "keywordId": "61666",
+              "keyword": "大码男装",
+              "imageUrl": "jfs/t4714/346/3688203665/10157/dfd3d194/5902b87aN585ecb61.png",
+              "url": "key=%E5%A4%A7%E7%A0%81%E7%94%B7%E8%A3%85&as=0&PTAG=37110.15.51&projectId=117"
+            },
+            {
+              "keywordId": "61668",
+              "keyword": "中老年男装",
+              "imageUrl": "jfs/t4873/203/2606679737/9993/fce1f1f4/5902b88dN97f98064.png",
+              "url": "key=%E4%B8%AD%E8%80%81%E5%B9%B4%E7%94%B7%E8%A3%85&as=0&PTAG=37110.15.52&projectId=117"
+            },
+            {
+              "keywordId": "61672",
+              "keyword": "唐装/中山装",
+              "imageUrl": "jfs/t5485/119/601990085/17810/c98b79f4/5902b8b5Nde38f810.png",
+              "url": "key=%E5%94%90%E8%A3%85%2F%E4%B8%AD%E5%B1%B1%E8%A3%85%20%E7%94%B7&as=0&PTAG=37110.15.53&projectId=117"
+            },
+            {
+              "keywordId": "62677",
+              "keyword": "西装",
+              "imageUrl": "jfs/t4879/14/2609591646/12387/8e3879fa/5902b89fN77a50f51.png",
+              "url": "key=%E8%A5%BF%E8%A3%85%20%E7%94%B7&as=0&PTAG=37110.15.54&projectId=117"
+            },
+            {
+              "keywordId": "61669",
+              "keyword": "工装",
+              "imageUrl": "jfs/t4594/325/3613962936/10785/7bee1695/5902b8dcN2794bbc0.png",
+              "url": "key=%E5%B7%A5%E8%A3%85%20%E7%94%B7&as=0&PTAG=37110.15.55&projectId=117"
+            },
+            {
+              "keywordId": "61671",
+              "keyword": "设计师/潮牌",
+              "imageUrl": "jfs/t3973/49/2489219585/7512/5e01f322/58aa9d69Ne4ca9b9e.png",
+              "url": "key=%E8%AE%BE%E8%AE%A1%E5%B8%88%2F%E6%BD%AE%E7%89%8C%20%E7%94%B7&as=0&PTAG=37110.15.56&projectId=117"
+            },
+            {
+              "keywordId": "61673",
+              "keyword": "民族服装",
+              "imageUrl": "jfs/t3307/244/6584919691/7217/79901e1a/58aa9dbaN7362c566.png",
+              "url": "key=%E6%B0%91%E6%97%8F%E6%9C%8D%E8%A3%85%20%E7%94%B7&as=0&PTAG=37110.15.57&projectId=117"
+            },
+            {
+              "keywordId": "61675",
+              "keyword": "明星同款",
+              "imageUrl": "jfs/t3166/195/6726469966/6478/888486cc/58aa9defNf70333c2.gif",
+              "url": "key=%E6%98%8E%E6%98%9F%E5%90%8C%E6%AC%BE%20%E7%94%B7&as=0&PTAG=37110.15.58&projectId=117"
+            },
+            {
+              "keywordId": "62678",
+              "keyword": "自营男装",
+              "imageUrl": "jfs/t7015/359/497146938/8878/ff3f926/59770407Nb8f43bbf.png",
+              "url": "key=%E8%87%AA%E8%90%A5%E7%94%B7%E8%A3%85&as=0&PTAG=37110.15.59&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "23002",
+          "keyword": "男士内衣",
+          "level2words": [
+            {
+              "keywordId": "48815",
+              "keyword": "平角内裤",
+              "imageUrl": "jfs/t5416/108/586109722/4286/40895218/5902bcb6N57036f06.jpg",
+              "url": "key=%E5%B9%B3%E8%A7%92%E5%86%85%E8%A3%A4%20%E7%94%B7&as=0&PTAG=37110.15.61&projectId=117"
+            },
+            {
+              "keywordId": "48816",
+              "keyword": "三角内裤",
+              "imageUrl": "jfs/t4492/357/3504312874/4384/2608d223/5902bcc9N4f156571.jpg",
+              "url": "key=%E4%B8%89%E8%A7%92%E5%86%85%E8%A3%A4%20%E7%94%B7&as=0&PTAG=37110.15.62&projectId=117"
+            },
+            {
+              "keywordId": "61269",
+              "keyword": "睡衣",
+              "imageUrl": "jfs/t5425/183/593258697/6333/6ad99644/5902bcd2N7bea76e7.jpg",
+              "url": "key=%E7%9D%A1%E8%A1%A3%20%E7%94%B7&as=0&PTAG=37110.15.63&projectId=117"
+            },
+            {
+              "keywordId": "48818",
+              "keyword": "船袜",
+              "imageUrl": "jfs/t5395/255/590104266/3179/2ec17c2b/5902bcebNdb42162d.jpg",
+              "url": "key=%E8%88%B9%E8%A2%9C%20%E7%94%B7&as=0&PTAG=37110.15.64&projectId=117"
+            },
+            {
+              "keywordId": "61987",
+              "keyword": "休闲男袜",
+              "imageUrl": "jfs/t5371/328/602134572/5786/e8c84f2c/5902bd2bNb3c2acea.jpg",
+              "url": "key=%E4%BC%91%E9%97%B2%E7%94%B7%E8%A2%9C&as=0&PTAG=37110.15.65&projectId=117"
+            },
+            {
+              "keywordId": "50879",
+              "keyword": "商务男袜",
+              "imageUrl": "jfs/t5185/270/614415443/4733/6efce1bc/5902bd1bN5fbe9cac.jpg",
+              "url": "key=%E5%95%86%E5%8A%A1%E7%94%B7%E8%A2%9C&as=0&PTAG=37110.15.66&projectId=117"
+            },
+            {
+              "keywordId": "63066",
+              "keyword": "自营内衣",
+              "imageUrl": "jfs/t5254/177/2429921852/12136/a28d0e2b/591ac3cfN6ca479c3.jpg",
+              "url": "key=%E8%87%AA%E8%90%A5%E5%86%85%E8%A1%A3%E7%94%B7%E5%A4%8F&as=0&PTAG=37110.15.67&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "48811",
+          "keyword": "男士配饰",
+          "level2words": [
+            {
+              "keywordId": "48821",
+              "keyword": "皮带",
+              "imageUrl": "jfs/t4744/344/2650571654/7880/d3f8995b/5902be27N8ec04e0c.png",
+              "url": "key=%E7%9A%AE%E5%B8%A6%20%E7%94%B7&as=0&PTAG=37110.15.71&projectId=117"
+            },
+            {
+              "keywordId": "48822",
+              "keyword": "太阳镜",
+              "imageUrl": "jfs/t2152/343/1504578450/6098/ccd55237/56c680c6Naddd5d1e.jpg",
+              "url": "key=%E5%A4%AA%E9%98%B3%E9%95%9C%20%E7%94%B7&as=0&PTAG=37110.15.72&projectId=117"
+            },
+            {
+              "keywordId": "62679",
+              "keyword": "帽子",
+              "imageUrl": "jfs/t4732/54/2588812766/8805/f22cab29/5902be40N80ac8b26.png",
+              "url": "key=%E6%A3%92%E7%90%83%E5%B8%BD%20%E7%94%B7&as=0&PTAG=37110.15.73&projectId=117"
+            },
+            {
+              "keywordId": "48823",
+              "keyword": "框架镜",
+              "imageUrl": "jfs/t4756/350/2584688315/7398/c2e5e0b8/5902be67Ne2048bd1.png",
+              "url": "key=%E6%A1%86%E6%9E%B6%E7%9C%BC%E9%95%9C%20%E7%94%B7&as=0&PTAG=37110.15.74&projectId=117"
+            },
+            {
+              "keywordId": "62680",
+              "keyword": "休闲皮带",
+              "imageUrl": "jfs/t4822/275/2560798894/9674/c142fd3d/5902be6dN0fbc7466.png",
+              "url": "key=%E4%BC%91%E9%97%B2%E7%9A%AE%E5%B8%A6%20%E7%94%B7&as=0&PTAG=37110.15.75&projectId=117"
+            },
+            {
+              "keywordId": "55636",
+              "keyword": "领带",
+              "imageUrl": "jfs/t4573/263/3721957788/10807/e1cb35a5/5902be93N1dc462d8.png",
+              "url": "key=%E9%A2%86%E5%B8%A6%20%E7%94%B7&as=0&PTAG=37110.15.76&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "20137",
+          "keyword": "商场大牌",
+          "level2words": [
+            {
+              "keywordId": "61721",
+              "keyword": "太平鸟",
+              "imageUrl": "jfs/t3220/56/6568156292/3391/bc657476/58abb1a0N7fbb29e1.png",
+              "url": "key=%E5%A4%AA%E5%B9%B3%E9%B8%9F&as=0&PTAG=37110.15.85&projectId=117"
+            },
+            {
+              "keywordId": "57011",
+              "keyword": "七匹狼内衣",
+              "imageUrl": "jfs/t3103/250/2238737460/6241/ce961a2f/57de3feeNd321088d.png",
+              "url": "key=%E4%B8%83%E5%8C%B9%E7%8B%BC%E5%86%85%E8%A1%A3&as=0&PTAG=37110.15.86&projectId=117"
+            },
+            {
+              "keywordId": "57009",
+              "keyword": "花花公子内衣",
+              "imageUrl": "jfs/t3079/86/2280712699/5179/ba152a46/57de3ff7N754d800f.png",
+              "url": "key=%E8%8A%B1%E8%8A%B1%E5%85%AC%E5%AD%90%E5%86%85%E8%A1%A3&as=0&PTAG=37110.15.87&projectId=117"
+            },
+            {
+              "keywordId": "57010",
+              "keyword": "德国舒雅内衣",
+              "imageUrl": "jfs/t3133/111/2186374074/4423/353a547f/57de3ffeN0e2704de.png",
+              "url": "key=%E5%BE%B7%E5%9B%BD%E8%88%92%E9%9B%85&as=0&PTAG=37110.15.88&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "61679",
+          "keyword": "推荐好店",
+          "level2words": [
+            {
+              "keywordId": "61719",
+              "keyword": "森马",
+              "imageUrl": "jfs/t3280/141/6660595342/5431/5f02d482/58abaf26Nf458c5e4.png",
+              "url": "key=%E6%A3%AE%E9%A9%AC&as=0&PTAG=37110.15.89&projectId=117"
+            },
+            {
+              "keywordId": "61720",
+              "keyword": "美特斯邦威",
+              "imageUrl": "jfs/t3169/250/6689881251/5330/97bd2af2/58abb1d9N1b4afba5.png",
+              "url": "key=%E7%BE%8E%E7%89%B9%E6%96%AF%E9%82%A6%E5%A8%81&as=0&PTAG=37110.15.90&projectId=117"
+            },
+            {
+              "keywordId": "61718",
+              "keyword": "DUNKELVOLK",
+              "imageUrl": "jfs/t3910/299/2587075652/1927/9ae19f1e/58abb206Nc91490ed.png",
+              "url": "key=DUNKELVOLK&as=0&PTAG=37110.15.89&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "61678",
+          "keyword": "潮牌推荐",
+          "level2words": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "areaId": "628",
+      "areaName": "家用电器",
+      "level1words": [
+        {
+          "keywordId": "58254",
+          "keyword": "推荐品牌",
+          "level2words": [
+            {
+              "keywordId": "59233",
+              "keyword": "美的",
+              "imageUrl": "jfs/t3535/120/1325624505/3698/b5b81bed/5822a134Nb89e0c1f.png",
+              "url": "key=%E7%BE%8E%E7%9A%84&as=0&PTAG=37110.3.95&projectId=117"
+            },
+            {
+              "keywordId": "58260",
+              "keyword": "海尔",
+              "imageUrl": "jfs/t3421/264/1339264619/3463/e48fba76/5822b716N03e11bce.png",
+              "url": "key=%E6%B5%B7%E5%B0%94&as=0&PTAG=37110.3.93&projectId=117"
+            },
+            {
+              "keywordId": "59231",
+              "keyword": "飞利浦",
+              "imageUrl": "jfs/t3739/86/1277871130/6766/f14b0761/58229e98Nfe659574.png",
+              "url": "key=%E9%A3%9E%E5%88%A9%E6%B5%A6&as=0&PTAG=37110.3.92&projectId=117"
+            },
+            {
+              "keywordId": "59232",
+              "keyword": "TCL",
+              "imageUrl": "jfs/t3478/283/1302571508/6356/f837c9d4/58229f12Nf1f971d3.png",
+              "url": "key=TCL&as=0&PTAG=37110.3.94&projectId=117"
+            },
+            {
+              "keywordId": "60744",
+              "keyword": "康佳",
+              "imageUrl": "jfs/t3247/181/5506478914/4710/f6f0e673/58749bf0N46302317.png",
+              "url": "key=%E5%BA%B7%E4%BD%B3&as=0&PTAG=37110.3.90&projectId=117"
+            },
+            {
+              "keywordId": "60745",
+              "keyword": "创维",
+              "imageUrl": "jfs/t4108/187/1373567384/9819/23fd813a/58749bfbN0987236a.png",
+              "url": "key=%E5%88%9B%E7%BB%B4&as=0&PTAG=37110.3.91&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "43338",
+          "keyword": "热销推荐",
+          "level2words": [
+            {
+              "keywordId": "58262",
+              "keyword": "洗衣机",
+              "imageUrl": "jfs/t3562/332/1553831443/6876/f2708786/582ab8acN9df03542.jpg",
+              "url": "key=%E6%B4%97%E8%A1%A3%E6%9C%BA&as=0&PTAG=37110.3.84&projectId=117"
+            },
+            {
+              "keywordId": "58264",
+              "keyword": "电视",
+              "imageUrl": "jfs/t3352/330/1554404902/17401/3a4b4460/582ab8cdNc9ef9df5.jpg",
+              "url": "key=%E7%94%B5%E8%A7%86&as=0&PTAG=37110.3.89&projectId=117"
+            },
+            {
+              "keywordId": "58261",
+              "keyword": "空气净化器",
+              "imageUrl": "jfs/t3694/332/1451460769/4947/2c87ec77/5826f724N12b5e6fb.jpg",
+              "url": "key=%E7%A9%BA%E6%B0%94%E5%87%80%E5%8C%96%E5%99%A8&as=0&PTAG=37110.3.88&projectId=117"
+            },
+            {
+              "keywordId": "43345",
+              "keyword": "剃须刀",
+              "imageUrl": "jfs/t3481/21/1535708879/5817/1910c028/582ab8dfN3c813d8e.jpg",
+              "url": "key=%E5%89%83%E9%A1%BB%E5%88%80&as=0&PTAG=37110.3.86&projectId=117"
+            },
+            {
+              "keywordId": "56935",
+              "keyword": "热水器",
+              "imageUrl": "jfs/t3613/59/1526208231/4406/c47d1de0/582ab8f1N6a224fdc.jpg",
+              "url": "key=%E7%83%AD%E6%B0%B4%E5%99%A8&as=0&PTAG=37110.3.80&projectId=117"
+            },
+            {
+              "keywordId": "58265",
+              "keyword": "电饭煲",
+              "imageUrl": "jfs/t3514/343/1551684781/9096/605bd4e1/582ab901N30d6d9e2.jpg",
+              "url": "key=%E7%94%B5%E9%A5%AD%E7%85%B2&as=0&PTAG=37110.3.90&projectId=117"
+            },
+            {
+              "keywordId": "58263",
+              "keyword": "冰箱",
+              "imageUrl": "jfs/t3565/112/1552090969/5250/36932b45/582ab912N5d1c29a7.jpg",
+              "url": "key=%E5%86%B0%E7%AE%B1&as=0&PTAG=37110.3.91&projectId=117"
+            },
+            {
+              "keywordId": "57454",
+              "keyword": "空调",
+              "imageUrl": "jfs/t3457/119/1449617045/3824/348cd449/582ab926Ndea7366f.jpg",
+              "url": "key=%E7%A9%BA%E8%B0%83&as=0&PTAG=37110.3.82&projectId=117"
+            },
+            {
+              "keywordId": "56936",
+              "keyword": "吸尘器",
+              "imageUrl": "jfs/t3682/176/1597659403/4892/4cc3f2ef/582ab948Nefb53d93.jpg",
+              "url": "key=%E5%90%B8%E5%B0%98%E5%99%A8&as=0&PTAG=37110.3.83&projectId=117"
+            },
+            {
+              "keywordId": "56938",
+              "keyword": "电磁炉",
+              "imageUrl": "jfs/t3439/146/1516123183/7763/eda617ad/582ab965N6dd2a32f.jpg",
+              "url": "key=%E7%94%B5%E7%A3%81%E7%82%89&as=0&PTAG=37110.3.85&projectId=117"
+            },
+            {
+              "keywordId": "57220",
+              "keyword": "微波炉",
+              "imageUrl": "jfs/t3463/300/1548004923/6229/4644ce40/582ab980Na51a08d6.jpg",
+              "url": "key=%E5%BE%AE%E6%B3%A2%E7%82%89&as=0&PTAG=37110.3.87&projectId=117"
+            },
+            {
+              "keywordId": "57219",
+              "keyword": "电吹风",
+              "imageUrl": "jfs/t3697/332/1604506427/5068/f16c8d2f/582ab993Nd873ca52.jpg",
+              "url": "key=%E5%90%B9%E9%A3%8E%E6%9C%BA&as=0&PTAG=37110.3.81&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "18588",
+          "keyword": "大电器",
+          "level2words": [
+            {
+              "keywordId": "18593",
+              "keyword": "空调",
+              "imageUrl": "jfs/t5464/28/2576376005/5503/2fc2f61e/591c293bN10624c73.png",
+              "url": "key=%E7%A9%BA%E8%B0%83&as=0&PTAG=37110.3.3&projectId=117"
+            },
+            {
+              "keywordId": "18592",
+              "keyword": "冰箱",
+              "imageUrl": "jfs/t2638/62/17038110/3256/647377cf/56fb74b9N2fa77660.jpg",
+              "url": "key=%E5%86%B0%E7%AE%B1&as=0&PTAG=37110.3.4&projectId=117"
+            },
+            {
+              "keywordId": "18590",
+              "keyword": "平板电视",
+              "imageUrl": "jfs/t2857/156/16386239/9411/fb9cff6f/56fb74c1N7a47095a.jpg",
+              "url": "key=%E5%B9%B3%E6%9D%BF%E7%94%B5%E8%A7%86&as=0&PTAG=37110.3.1&projectId=117"
+            },
+            {
+              "keywordId": "18594",
+              "keyword": "洗衣机",
+              "imageUrl": "jfs/t3241/290/1113104964/3252/21d2dd87/57c651e8N8ef17217.jpg",
+              "url": "key=%E6%B4%97%E8%A1%A3%E6%9C%BA&as=0&PTAG=37110.3.5&projectId=117"
+            },
+            {
+              "keywordId": "18591",
+              "keyword": "家庭影院",
+              "imageUrl": "jfs/t2644/19/19578521/7393/eda8a87b/56fb7bf3N07735c6f.jpg",
+              "url": "key=%E5%AE%B6%E5%BA%AD%E5%BD%B1%E9%99%A2&as=0&PTAG=37110.3.2&projectId=117"
+            },
+            {
+              "keywordId": "21909",
+              "keyword": "家电配件",
+              "imageUrl": "jfs/t1999/182/2251614859/7276/8979bc50/56fb7bffNc1bea061.jpg",
+              "url": "key=%E5%AE%B6%E7%94%B5%E9%85%8D%E4%BB%B6&as=0&PTAG=37110.3.9&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "49950",
+          "keyword": "厨卫大电",
+          "level2words": [
+            {
+              "keywordId": "49951",
+              "keyword": "油烟机",
+              "imageUrl": "jfs/t1894/338/2877141005/3435/f392437f/56f9043eN33a42fd7.jpg",
+              "url": "key=%E6%B2%B9%E7%83%9F%E6%9C%BA&as=0&PTAG=37110.3.30&projectId=117"
+            },
+            {
+              "keywordId": "49958",
+              "keyword": "电热水器",
+              "imageUrl": "jfs/t2134/33/2862639946/2867/7f52ebe7/56f90431N35c8ea32.jpg",
+              "url": "key=%E7%94%B5%E7%83%AD%E6%B0%B4%E5%99%A8&as=0&PTAG=37110.3.36&projectId=117"
+            },
+            {
+              "keywordId": "49957",
+              "keyword": "燃气热水器",
+              "imageUrl": "jfs/t2413/71/2888991311/3318/456971ce/56fb3384Ne7c24615.jpg",
+              "url": "key=%E7%87%83%E6%B0%94%E7%83%AD%E6%B0%B4%E5%99%A8&as=0&PTAG=37110.3.37&projectId=117"
+            },
+            {
+              "keywordId": "49952",
+              "keyword": "燃气灶",
+              "imageUrl": "jfs/t2221/325/2821162026/4691/6f610487/56f90459N4807249a.jpg",
+              "url": "key=%E7%87%83%E6%B0%94%E7%81%B6&as=0&PTAG=37110.3.31&projectId=117"
+            },
+            {
+              "keywordId": "49953",
+              "keyword": "烟灶套装",
+              "imageUrl": "jfs/t2377/345/2925198621/5176/54c24022/56f9049dN6a7f6b61.jpg",
+              "url": "key=%E7%83%9F%E7%81%B6%E5%A5%97%E8%A3%85&as=0&PTAG=37110.3.32&projectId=117"
+            },
+            {
+              "keywordId": "49954",
+              "keyword": "消毒柜",
+              "imageUrl": "jfs/t2653/170/9186034/4889/bad82cbd/56fb3344N11fe671e.jpg",
+              "url": "key=%E6%B6%88%E6%AF%92%E6%9F%9C&as=0&PTAG=37110.3.33&projectId=117"
+            },
+            {
+              "keywordId": "49955",
+              "keyword": "嵌入式厨电",
+              "imageUrl": "jfs/t2824/312/663988897/4236/497ccc6e/5720604dNa9d7ccf4.jpg",
+              "url": "key=%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%83%A4%E7%AE%B1&as=0&PTAG=37110.3.35&projectId=117"
+            },
+            {
+              "keywordId": "50247",
+              "keyword": "洗碗机",
+              "imageUrl": "jfs/t2695/26/11887530/3250/bbcedd7c/56fb3a79N0c8c730b.jpg",
+              "url": "key=%E6%B4%97%E7%A2%97%E6%9C%BA&as=0&PTAG=37110.3.38&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "18705",
+          "keyword": "厨房家电",
+          "level2words": [
+            {
+              "keywordId": "18849",
+              "keyword": "电饭锅",
+              "imageUrl": "jfs/t2785/341/25001769/7474/39e9357b/56fb6e11N41864659.jpg",
+              "url": "key=%E7%94%B5%E9%A5%AD%E7%85%B2&as=0&PTAG=37110.3.21&projectId=117"
+            },
+            {
+              "keywordId": "18707",
+              "keyword": "电磁炉",
+              "imageUrl": "jfs/t2299/111/2256732071/8140/f5418610/56fb6e1dN2f571f2d.jpg",
+              "url": "key=%E7%94%B5%E7%A3%81%E7%82%89&as=0&PTAG=37110.3.22&projectId=117"
+            },
+            {
+              "keywordId": "18709",
+              "keyword": "电压力锅",
+              "imageUrl": "jfs/t2620/290/17280466/8725/86096421/56fb6e27N43cfd17f.jpg",
+              "url": "key=%E7%94%B5%E5%8E%8B%E5%8A%9B%E9%94%85&as=0&PTAG=37110.3.24&projectId=117"
+            },
+            {
+              "keywordId": "18710",
+              "keyword": "榨汁机",
+              "imageUrl": "jfs/t2722/25/19992614/6693/9df8c2d6/56fb6e2fN12c4ae35.jpg",
+              "url": "key=%E6%A6%A8%E6%B1%81%E6%9C%BA&as=0&PTAG=37110.3.25&projectId=117"
+            },
+            {
+              "keywordId": "18850",
+              "keyword": "豆浆机",
+              "imageUrl": "jfs/t1837/215/2913080377/5094/b3bfbc6e/56fb6e36N03c544cb.jpg",
+              "url": "key=%E8%B1%86%E6%B5%86%E6%9C%BA&as=0&PTAG=37110.3.26&projectId=117"
+            },
+            {
+              "keywordId": "18706",
+              "keyword": "微波炉",
+              "imageUrl": "jfs/t2641/259/17473532/5911/5480cd38/56fb7984Ncf497bf8.jpg",
+              "url": "key=%E5%BE%AE%E6%B3%A2%E7%82%89&as=0&PTAG=37110.3.23&projectId=117"
+            },
+            {
+              "keywordId": "18708",
+              "keyword": "电烤箱",
+              "imageUrl": "jfs/t2710/34/19696622/7818/9d1a81e9/56fb798eN10911acf.jpg",
+              "url": "key=%E7%94%B5%E7%83%A4%E7%AE%B1&as=0&PTAG=37110.3.27&projectId=117"
+            },
+            {
+              "keywordId": "21910",
+              "keyword": "电水壶/热水瓶",
+              "imageUrl": "jfs/t2233/268/2923459902/6538/e726c1c8/56fb7997N46f4a6d7.jpg",
+              "url": "key=%E7%94%B5%E6%B0%B4%E5%A3%B6&as=0&PTAG=37110.3.28&projectId=117"
+            },
+            {
+              "keywordId": "21911",
+              "keyword": "面包机",
+              "imageUrl": "jfs/t1996/195/2917308867/5830/ac09cf0c/56fb79a6Nd59a9d38.jpg",
+              "url": "key=%E9%9D%A2%E5%8C%85%E6%9C%BA&as=0&PTAG=37110.3.29&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "18855",
+          "keyword": "个护健康",
+          "level2words": [
+            {
+              "keywordId": "18856",
+              "keyword": "剃须刀",
+              "imageUrl": "jfs/t2689/25/15355597/5132/b821c4d0/56fb6e49Nf3e6e578.jpg",
+              "url": "key=%E5%89%83%E9%A1%BB%E5%88%80&as=0&PTAG=37110.3.61&projectId=117"
+            },
+            {
+              "keywordId": "21920",
+              "keyword": "健康秤/厨房秤",
+              "imageUrl": "jfs/t2143/158/2242259636/4039/d67812c6/56fb6e52Nb97db87d.jpg",
+              "url": "key=%E5%81%A5%E5%BA%B7%E7%A7%A4&as=0&PTAG=37110.3.68&projectId=117"
+            },
+            {
+              "keywordId": "18857",
+              "keyword": "电吹风",
+              "imageUrl": "jfs/t2131/280/2859832607/4361/a1155b98/56fb79b0N5000ee91.jpg",
+              "url": "key=%E7%94%B5%E5%90%B9%E9%A3%8E&as=0&PTAG=37110.3.62&projectId=117"
+            },
+            {
+              "keywordId": "18859",
+              "keyword": "按摩器",
+              "imageUrl": "jfs/t2176/252/2874130291/9034/a7bc08c4/56fb79bbNf98b17de.jpg",
+              "url": "key=%E6%8C%89%E6%91%A9%E5%99%A8&as=0&PTAG=37110.3.64&projectId=117"
+            },
+            {
+              "keywordId": "21918",
+              "keyword": "口腔护理",
+              "imageUrl": "jfs/t2236/54/2948453009/3587/6e22ba85/56fb79c5Nb732a70e.jpg",
+              "url": "key=%E5%8F%A3%E8%85%94%E6%8A%A4%E7%90%86&as=0&PTAG=37110.3.66&projectId=117"
+            },
+            {
+              "keywordId": "21919",
+              "keyword": "美发器",
+              "imageUrl": "jfs/t2203/56/2263780255/6888/2eec01b2/56fb79d1N63a3f348.jpg",
+              "url": "key=%E7%BE%8E%E5%8F%91%E5%99%A8&as=0&PTAG=37110.3.67&projectId=117"
+            },
+            {
+              "keywordId": "21917",
+              "keyword": "按摩椅",
+              "imageUrl": "jfs/t2866/251/16716261/9421/10ed9ee8/56fb79e2Nd1118b0f.jpg",
+              "url": "key=%E6%8C%89%E6%91%A9%E6%A4%85&as=0&PTAG=37110.3.65&projectId=117"
+            },
+            {
+              "keywordId": "21921",
+              "keyword": "足浴盆",
+              "imageUrl": "jfs/t2857/253/19999718/7853/add2d210/56fb79ecN6d2520dc.jpg",
+              "url": "key=%E8%B6%B3%E6%B5%B4%E7%9B%86&as=0&PTAG=37110.3.69&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "18851",
+          "keyword": "生活电器",
+          "level2words": [
+            {
+              "keywordId": "18853",
+              "keyword": "吸尘器",
+              "imageUrl": "jfs/t2770/232/13703880/8974/d24a9a6c/56fb7c16Nb94d53d1.jpg",
+              "url": "key=%E5%90%B8%E5%B0%98%E5%99%A8&as=0&PTAG=37110.3.42&projectId=117"
+            },
+            {
+              "keywordId": "18852",
+              "keyword": "电风扇",
+              "imageUrl": "jfs/t2080/164/2871220982/3625/57532d62/56fb7c63N70f50492.jpg",
+              "url": "key=%E7%94%B5%E9%A3%8E%E6%89%87&as=0&PTAG=37110.3.41&projectId=117"
+            },
+            {
+              "keywordId": "42511",
+              "keyword": "扫地机器人",
+              "imageUrl": "jfs/t1918/86/2226562532/8550/5a59c459/56fb7c27N248ce198.jpg",
+              "url": "key=%E6%89%AB%E5%9C%B0%E6%9C%BA%E5%99%A8%E4%BA%BA&as=0&PTAG=37110.3.52&projectId=117"
+            },
+            {
+              "keywordId": "18854",
+              "keyword": "加湿器",
+              "imageUrl": "jfs/t2089/45/2982254262/3859/eb96066b/56fb7c3eNcc2ef23f.jpg",
+              "url": "key=%E5%8A%A0%E6%B9%BF%E5%99%A8&as=0&PTAG=37110.3.44&projectId=117"
+            },
+            {
+              "keywordId": "19520",
+              "keyword": "挂烫机/熨斗",
+              "imageUrl": "jfs/t2632/18/16382251/7442/62a3d11a/56fb7c46N9fbc56f4.jpg",
+              "url": "key=%E6%8C%82%E7%83%AB%E6%9C%BA&as=0&PTAG=37110.3.43&projectId=117"
+            },
+            {
+              "keywordId": "19521",
+              "keyword": "饮水机",
+              "imageUrl": "jfs/t2272/134/2858109229/4575/fa81c69e/56fb7c53N06f57ed8.jpg",
+              "url": "key=%E9%A5%AE%E6%B0%B4%E6%9C%BA&as=0&PTAG=37110.3.45&projectId=117"
+            },
+            {
+              "keywordId": "21912",
+              "keyword": "净化器",
+              "imageUrl": "jfs/t2824/117/16244731/4947/2c87ec77/56fb7c5cN63c4ba29.jpg",
+              "url": "key=%E5%87%80%E5%8C%96%E5%99%A8&as=0&PTAG=37110.3.47&projectId=117"
+            },
+            {
+              "keywordId": "19522",
+              "keyword": "收录/音机",
+              "imageUrl": "jfs/t2446/233/2264433030/6101/c8b372d3/56fb7c70Nbf527fe7.jpg",
+              "url": "key=%E6%94%B6%E5%BD%95%E6%9C%BA&as=0&PTAG=37110.3.46&projectId=117"
+            },
+            {
+              "keywordId": "21916",
+              "keyword": "插座",
+              "imageUrl": "jfs/t2614/135/20566709/5060/6c5f7177/56fb7c77Na7ccd9e6.jpg",
+              "url": "key=%E6%8F%92%E5%BA%A7&as=0&PTAG=37110.3.51&projectId=117"
+            },
+            {
+              "keywordId": "21913",
+              "keyword": "取暖电器",
+              "imageUrl": "jfs/t2701/206/20842790/7213/e4a52d6a/56fb7c88Nfec102c5.jpg",
+              "url": "key=%E5%8F%96%E6%9A%96%E7%94%B5%E5%99%A8&as=0&PTAG=37110.3.48&projectId=117"
+            },
+            {
+              "keywordId": "21914",
+              "keyword": "除湿/干衣机",
+              "imageUrl": "jfs/t2323/261/2925229855/7357/3d48979e/56fb7522N2b9a44ef.jpg",
+              "url": "key=%E9%99%A4%E6%B9%BF&as=0&PTAG=37110.3.49&projectId=117"
+            },
+            {
+              "keywordId": "21915",
+              "keyword": "电话座机",
+              "imageUrl": "jfs/t1858/55/2261183360/7091/a5860109/56fb7c8fN1e4aabcf.jpg",
+              "url": "key=%E7%94%B5%E8%AF%9D%E5%BA%A7%E6%9C%BA&as=0&PTAG=37110.3.50&projectId=117"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "areaId": "756",
+      "areaName": "鞋靴箱包",
+      "level1words": [
+        {
+          "keywordId": "48872",
+          "keyword": "热门品类",
+          "level2words": [
+            {
+              "keywordId": "63043",
+              "keyword": "女士凉鞋",
+              "imageUrl": "jfs/t5782/6/1076741063/13959/f41bc4da/5923af26Nb4df9e8c.jpg",
+              "url": "key=%E5%A5%B3%E5%A3%AB%E5%87%89%E9%9E%8B&as=0&PTAG=37110.17.4&projectId=117"
+            },
+            {
+              "keywordId": "63044",
+              "keyword": "时尚凉拖",
+              "imageUrl": "jfs/t5209/161/2404722641/14207/9668ee7/591ab9b8Neff2ecc8.jpg",
+              "url": "key=%E6%97%B6%E5%B0%9A%E5%87%89%E6%8B%96&as=0&PTAG=37110.17.6&projectId=117"
+            },
+            {
+              "keywordId": "63060",
+              "keyword": "男士凉鞋",
+              "imageUrl": "jfs/t5143/177/2450683656/12181/9d93438/591aba30N971ebf9d.jpg",
+              "url": "key=%E7%94%B7%E5%A3%AB%E5%87%89%E9%9E%8B&as=0&PTAG=37110.17.1&projectId=117"
+            },
+            {
+              "keywordId": "48876",
+              "keyword": "休闲鞋",
+              "imageUrl": "jfs/t5707/58/1100192071/14949/51bb5fce/5923af2eN70366f98.jpg",
+              "url": "key=%E4%BC%91%E9%97%B2%E9%9E%8B%20%E7%94%B7&as=0&PTAG=37110.17.2&projectId=117"
+            },
+            {
+              "keywordId": "55404",
+              "keyword": "皮鞋",
+              "imageUrl": "jfs/t5338/145/2421523319/11366/6e5551aa/591aba43Nee00c50f.jpg",
+              "url": "key=%E7%9A%AE%E9%9E%8B%20%E7%94%B7&sf=12&as=0&PTAG=37110.17.3&projectId=117"
+            },
+            {
+              "keywordId": "62621",
+              "keyword": "自营鞋靴",
+              "imageUrl": "jfs/t5473/154/2377257003/11406/de8352d4/591aba6eNc64ade9d.jpg",
+              "url": "key=%E8%87%AA%E8%90%A5%E9%9E%8B%E9%9D%B4&as=0&PTAG=37110.17.5&projectId=117"
+            },
+            {
+              "keywordId": "53002",
+              "keyword": "潮流男包",
+              "imageUrl": "jfs/t4645/255/3535996007/13564/167435d3/5923af39N640d57b7.jpg",
+              "url": "key=%E6%BD%AE%E6%B5%81%E7%94%B7%E5%8C%85&as=0&PTAG=37110.5.2&projectId=117"
+            },
+            {
+              "keywordId": "63058",
+              "keyword": "新款女包",
+              "imageUrl": "jfs/t5545/110/2293776807/23311/70c56700/591a99acN12317688.jpg",
+              "url": "key=%E6%96%B0%E6%AC%BE%E5%A5%B3%E5%8C%85&as=0&PTAG=37110.5.1&projectId=117"
+            },
+            {
+              "keywordId": "63056",
+              "keyword": "拉杆箱",
+              "imageUrl": "jfs/t5479/68/2419572597/13021/ac57da97/591a98ffNb042a7f7.jpg",
+              "url": "key=%E6%8B%89%E6%9D%86%E7%AE%B1&as=0&PTAG=37110.5.3&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "23243",
+          "keyword": "男鞋品类",
+          "level2words": [
+            {
+              "keywordId": "50458",
+              "keyword": "运动休闲鞋",
+              "imageUrl": "jfs/t4024/304/1921991848/6659/fecd1b00/589c66b0Nec1946eb.jpg",
+              "url": "key=%E8%BF%90%E5%8A%A8%20%E4%BC%91%E9%97%B2%E7%94%B7%E9%9E%8B&as=0&PTAG=37110.17.42&projectId=117"
+            },
+            {
+              "keywordId": "61244",
+              "keyword": "正装鞋",
+              "imageUrl": "jfs/t5305/28/2413288827/9565/ae36386a/591abc3eNc9bc7879.jpg",
+              "url": "key=%E7%94%B7%E5%A3%AB%E6%AD%A3%E8%A3%85%E9%9E%8B&as=0&PTAG=37110.17.43&projectId=117"
+            },
+            {
+              "keywordId": "61245",
+              "keyword": "乐福鞋",
+              "imageUrl": "jfs/t5347/10/2426346542/12152/7b7e4f6e/591abc54N71f173d5.jpg",
+              "url": "key=%E7%94%B7%E5%A3%AB%E4%B9%90%E7%A6%8F%E9%9E%8B&as=0&PTAG=37110.17.44&projectId=117"
+            },
+            {
+              "keywordId": "51139",
+              "keyword": "板鞋",
+              "imageUrl": "jfs/t3964/323/1961357333/7169/44e64068/589c66c9N1c79fee2.jpg",
+              "url": "key=%E6%9D%BF%E9%9E%8B%20%E7%94%B7&sx=1&filt_type=catid,L6908M6908;&area_ids=19,1607,4773&sf=11&as=0&qp_disable=no&PTAG=37110.17.45&projectId=117"
+            },
+            {
+              "keywordId": "48511",
+              "keyword": "帆布鞋",
+              "imageUrl": "jfs/t5461/197/2420528697/11793/d0b57bb3/591abc84Na8cc6731.jpg",
+              "url": "key=%E5%B8%86%E5%B8%83%20%E7%94%B7%E9%9E%8B&sx=1&filt_type=catid,L9783M9783;&area_ids=19,1607,4773&sf=11&as=0&qp_disable=no&PTAG=37110.17.47&projectId=117"
+            },
+            {
+              "keywordId": "55563",
+              "keyword": "工装鞋",
+              "imageUrl": "jfs/t5170/167/2466970152/12640/6283f248/591abc69N762a47a5.jpg",
+              "url": "key=%E5%B7%A5%E8%A3%85%E9%9E%8B&filt_type=catid,L12067M12067;&area_ids=19,1607,4773&sf=12&as=0&qp_disable=no&sx=1&PTAG=37110.17.48&projectId=117"
+            },
+            {
+              "keywordId": "63041",
+              "keyword": "男士凉鞋",
+              "imageUrl": "jfs/t5107/218/1723468112/5242/50fcb31b/5913d0d9N7cbd1949.jpg",
+              "url": "key=%E7%94%B7%E5%A3%AB%E5%87%89%E9%9E%8B&as=0&PTAG=37110.17.49&projectId=117"
+            },
+            {
+              "keywordId": "63042",
+              "keyword": "男士凉拖",
+              "imageUrl": "jfs/t5230/12/1773970774/4261/7f4b4aa2/5913d147N152a7d22.jpg",
+              "url": "key=%E7%94%B7%E5%A3%AB%E5%87%89%E6%8B%96&as=0&PTAG=37110.17.46&projectId=117"
+            },
+            {
+              "keywordId": "63064",
+              "keyword": "男士增高鞋",
+              "imageUrl": "jfs/t5170/262/2434239232/11917/9a1df330/591abc2bNc124da46.jpg",
+              "url": "key=%E7%94%B7%E5%A3%AB%E5%A2%9E%E9%AB%98%E9%9E%8B&as=0&PTAG=37110.17.41&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "23242",
+          "keyword": "女鞋品类",
+          "level2words": [
+            {
+              "keywordId": "63040",
+              "keyword": "女士平底凉鞋",
+              "imageUrl": "jfs/t5386/151/1732798023/4576/86eb9dd0/5913d076Nf95b439e.jpg",
+              "url": "key=%E5%A5%B3%E5%A3%AB%E5%B9%B3%E5%BA%95%E5%87%89%E9%9E%8B&as=0&PTAG=37110.17.63&projectId=117"
+            },
+            {
+              "keywordId": "63039",
+              "keyword": "厚底凉鞋",
+              "imageUrl": "jfs/t5341/150/1719039482/6338/6abf12c9/5913d05aN212b57e4.jpg",
+              "url": "key=%E5%8E%9A%E5%BA%95%E5%87%89%E9%9E%8B&as=0&PTAG=37110.17.67&projectId=117"
+            },
+            {
+              "keywordId": "62913",
+              "keyword": "粗跟凉鞋",
+              "imageUrl": "jfs/t5197/299/1734723284/5510/dbfaafa5/5913cf87Nb59315fa.jpg",
+              "url": "key=%E7%B2%97%E8%B7%9F%E5%87%89%E9%9E%8B&as=0&PTAG=37110.17.69&projectId=117"
+            },
+            {
+              "keywordId": "61248",
+              "keyword": "深口鞋",
+              "imageUrl": "jfs/t5899/41/1047556329/14738/a83cab43/5923af54N6e23da0d.jpg",
+              "url": "key=%E6%B7%B1%E5%8F%A3%E9%9E%8B&as=0&PTAG=37110.17.62&projectId=117"
+            },
+            {
+              "keywordId": "61252",
+              "keyword": "小白鞋",
+              "imageUrl": "jfs/t5752/273/1084181241/10877/c979ff27/5923af4cN2ae107c3.jpg",
+              "url": "key=%E5%A5%B3%E5%A3%AB%E5%B0%8F%E7%99%BD%E9%9E%8B&as=0&PTAG=37110.17.66&projectId=117"
+            },
+            {
+              "keywordId": "61254",
+              "keyword": "乐福鞋",
+              "imageUrl": "jfs/t5461/77/2452948680/11366/9f9e453/591abb4cNd9de963b.jpg",
+              "url": "key=%E5%A5%B3%E5%A3%AB%E4%B9%90%E7%A6%8F%E9%9E%8B&as=0&PTAG=37110.17.68&projectId=117"
+            },
+            {
+              "keywordId": "63061",
+              "keyword": "帆布鞋",
+              "imageUrl": "jfs/t5233/55/2424684126/12626/96921595/591abb36Nfefd5b80.jpg",
+              "url": "key=%E5%B8%86%E5%B8%83%E9%9E%8B&as=0&PTAG=37110.17.65&projectId=117"
+            },
+            {
+              "keywordId": "63062",
+              "keyword": "渔夫鞋",
+              "imageUrl": "jfs/t5143/119/2456768954/12689/e89a7383/591abb86Nc7f947a8.jpg",
+              "url": "key=%E6%B8%94%E5%A4%AB%E9%9E%8B&as=0&PTAG=37110.17.64&projectId=117"
+            },
+            {
+              "keywordId": "63063",
+              "keyword": "穆勒鞋",
+              "imageUrl": "jfs/t5569/86/2462867201/8838/ef44de1f/591abbd2N7f0b90f5.jpg",
+              "url": "key=%E7%A9%86%E5%8B%92%E9%9E%8B&as=0&PTAG=37110.17.61&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "48838",
+          "keyword": "潮流女包",
+          "level2words": [
+            {
+              "keywordId": "48917",
+              "keyword": "单肩包",
+              "imageUrl": "jfs/t3496/270/1382670532/9805/a492eb13/58240963N54d2545a.jpg",
+              "url": "key=%E5%8D%95%E8%82%A9%E5%8C%85%20%E5%A5%B3%E5%8C%85&as=0&PTAG=37110.5.11&projectId=117"
+            },
+            {
+              "keywordId": "48918",
+              "keyword": "双肩包",
+              "imageUrl": "jfs/t3724/300/1379956530/13173/134fe4b5/58240972Nbbb8082b.jpg",
+              "url": "key=%E5%8F%8C%E8%82%A9%E5%8C%85%20%E5%A5%B3%E5%8C%85&as=0&PTAG=37110.5.12&projectId=117"
+            },
+            {
+              "keywordId": "48919",
+              "keyword": "手提包",
+              "imageUrl": "jfs/t3517/58/1353179681/11626/36ffdba5/582409adN0fdc25fc.jpg",
+              "url": "key=%E6%89%8B%E6%8F%90%E5%8C%85%20%E5%A5%B3&as=0&PTAG=37110.5.13&projectId=117"
+            },
+            {
+              "keywordId": "48920",
+              "keyword": "斜跨包",
+              "imageUrl": "jfs/t3718/193/1372627619/9796/f52606dc/582409b7N128f5fbe.jpg",
+              "url": "key=%E6%96%9C%E8%B7%A8%E5%A5%B3%E5%8C%85&as=0&PTAG=37110.5.14&projectId=117"
+            },
+            {
+              "keywordId": "48921",
+              "keyword": "贝壳包",
+              "imageUrl": "jfs/t3568/91/1358544578/13001/aef6aa7b/58240abdNd1e392b8.jpg",
+              "url": "key=%E8%B4%9D%E5%A3%B3%E5%8C%85%20%E5%A5%B3%E5%8C%85&as=0&PTAG=37110.5.15&projectId=117"
+            },
+            {
+              "keywordId": "48922",
+              "keyword": "菱格包",
+              "imageUrl": "jfs/t3541/133/1364971487/12579/d7c95bca/58240ac8N745f428e.jpg",
+              "url": "key=%E8%8F%B1%E6%A0%BC%E5%8C%85%E5%A5%B3%E5%8C%85&as=0&PTAG=37110.5.16&projectId=117"
+            },
+            {
+              "keywordId": "48923",
+              "keyword": "真皮包",
+              "imageUrl": "jfs/t3778/99/1347945244/14569/7d1de2/58240ad3Nfc0e1bcc.jpg",
+              "url": "key=%E7%9C%9F%E7%9A%AE%E5%A5%B3%E5%8C%85&as=0&PTAG=37110.5.17&projectId=117"
+            },
+            {
+              "keywordId": "48924",
+              "keyword": "帆布包",
+              "imageUrl": "jfs/t3667/210/1385619299/18453/cd41e637/58240adfNb340edee.jpg",
+              "url": "key=%E5%B8%86%E5%B8%83%E5%8C%85%20%E5%A5%B3&as=0&PTAG=37110.5.18&projectId=117"
+            },
+            {
+              "keywordId": "48925",
+              "keyword": "钱包",
+              "imageUrl": "jfs/t3679/244/1326677263/12445/30da4e94/58240ae7Ncf6e424a.jpg",
+              "url": "key=%E9%92%B1%E5%8C%85%20%E5%A5%B3&as=0&PTAG=37110.5.19&projectId=117"
+            },
+            {
+              "keywordId": "48926",
+              "keyword": "小方包",
+              "imageUrl": "jfs/t5569/63/2410211263/4607/17b822e4/591a9a82Ne2c1e395.jpg",
+              "url": "key=%E5%B0%8F%E6%96%B9%E5%8C%85%E5%A5%B3%E5%8C%85&as=0&PTAG=37110.5.20&projectId=117"
+            },
+            {
+              "keywordId": "48927",
+              "keyword": "迷你包",
+              "imageUrl": "jfs/t3346/214/1350479343/16502/f9f1dcd3/58240afeN93f3f6d5.jpg",
+              "url": "key=%E8%BF%B7%E4%BD%A0%E5%8C%85%E5%A5%B3%E5%8C%85&as=0&PTAG=37110.5.21&projectId=117"
+            },
+            {
+              "keywordId": "48928",
+              "keyword": "子母包",
+              "imageUrl": "jfs/t3310/148/1409817733/12850/1b3e6e18/5825430eNd8eb0eec.jpg",
+              "url": "key=%E5%AD%90%E6%AF%8D%E5%8C%85%20%E5%A5%B3&as=0&PTAG=37110.5.22&projectId=117"
+            },
+            {
+              "keywordId": "59257",
+              "keyword": "水桶包",
+              "imageUrl": "jfs/t3586/309/1389429386/16626/7108d9f8/58240b11N70d504ce.jpg",
+              "url": "key=%E6%B0%B4%E6%A1%B6%E5%8C%85%20%E5%A5%B3%E5%8C%85&as=0&PTAG=37110.5.23&projectId=117"
+            },
+            {
+              "keywordId": "59258",
+              "keyword": "链条包",
+              "imageUrl": "jfs/t5452/79/2413426683/2779/16a2e1d6/591a9afbNfdfc5b01.jpg",
+              "url": "key=%E9%93%BE%E6%9D%A1%E5%8C%85%20%E5%A5%B3%E5%8C%85&as=0&PTAG=37110.5.24&projectId=117"
+            },
+            {
+              "keywordId": "59259",
+              "keyword": "印花包",
+              "imageUrl": "jfs/t3412/302/1327913973/22339/4d22eed3/58240b28N098c8726.jpg",
+              "url": "key=%E5%8D%B0%E8%8A%B1%E5%8C%85&as=0&PTAG=37110.5.25&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "48851",
+          "keyword": "精品男包",
+          "level2words": [
+            {
+              "keywordId": "60701",
+              "keyword": "男士钱包",
+              "imageUrl": "jfs/t3277/247/5480058760/11325/a0ebd07f/5872eedbN30f6098c.jpg",
+              "url": "key=%E7%94%B7%E5%A3%AB%E9%92%B1%E5%8C%85&as=0&PTAG=37110.5.31&projectId=117"
+            },
+            {
+              "keywordId": "60702",
+              "keyword": "男士手包",
+              "imageUrl": "jfs/t3130/99/5607448111/7033/919c9948/5872eee3Na0333d41.jpg",
+              "url": "key=%E7%94%B7%E5%A3%AB%E6%89%8B%E5%8C%85&as=0&PTAG=37110.5.32&projectId=117"
+            },
+            {
+              "keywordId": "60703",
+              "keyword": "单肩斜挎包",
+              "imageUrl": "jfs/t3808/27/3059703372/7819/dcf27de6/5872eeefN13267aa5.jpg",
+              "url": "key=%E5%8D%95%E8%82%A9%E6%96%9C%E6%8C%8E%E5%8C%85%E7%94%B7&as=0&PTAG=37110.5.33&projectId=117"
+            },
+            {
+              "keywordId": "60704",
+              "keyword": "双肩包",
+              "imageUrl": "jfs/t4033/359/1346745190/8116/19d0e21f/5872efa5N57c76e75.jpg",
+              "url": "key=%E5%8F%8C%E8%82%A9%E5%8C%85%20%E7%94%B7%20%E7%9A%AE&as=0&PTAG=37110.5.34&projectId=117"
+            },
+            {
+              "keywordId": "60705",
+              "keyword": "公文包",
+              "imageUrl": "jfs/t4036/365/1358663605/8246/bec6d54c/5872efb4Nf9dd0e56.jpg",
+              "url": "key=%E5%85%AC%E6%96%87%E5%8C%85&as=0&PTAG=37110.5.35&projectId=117"
+            },
+            {
+              "keywordId": "60706",
+              "keyword": "男士腰带",
+              "imageUrl": "jfs/t3844/75/2984700533/7993/7d472229/5872efbdN5328a51c.jpg",
+              "url": "key=%E7%94%B7%E5%A3%AB%E8%85%B0%E5%B8%A6&as=0&PTAG=37110.5.36&projectId=117"
+            },
+            {
+              "keywordId": "60707",
+              "keyword": "帆布腰带",
+              "imageUrl": "jfs/t3229/77/5536785898/9586/fa71b442/5872efc6N078e4c73.jpg",
+              "url": "key=%E5%B8%86%E5%B8%83%E8%85%B0%E5%B8%A6%20%E7%94%B7&as=0&PTAG=37110.5.37&projectId=117"
+            },
+            {
+              "keywordId": "60708",
+              "keyword": "皮具礼盒",
+              "imageUrl": "jfs/t3184/65/5443103543/10570/49d438d4/5872efcfN7f87acbb.jpg",
+              "url": "key=%E7%9A%AE%E5%85%B7%E7%A4%BC%E7%9B%92&as=0&PTAG=37110.5.38&projectId=117"
+            },
+            {
+              "keywordId": "60709",
+              "keyword": "信封包",
+              "imageUrl": "jfs/t3928/83/1283464736/10187/fa7f9c59/5872efdfN28dc63a8.jpg",
+              "url": "key=%E4%BF%A1%E5%B0%81%E5%8C%85&as=0&PTAG=37110.5.39&projectId=117"
+            },
+            {
+              "keywordId": "60710",
+              "keyword": "邮差包",
+              "imageUrl": "jfs/t3196/243/5491154235/8558/e36f67de/5872efeaNa5c1b417.jpg",
+              "url": "key=%E9%82%AE%E5%B7%AE%E5%8C%85&as=0&PTAG=37110.5.40&projectId=117"
+            },
+            {
+              "keywordId": "60711",
+              "keyword": "帆布包",
+              "imageUrl": "jfs/t3223/282/5531017335/8856/bb8400c1/5872eff2N368cf2c5.jpg",
+              "url": "key=%E5%B8%86%E5%B8%83%E5%8C%85&as=0&PTAG=37110.5.41&projectId=117"
+            },
+            {
+              "keywordId": "60712",
+              "keyword": "休闲包",
+              "imageUrl": "jfs/t4000/63/1318394723/7095/cf889863/5872effeN5666fe2e.jpg",
+              "url": "key=%E6%89%8B%E6%8F%90%E5%8C%85%20%E4%BC%91%E9%97%B2%20%E7%94%B7%E5%A3%AB&as=0&PTAG=37110.5.42&projectId=117"
+            },
+            {
+              "keywordId": "60713",
+              "keyword": "手提包",
+              "imageUrl": "jfs/t3052/20/5532840576/7800/45bdb51a/5872f00cN555f07e8.jpg",
+              "url": "key=%E7%94%B7%E5%A3%AB%E5%8D%95%E8%82%A9%E5%8C%85%E4%BC%91%E9%97%B2&as=0&PTAG=37110.5.43&projectId=117"
+            },
+            {
+              "keywordId": "60714",
+              "keyword": "男士胸包",
+              "imageUrl": "jfs/t3862/144/1261971439/7814/e2be6a5b/5872f015Nbff812d1.jpg",
+              "url": "key=%E7%94%B7%E5%A3%AB%E8%83%B8%E5%8C%85%20%E7%9A%AE&as=0&PTAG=37110.5.44&projectId=117"
+            },
+            {
+              "keywordId": "60715",
+              "keyword": "男士腰包",
+              "imageUrl": "jfs/t3868/324/1272329074/6289/66350ad4/5872f01fN1de0ffba.jpg",
+              "url": "key=%E7%94%B7%E5%A3%AB%E8%85%B0%E5%8C%85%20%E7%9A%AE&as=0&PTAG=37110.5.45&projectId=117"
+            },
+            {
+              "keywordId": "60716",
+              "keyword": "证件包",
+              "imageUrl": "jfs/t3928/169/1311475437/9376/e9d67a86/5872f02eN7132c0bc.jpg",
+              "url": "key=%E8%AF%81%E4%BB%B6%E5%8C%85&as=0&PTAG=37110.5.46&projectId=117"
+            },
+            {
+              "keywordId": "60717",
+              "keyword": "卡包名片夹",
+              "imageUrl": "jfs/t4039/109/1337712928/6289/b8cf5265/5872f035N9644417b.jpg",
+              "url": "key=%E5%8D%A1%E5%8C%85%E5%90%8D%E7%89%87%E5%A4%B9&as=0&PTAG=37110.5.47&projectId=117"
+            },
+            {
+              "keywordId": "60718",
+              "keyword": "钥匙包",
+              "imageUrl": "jfs/t3811/169/3018570537/6352/67c6680b/5872f03fN11f8fab3.jpg",
+              "url": "key=%E9%92%A5%E5%8C%99%E5%8C%85&as=0&PTAG=37110.5.48&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "48861",
+          "keyword": "功能箱包",
+          "level2words": [
+            {
+              "keywordId": "61301",
+              "keyword": "铝框拉杆箱",
+              "imageUrl": "jfs/t3901/239/1933037439/6672/a63f1bb5/589da282N5dadf118.jpg",
+              "url": "key=%E9%93%9D%E6%A1%86%E6%8B%89%E6%9D%86%E7%AE%B1&as=0&PTAG=37110.5.61&projectId=117"
+            },
+            {
+              "keywordId": "61302",
+              "keyword": "软箱/布箱",
+              "imageUrl": "jfs/t3868/81/1942767163/9333/5047a4d5/589da28aN23f7b4db.jpg",
+              "url": "key=%E6%8B%89%E6%9D%86%E7%AE%B1%E5%B8%83%E7%AE%B1&as=0&PTAG=37110.5.62&projectId=117"
+            },
+            {
+              "keywordId": "61303",
+              "keyword": "登机箱",
+              "imageUrl": "jfs/t3253/265/6148243000/2961/63892539/589da293Ndfe44d47.jpg",
+              "url": "key=%E7%99%BB%E6%9C%BA%E7%AE%B120%E5%AF%B8&as=0&PTAG=37110.5.63&projectId=117"
+            },
+            {
+              "keywordId": "61304",
+              "keyword": "休闲包",
+              "imageUrl": "jfs/t3094/181/6205887033/4115/82d047bf/589da2a3Neddfcbd2.jpg",
+              "url": "key=%E6%97%85%E8%A1%8C%E5%8C%85%20%E8%BF%90%E5%8A%A8%E5%8C%85&as=0&PTAG=37110.5.64&projectId=117"
+            },
+            {
+              "keywordId": "61305",
+              "keyword": "学生书包",
+              "imageUrl": "jfs/t5137/165/2418237225/5386/7cbea3ec/591a9cf2Nf41462c9.jpg",
+              "url": "key=%E5%AD%A6%E7%94%9F%E4%B9%A6%E5%8C%85&as=0&PTAG=37110.5.65&projectId=117"
+            },
+            {
+              "keywordId": "61306",
+              "keyword": "胸包/腰包",
+              "imageUrl": "jfs/t3199/291/6059914568/6771/1edae4dd/589da2b3N2da8ce54.jpg",
+              "url": "key=%E8%83%B8%E5%8C%85%2F%E8%85%B0%E5%8C%85&as=0&PTAG=37110.5.66&projectId=117"
+            },
+            {
+              "keywordId": "61307",
+              "keyword": "儿童拉杆箱",
+              "imageUrl": "jfs/t3895/303/1985312576/9545/898dd736/589da2beN1372d476.jpg",
+              "url": "key=%E6%8B%89%E6%9D%86%E7%AE%B1%20%E5%84%BF%E7%AB%A5&as=0&PTAG=37110.5.67&projectId=117"
+            },
+            {
+              "keywordId": "61308",
+              "keyword": "双肩电脑包",
+              "imageUrl": "jfs/t3301/40/6171434510/4816/b06e7120/589da2c6N60cbb517.jpg",
+              "url": "key=%E5%8F%8C%E8%82%A9%E7%94%B5%E8%84%91%E5%8C%85&as=0&PTAG=37110.5.68&projectId=117"
+            },
+            {
+              "keywordId": "61309",
+              "keyword": "手提电脑包",
+              "imageUrl": "jfs/t3982/288/2008929875/8815/66e7dc36/589da2ceNdb3e2a0a.jpg",
+              "url": "key=%E6%89%8B%E6%8F%90%E7%94%B5%E8%84%91%E5%8C%85&as=0&PTAG=37110.5.69&projectId=117"
+            }
+          ]
+        },
+        {
+          "keywordId": "39776",
+          "keyword": "热门品牌",
+          "level2words": [
+            {
+              "keywordId": "61259",
+              "keyword": "ECCO",
+              "imageUrl": "jfs/t3859/357/1915090205/8801/b27f3240/589c6e5aNbdbd5122.png",
+              "url": "key=ECCO%20&as=0&PTAG=37110.17.101&projectId=117"
+            },
+            {
+              "keywordId": "61260",
+              "keyword": "Skechers",
+              "imageUrl": "jfs/t3877/272/1859149288/9884/701ded9e/589c6e67N2c5d3806.jpg",
+              "url": "key=Skechers%E6%97%97%E8%88%B0%E5%BA%97&as=0&PTAG=37110.17.102&projectId=117"
+            },
+            {
+              "keywordId": "61261",
+              "keyword": "莱尔斯丹",
+              "imageUrl": "jfs/t3205/24/6126262162/6750/4c68e3a8/589c6e72N35de9127.jpg",
+              "url": "key=%E8%8E%B1%E5%B0%94%E6%96%AF%E4%B8%B9&as=0&PTAG=37110.17.103&projectId=117"
+            },
+            {
+              "keywordId": "39783",
+              "keyword": "骆驼",
+              "imageUrl": "jfs/t3286/39/6347839402/9071/9b235380/589c6e86Nc0282ecc.jpg",
+              "url": "key=%E9%AA%86%E9%A9%BC%E6%9C%8D%E9%A5%B0%E6%97%97%E8%88%B0%E5%BA%97&as=0&PTAG=37110.17.104&projectId=117"
+            },
+            {
+              "keywordId": "41471",
+              "keyword": "意尔康",
+              "imageUrl": "jfs/t3124/337/6046645737/9024/bea04f15/589c6e94Nf2d7e49b.jpg",
+              "url": "key=%E6%84%8F%E5%B0%94%E5%BA%B7%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97&as=0&PTAG=37110.17.105&projectId=117"
+            },
+            {
+              "keywordId": "39788",
+              "keyword": "奥康",
+              "imageUrl": "jfs/t3241/35/6123313836/8946/a5cdf7fe/589c6ea0Nf02d7da7.jpg",
+              "url": "key=%E5%A5%A5%E5%BA%B7%E9%9E%8B%E4%B8%9A%E6%97%97%E8%88%B0%E5%BA%97&as=0&PTAG=37110.17.106&projectId=117"
+            },
+            {
+              "keywordId": "39777",
+              "keyword": "百丽",
+              "imageUrl": "jfs/t3211/85/6120404411/9365/a0665584/589c6eadN4d6ae312.jpg",
+              "url": "key=%E7%99%BE%E4%B8%BD%E9%9B%86%E5%9B%A2%E9%9E%8B%E9%9D%B4%E6%97%97%E8%88%B0%E5%BA%97&as=0&PTAG=37110.17.107&projectId=117"
+            },
+            {
+              "keywordId": "50195",
+              "keyword": "达芙妮",
+              "imageUrl": "jfs/t3139/136/6174858854/8980/9529675e/589c6ec8N788d9804.jpg",
+              "url": "key=%E8%BE%BE%E8%8A%99%E5%A6%AE%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97&as=0&PTAG=37110.17.108&projectId=117"
+            },
+            {
+              "keywordId": "50196",
+              "keyword": "大东",
+              "imageUrl": "jfs/t3949/136/1852181497/9756/5a111f3a/589c6ed3N0a98f1df.jpg",
+              "url": "key=%E5%A4%A7%E4%B8%9C%E5%93%81%E7%89%8C%E5%A5%B3%E9%9E%8B&as=0&PTAG=37110.17.109&projectId=117"
+            },
+            {
+              "keywordId": "61416",
+              "keyword": "爱华仕",
+              "imageUrl": "jfs/t3142/160/6365928693/13375/d2b7493a/58a3f0a8N721b8066.jpg",
+              "url": "key=%E7%88%B1%E5%8D%8E%E4%BB%95&as=0&PTAG=37110.5.21&projectId=117"
+            },
+            {
+              "keywordId": "48936",
+              "keyword": "七匹狼",
+              "imageUrl": "jfs/t1879/207/2340973641/8463/45bc4ea8/56cadc55N85d6d235.jpg",
+              "url": "key=%E4%B8%83%E5%8C%B9%E7%8B%BC&as=0&PTAG=37110.5.22&projectId=117"
+            },
+            {
+              "keywordId": "61417",
+              "keyword": "新秀丽",
+              "imageUrl": "jfs/t4072/116/2154448163/11281/4f0cd7d9/58a3f0b4N814dcb7c.jpg",
+              "url": "key=%E6%96%B0%E7%A7%80%E4%B8%BD&as=0&PTAG=37110.5.23&projectId=117"
+            },
+            {
+              "keywordId": "48938",
+              "keyword": "金利来",
+              "imageUrl": "jfs/t2260/295/2378857315/7330/e7ee9e96/56cadc66N75be0a70.jpg",
+              "url": "key=%E9%87%91%E5%88%A9%E6%9D%A5%E7%94%B7%E5%8C%85&as=0&PTAG=37110.5.24&projectId=117"
+            },
+            {
+              "keywordId": "48939",
+              "keyword": "ONLY",
+              "imageUrl": "jfs/t2425/49/2271165319/4808/52796b51/56cadc6dN04f36867.jpg",
+              "url": "key=ONLY%E5%A5%B3%E5%8C%85&as=0&PTAG=37110.5.25&projectId=117"
+            },
+            {
+              "keywordId": "48941",
+              "keyword": "金狐狸",
+              "imageUrl": "jfs/t2515/204/1469443171/17307/267b71c/56cadc7fN6398ea13.jpg",
+              "url": "key=%E9%87%91%E7%8B%90%E7%8B%B8%E5%A5%B3%E5%8C%85&as=0&PTAG=37110.5.27&projectId=117"
+            },
+            {
+              "keywordId": "48940",
+              "keyword": "FION",
+              "imageUrl": "jfs/t1870/116/1597913761/23070/32ae6ee3/56cadc76N83d9f288.jpg",
+              "url": "key=FION%E8%8F%B2%E5%AE%89%E5%A6%AE%E5%A5%B3%E5%8C%85&as=0&PTAG=37110.5.26&projectId=117"
+            },
+            {
+              "keywordId": "48942",
+              "keyword": "Charles&Keith",
+              "imageUrl": "jfs/t2221/73/2188806163/3139/306f81e2/56cadc86N28ccb9b3.jpg",
+              "url": "key=Charles%26Keith%E5%A5%B3%E5%8C%85&as=0&PTAG=37110.5.28&projectId=117"
+            },
+            {
+              "keywordId": "48943",
+              "keyword": "老人头",
+              "imageUrl": "jfs/t2116/25/2361774289/7891/254ded6/56cadc94N6554f41f.jpg",
+              "url": "key=%E8%80%81%E4%BA%BA%E5%A4%B4%E5%A5%B3%E5%8C%85&as=0&PTAG=37110.5.29&projectId=117"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "areaId": "1923",
+      "areaName": "拍卖",
+      "level1words": [
+        {
+          "keywordId": "62903",
+          "keyword": "珍品拍卖",
+          "level2words": [
+
+          ]
+        },
+        {
+          "keywordId": "64111",
+          "keyword": "司法拍卖",
+          "level2words": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}
+

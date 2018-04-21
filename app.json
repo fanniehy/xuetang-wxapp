@@ -1,0 +1,56 @@
+{
+    "pages": [
+        "pages/index",
+        "pages/webview/webview",
+        "pages/Play/play",
+        "pages/my/my",
+        "pages/choice/choice",
+        "pages/search/search",
+        "pages/mv/mv",
+        "pages/content/content",
+        "pages/buy/buy",
+        "pages/list/list",
+        "pages/cate/cate",
+        "pages/report/report",
+        "pages/live/live",
+        "pages/trump/trump"
+    ],
+    "window": {
+        "navigationBarBackgroundColor":"#f06000",
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "矿冶园",
+        "backgroundColor": "#fff",
+        "backgroundTextStyle": "#dark"
+    },
+    "tabBar": {
+        "color": "#74777e",
+        "selectedColor": "#f06000",
+        "borderStyle": "black",
+        "backgroundColor": "#fff",
+    "list": [{
+        "pagePath": "pages/index",
+        "iconPath": "image/homepage.png",
+        "selectedIconPath": "image/homepage1.png",
+        "text": "学堂"
+    },
+        {
+        "pagePath": "pages/live/live",
+        "iconPath": "image/live.png",
+        "selectedIconPath": "image/live1.png",
+        "text": "精选"
+    },
+    {
+      "pagePath": "pages/my/my",
+      "iconPath": "image/people.png",
+      "selectedIconPath": "image/people1.png",
+      "text": "我的"
+    }]
+    },
+    "networkTimeout": {
+        "request": 10000,
+        "connectSocket": 10000,
+        "uploadFile": 10000,
+        "downloadFile": 10000
+    },
+    "debug": true
+}

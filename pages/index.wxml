@@ -1,0 +1,104 @@
+<import src="../common/template.wxml" />
+
+<view class="index">
+
+  <template is="loadings" data="{{loading,loadtxt}}" />
+
+  <view class="search_bar">
+    <navigator url="search/search">
+      <view class="main_search">
+        <icon type="search" size="16" color="#ccc" />
+        <text>搜索课程、资讯</text>
+      </view>
+    </navigator>
+  </view>
+  <view class="banner-scroll">
+    <swiper autoplay="true" class="Bannerswiper">
+      <block wx:for="{{banners}}" wx:key="videoId">
+        <swiper-item>
+          <view class="swiper-item">
+            <navigator url="{{item.webUrl}}">
+              <view class="pic">
+                <image src="{{item.picUrl}}" mode="aspectFit" class="slide-image" />
+              </view>
+              <view class="title">
+                <text>{{item.name}}</text>
+              </view>
+            </navigator>
+          </view>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <view class="roundAvatorText {{AvatorText.length?'show':'hide'}}">
+    <block wx:for="{{AvatorText}}" wx:key="name">
+      <navigator url="{{item.webUrl}}" class="roundList">
+        <view>
+          <image src="{{item.picUrl}}" />
+          <text>{{item.name}}</text>
+        </view>
+      </navigator>
+    </block>
+  </view>
+
+  <view class="textRollLink {{RollLink.length?'show':'hide'}}">
+    <swiper class="Rollswiper" vertical="true">
+      <block wx:for="{{RollLink}}" wx:key="videoId">
+        <swiper-item>
+          <navigator url="{{item.webUrl}}">
+            <view class="swiper-item">
+              <image src="{{item.picUrl}}" mode="aspectFit" class="RollImage" />
+              <text class="Rolltxt">{{item.name}}</text>
+            </view>
+          </navigator>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <view style="margin: 10px 8px 0">
+    <view class="listTitle">
+      <text>矿冶直播</text>
+    </view>
+
+  </view>
+
+  <form catchsubmit="formSubmit" catchreset="formReset" report-submit="true">
+    <view>
+      <block>
+        <template is="indexlive" data="{{live}}" />
+      </block>
+    </view>
+  </form>
+
+  <view style="margin: 10px 8px 0">
+    <view class="listTitle">
+      <text>名家讲堂</text>
+    </view>
+
+  </view>
+
+  <view class='voice_box'>    
+    <view class='progress_box'>
+      <canvas class="progress_bg" canvas-id="canvasProgressbg"> </canvas>
+      <canvas class="progress_canvas" canvas-id="canvasProgress"> </canvas>
+      <image wx:if='{{voiceFlag}}' src='./../image/voice-{{status}}.png' bindtap="start"></image>
+      <image wx:else src='./../image/voice-{{status}}.png' bindtap="pause"></image>
+
+    </view>
+    <view class='navi_url'>
+    <view class='navText_box'>
+      <text bindtap='naviTo' class='navigetor_content'>{{navigetor_content}}</text>
+      <text bindtap='naviTo' class='navigetor_from'>{{navigetor_from}}</text>
+    </view>
+      
+      <progress percent='{{precent}}' color='#4077D6' bindtap='changeProgress' stroke-width="4" id='progress'></progress>
+    </view>
+  </view>
+  <template is="prof" data="{{prof}}" />
+
+
+  <template is="ub-list" data="{{newList}}" />
+
+</view>

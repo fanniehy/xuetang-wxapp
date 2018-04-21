@@ -1,0 +1,241 @@
+<!-- loading 和列表部分  -->
+
+<template name="loadings">
+  <view class="tips {{loading ? 'hide': ''}}">
+    <image src="../image/loading.gif" mode="aspectFit" />
+    <text>{{loadtxt}}...</text>
+  </view>
+  <loading hidden="{{loading}}">
+    {{loadtxt}}...
+  </loading>
+</template>
+
+
+<template name="ub-list">
+  <template is="{{item.type=='small'?'listSmall':'listBig'}}" data="{{item}}" wx:for="{{newList}}" wx:key="indexs" />
+</template>
+
+<template name="listBig">
+  <view class="listBigNews">
+    <view class="listTitle">
+      <text>{{item.name1}}</text>
+    </view>
+
+     <navigator url="{{item.webUrl}}">
+                <view class="listBox">
+                    <image src="{{item.bigPic}}" mode="aspectFill" />
+                    <!-- <text class="listText">{{item.name2}}</text> -->
+                </view>
+            </navigator> 
+
+
+  </view>
+
+  <template is="listSmall" data="{{item}}" />
+</template>
+
+
+<template name="listSmall">
+  <view class="listNews">
+    <view class="listTitle {{item.type=='small'?'show':'hide'}}">
+      <view class="listText">
+        <text class="text">{{item.title}}</text>
+      </view>
+      <text class="more {{item.more?'show':'hide'}}">更多></text>
+    </view>
+    <view class="list-flex">
+      <block wx:for="{{item.list}}" wx:key="webUrl">
+        <view class="listBox">
+          <navigator url="{{item.webUrl}}">
+            <view class="boxPic">
+              <image src="{{item.picUrl}}" mode="aspectFill" />
+              <image src="{{item.icon}}" class="icon {{item.icon ? 'show' : 'hide'}}" />
+              <view class="time {{item.tag?'show':'hide'}}">
+                {{item.tag}}
+              </view>
+            </view>
+            <view class="boxTitle1">
+              <text>{{item.name}}</text>
+            </view>
+            <view class="boxTitle2">
+              <text>{{item.desc}}</text>
+            </view>
+          </navigator>
+        </view>
+      </block>
+    </view>
+    <navigator url="{{item.webUrl}}">
+      <view class="textLink {{item.links?'show':'hide'}}">
+        <text>{{item.links}}</text>
+        <image src="/image/icon1.png" class="linkPic" />
+      </view>
+    </navigator>
+  </view>
+</template>
+
+<template name="searchTxt">
+  <view>
+    <block wx:for="{{ranking}}" wx:key="section">
+      <view class="search-rank">
+        <view class="cont">
+          <navigator url="{{item.webUrl}}">
+            <view class="fl leside">
+              <image src="{{item.image}}" />
+            </view>
+          </navigator>
+          <view class="fl riside">
+            <navigator url="{{item.webUrl}}">
+              <view class="riside-l {{ index == (3) ? 'mb0':'' }}">
+                <view class="l-mess">
+                  <text class="messText1">{{item.title}}</text>
+                  <text class="messText2">作者：{{item.author}}</text>
+                  <text class="messText2">播放次数：{{item.viewCount}}</text>
+                </view>
+              </view>
+            </navigator>
+          </view>
+        </view>
+      </view>
+    </block>
+  </view>
+</template>
+
+<template name="unstart">
+  <view>
+    <block wx:for="{{unstart}}" wx:key="section">
+      <view class="search-rank">
+        <view class="cont">
+          <navigator url="{{item.webUrl}}">
+            <view class="fl leside">
+              <image src="{{item.image}}" />
+            </view>
+          </navigator>
+          <view class="fl riside">
+            <navigator url="{{item.webUrl}}">
+              <view class="riside-l {{ index == (3) ? 'mb0':'' }}">
+                <view class="l-mess">
+                  <text class="messText1">{{item.title}}</text>
+                  <text class="messText2">{{item.desc}}</text>
+
+                  <button type="primary" formType="submit" style="height: 50rpx;font-size: 11px;" data-cid="{{item.cid}}"> {{item.buttonText}} </button>
+                  <!--<text class="messText2">播放次数：{{item.viewCount}}</text>-->
+                </view>
+              </view>
+            </navigator>
+          </view>
+        </view>
+      </view>
+    </block>
+  </view>
+</template>
+
+<template name="live">
+  <view>
+    <block wx:for="{{live}}" wx:key="section">
+      <view class="search-rank">
+        <view class="cont">
+          <navigator url="{{item.webUrl}}">
+            <view class="fl leside">
+              <image src="{{item.image}}" />
+            </view>
+          </navigator>
+          <view class="fl riside">
+            <navigator url="{{item.webUrl}}">
+              <view class="riside-l {{ index == (3) ? 'mb0':'' }}">
+                <view class="l-mess">
+                  <text class="messText1">{{item.title}}</text>
+                  <text class="messText2">{{item.desc}}</text>
+                  <button type="primary" style="height: 50rpx;font-size: 11px;/*margin-top: 5px*/;"> 立即观看 </button>
+                </view>
+              </view>
+            </navigator>
+          </view>
+        </view>
+      </view>
+    </block>
+  </view>
+</template>
+
+<template name="after">
+  <view>
+    <block wx:for="{{after}}" wx:key="section">
+      <view class="search-rank">
+        <view class="cont">
+          <navigator url="{{item.webUrl}}">
+            <view class="fl leside">
+              <image src="{{item.image}}" />
+            </view>
+          </navigator>
+          <view class="fl riside">
+            <navigator url="{{item.webUrl}}">
+              <view class="riside-l {{ index == (3) ? 'mb0':'' }}">
+                <view class="l-mess">
+                  <text class="messText1">{{item.title}}</text>
+                  <text class="messText2">{{item.desc}}</text>
+                  <text class="messText2">播放次数：{{item.viewCount}}</text>
+                </view>
+              </view>
+            </navigator>
+          </view>
+        </view>
+      </view>
+    </block>
+  </view>
+</template>
+<template name="indexlive">
+  <view>
+    <block wx:for="{{live}}" wx:key="section">
+      <view class="search-rank">
+        <view class="cont">
+          <navigator url="{{item.webUrl}}">
+            <view class="fl leside">
+              <image src="{{item.picUrl}}" />
+            </view>
+          </navigator>
+          <view class="fl riside">
+            <navigator url="{{item.webUrl}}">
+              <view class="riside-l {{ index == (3) ? 'mb0':'' }}">
+                <view class="l-mess">
+                  <text class="messText1" style="font-size: 15px;">{{item.name}}</text>
+                  <text class="messText2">{{item.desc}}</text>
+                  <block wx:if="{{item.living}}">
+                    <button type="primary" style="height: 50rpx;font-size: 11px;"> {{item.buttonText}} </button>
+                  </block>
+                  <block wx:if="{{!item.living}}">
+                    <button type="primary" formType="submit" style="height: 50rpx;font-size: 11px;" catchtap="liveTap" data-cid="{{item.cid}}" data-url="{{item.webUrl}}"> {{item.buttonText}} </button>
+                  </block>
+                </view>
+              </view>
+            </navigator>
+          </view>
+        </view>
+      </view>
+    </block>
+  </view>
+</template>
+<template name="prof">
+  <view>
+    <block wx:for="{{prof}}" wx:key="section">
+      <view class="search-rank">
+        <view class="cont">
+          <navigator url="{{item.webUrl}}">
+            <view class="fl leside">
+              <image src="{{item.image}}" />
+            </view>
+          </navigator>
+          <view class="fl riside">
+            <navigator url="{{item.webUrl}}">
+              <view class="riside-l {{ index == (3) ? 'mb0':'' }}">
+                <view class="l-mess">
+                  <text class="messText1" style="font-size: 15px;">{{item.title}}</text>
+                  <text class="messText2">{{item.desc}}</text>
+                  <text class="messText2">播放次数：{{item.viewCount}}</text>
+                </view>
+              </view>
+            </navigator>
+          </view>
+        </view>
+      </view>
+    </block>
+  </view>
+</template>

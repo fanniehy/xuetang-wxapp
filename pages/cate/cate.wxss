@@ -1,0 +1,77 @@
+.cate {
+    position: fixed;
+    top: 0px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    background: #fff;
+}
+
+.level1, .level2 {
+    height: 100%;
+}
+
+.level1 {
+    width: 83px;
+}
+
+.level1 .tab {
+    display: block;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 12px;
+    background: #f8f8f8;
+}
+
+.level1 .tab.cur {
+    font-size: 14px;
+    color: #e4393c;
+    background: #fff;
+}
+
+.level2 {
+    flex: 1;
+    padding-left: 15px;
+}
+
+.level2 .header {
+    height: 50px;
+    line-height: 50px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.level2 .list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 15px;
+}
+
+.level2 .list_item {
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.level2 .list_item .img {
+    position: relative;
+    padding-top: 100%;
+}
+
+.level2 .list_item image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.level2 .list_item .name {
+    margin-top: 5px;
+    font-size: 12px;
+    line-height: 1.3;
+}

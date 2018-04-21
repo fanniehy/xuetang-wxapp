@@ -1,0 +1,72 @@
+<template name="choice">
+  <swiper-item id="green">
+        <view class="scroll-view-item">
+            <text class="title">{{item.title}}</text>
+            <view class="content">
+                <view class="list">
+
+                        <view class="detail">
+                            <navigator url="../mv/mv?id={{item.templateData[0].videoId}}">
+                                <image src="{{item.templateData[0].picUrl}}" mode="aspectFill"></image>
+                                <view class="font-area">
+                                    <text class="bold">{{item.templateData[0].name}}</text>
+                                    
+                                </view>
+                            </navigator>
+                        </view>
+
+
+                        <view class="detail">
+                            <navigator url="../mv/mv?id={{item.templateData[1].videoId}}">
+                                <image src="{{item.templateData[1].picUrl}}" mode="aspectFill"></image>
+                                <view class="font-area">
+                                    <text class="bold">{{item.templateData[1].name}}</text>
+                                    
+                                </view>
+                            </navigator>
+                        </view>
+
+                </view>
+                <view class="space-50"></view>
+                <view class="list">
+
+                        <view class="detail">
+                            <navigator url="../mv/mv?id={{item.templateData[2].videoId}}">
+                                <image src="{{item.templateData[2].picUrl}}" mode="aspectFill"></image>
+                                <view class="font-area">
+                                    <text class="bold">{{item.templateData[2].name}}</text>
+                                    
+                                </view>
+                            </navigator>
+                        </view>
+
+
+                        <view class="detail">
+                            <navigator url="../mv/mv?id={{item.templateData[3].videoId}}">
+                                <image src="{{item.templateData[3].picUrl}}" mode="aspectFill"></image>
+                                <view class="font-area">
+                                    <text class="bold">{{item.templateData[3].name}}</text>
+                                    
+                                </view>
+                            </navigator>
+                        </view>
+
+                </view>
+            </view>
+        </view>
+      </swiper-item>
+</template>
+
+<!--list.wxml-->
+<view>
+  <!--<icon type="search" color="white" size="24" class="icon"></icon>-->
+  <image src="../../image/logo.png" mode="widthFix" class="logo"></image>
+</view>
+<image class="top-image" src="{{choiceList[activeBannerIndex].banner}}" mode="widthFix"></image>
+<view class="container">
+  <swiper class="slider" bindchange="bindChange">
+    <block wx:for-items="{{choiceList}}" wx:key="item">
+        <template is="choice" data="{{item}}"/>
+    </block>
+  </swiper>
+</view>

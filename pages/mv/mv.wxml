@@ -1,0 +1,192 @@
+<import src="../../common/commentslist.wxml" />
+<import src="../../wxParse/wxParse.wxml"/>
+<view id="mvpage">
+  <view id="mvheader">
+    <view class='wordsBox'>
+      <video id="mvideo" live="{{live}}" src="{{main.videoURL}}" autoplay="true" bindtimeupdate='timeUpDate' bindfullscreenchange="fullScreenChange">
+        <cover-view class="words" id='{{fontSize?"fontSize":null}}'>
+          <cover-view id="text_cn">{{content_en}}</cover-view>
+          <cover-view id="text_en">{{content_cn}}</cover-view>
+        </cover-view>
+      </video>
+      
+    </view>
+  </view>
+  <view class="tab">
+    <view class="tab-item {{tab==0?'tbi-cur':''}}" bindtap="tab" data-tab="0">
+      <text class="tbi-text">详情</text>
+    </view>
+    <view class="tab-item {{tab==1?'tbi-cur':''}}" data-tab="1" bindtap="tab">
+      <text class="tbi-text">评论 <text class="tbi-des">{{commentCount}}</text>
+      </text>
+    </view>
+    <view class="tab-item {{tab==2?'tbi-cur':''}}" data-tab="2" bindtap="tab">
+      <text class="tbi-text">相关视频</text>
+    </view>
+  </view>
+  <view wx:if="{{loading}}" class="cntloading">加载中...
+    <view>
+      <text class="cl1"></text>
+      <text class="cl2"></text>
+      <text class="cl3"></text>
+    </view>
+  </view>
+  <view id="mvmain">
+    <view class="tab-cnt" id="mv-detail" wx:if="{{tab==0}}">
+      <view id="mvinfo">
+        <text id="mvname">{{main.name}}</text>
+        <view style='float:left;width:72%'>
+          <view>
+            <navigator url="../artist/index?id={{main.artistId}}"> 作者：{{main.artistName}}</navigator>
+          </view>
+          <view>播放：{{main.playCount}}</view>
+          <view class='like-out'>
+            <view class='like-box'>
+                <image class="like" src="../../image/{{like ? 'zan-active' : 'zan'}}.png" bindtap="goLike" data-video-id="{{id}}" data-like='{{like}}'/>      
+                <text>{{likeCount}}</text>
+          </view>
+          </view>
+        </view>
+        <form catchsubmit="formSubmit" catchreset="formReset" report-submit="true">
+        <view style='float:right;width:25%;margin-top:38rpx' wx:if="{{tips}}">
+         <button type="primary" formType="submit" style="line-height: 75rpx;height: 75rpx;font-size: 14px;" catchtap="liveTap" data-cid="V_{{id}}"> 预约直播 </button>
+        </view>
+        </form>
+                   <view style="color:#f06000;width:100%" wx:if="{{tips}}">{{tips}}</view>
+
+      </view>
+      <view id="mvdes">
+        <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+        <!--<view>{{main.desc}}</view>-->
+      </view>
+    </view>
+    <view class="tab-cnt" wx:if="{{tab==1}}">
+      <scroll-view id="mv-comment" bindscrolltolower="onReachBottom" scroll-top="{{scrollTop}}" style="height:88%" scroll-y="true" lower-threshold="20">
+
+
+        <view class="comments">
+
+        <block wx:for="{{comments}}" wx:key="" wx:for-item="c">
+          <view class="item touch-active" >
+            <view class="i-left">
+              <image class="c-u-img" src="{{c.avatar}}"></image>
+            </view>
+            <view class="i-right">
+              <view class="top">
+                <view>
+                  <text class="u-name">{{c.uName}}</text>
+                  <image style="margin-left:7rpx;width: 26rpx;height: 26rpx" wx:if="{{c.top}}" src="/image/ding.png"></image>
+                  <image style="margin-left:7rpx;width: 26rpx;height: 26rpx" wx:if="{{c.money}}" src="/image/money.png"></image>
+                </view>
+                <text class="time">{{c.time}}</text>
+              </view>
+
+              <!--评论内容-->
+              <view class="content">
+                {{c.content}}
+              </view>
+              <!--评论内容-->
+            </view>
+
+
+          </view>
+          <view style="display:block;height: 2rpx;width:100%;background-color: #eee"></view>
+        </block>
+        </view>
+
+        <!--加载更多模版-->
+      <!--<block wx:if="{{isLoading}}">
+        <template is="loading" />
+      </block>
+      <block wx:else>
+        <template is="nodata" />
+      </block>-->
+
+
+  </scroll-view>
+  <!--评论盒子-->
+      <view class="cf-bg" catchtap="cemojiCfBg" style="display:{{cfBg ? 'block' : 'none'}}"></view>
+      <view class="comment-fixed">
+        <view class="cf-box">
+          <view class="emoji iconfont icon-emoji" catchtap="emojiShowHide"></view>
+          <textarea class="cf-content" bindinput="textAreaBlur" bindfocus="textAreaFocus" cursor-spacing="10"
+           maxlength="200" bindblur="textAreaBlur" value="{{content}}" placeholder="我要评论" fixed="true" show-confirm-bar=""></textarea>
+          <text class="cf-send touch-active" bindtap="send">发送</text>
+        </view>
+
+        <!--emoji表情盒子-->
+         <view class="emoji-box {{isShow ? 'emoji-move-in' : 'emoji-move-out'}} {{isLoad ? 'no-emoji-move' : ''}}">
+          <scroll-view scroll-y="true" bindscroll="emojiScroll" style="height:200px">
+            <block wx:for="{{emojis}}" wx:for-item="e" wx:key="">
+              <view class="emoji-cell">
+                <image class="touch-active" catchtap="emojiChoose"
+                       src="/image/emoji/{{e.emoji}}.png" data-emoji="{{e.char}}"
+                       data-oxf="{{e.emoji}}"></image>
+              </view>
+            </block>
+          </scroll-view>
+        </view> 
+      </view>
+    </view>
+    <view class="tab-cnt" wx:if="{{tab==2}}">
+      <scroll-view style="height:100%;" scroll-y="true">
+        <view class="flex-boxlist mvs">
+          <view wx:for="{{simi.mvs}}" class="tl_cnt" wx:for-item="re" wx:key="{{re}}">
+            <navigator url="../mv/mv?id={{re.id}}">
+              <view class="cover">
+                <view class="img_playcount">
+                  <image src="/image/video.png" style="height:20rpx;width:28rpx;"></image>
+                  {{re.playCount}}
+                </view>
+                <image src="{{re.cover}}?param=320y180" class="mv_cover" />
+              </view>
+              <view class="tl_info">
+                <view>{{re.name}}</view>
+                <view class="tli_des">{{re.artistName}}</view>
+              </view>
+            </navigator>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+    
+    
+<button open-type="share"  class="hongbao" style="font-size:30px;margin: 0;padding: 0; overflow: inherit;width:36px;height:0px;margin-bottom: 144px;">
+<image class="hongbao" style="margin-bottom: 145px" src="../../image/share.png" data-video-id="{{id}}"/>
+</button>
+    <image class="hongbao" style="margin-bottom: 100px" src="../../image/home.png" bindtap="goHome" data-video-id="{{id}}"/>
+    <image class="hongbao" src="../../image/hb.png" bindtap="showDialogBtn" data-video-id="{{id}}"/>
+
+    <!--弹窗-->
+    <view class="modal-mask" bindtap="hideModal" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+    <view class="modal-dialog" wx:if="{{showModal}}">
+      <view class="modal-title">打赏金额</view>
+      <view class="modal-content">
+        <view class="modal-input">
+          <input placeholder-class="input-holder" type="digit" maxlength="10" bindinput="inputChange" class="input" placeholder="请输入打赏金额，感谢您的支持！"></input>
+        </view>
+      </view>
+      <view class="modal-footer">
+        <view class="btn-cancel" bindtap="onCancel" data-status="cancel">取消</view>
+        <view class="btn-confirm" bindtap="onConfirm" data-status="confirm">确定</view>
+      </view>
+    </view>
+
+
+  </view>
+
+</view>
+
+        <!--加载更多 模版-->
+<template name="loading">
+<view class="weui-loadmore">
+  <view class="weui-loading"></view>
+  <view class="weui-loadmore__tips">正在加载</view>
+</view>
+</template>
+
+<template name="nodata">
+<view class="weui-loadmore">
+  <view class="weui-loadmore__tips" style="color:#888">就这么多了</view>
+</view>
+</template>

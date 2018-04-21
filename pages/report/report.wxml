@@ -1,0 +1,55 @@
+<view class="">
+<template is="head" data="{{title: 'form'}}"/>
+
+<view class="page-body">
+    <form catchsubmit="formSubmit" catchreset="formReset" report-submit="true">
+
+        <view class="page-section mt30">
+            <view class="page-section-title">姓名</view>
+            <view class="weui-cells weui-cells_after-title">
+                <view class="weui-cell weui-cell_input">
+                    <view class="weui-cell__bd">
+                        <input class="weui-input" name="name" placeholder="请输入姓名" />
+                    </view>
+                </view>
+            </view>
+        </view>
+
+        <view class="page-section">
+            <view class="page-section-title">联系方式</view>
+            <view class="weui-cells weui-cells_after-title">
+                <view class="weui-cell weui-cell_input">
+                    <view class="weui-cell__bd">
+                        <input class="weui-input" name="tel" placeholder="请输入联系方式" />
+                    </view>
+                </view>
+            </view>
+        </view>
+
+
+
+        <view class="page-section">
+            <view class="page-section-title">意见建议</view>
+            <view class="weui-cells weui-cells_after-title">
+                <view class="weui-cell weui-cell_input">
+                    <view class="weui-cell__bd">
+                        <input class="weui-input" name="text" placeholder="请输入意见建议" />
+                    </view>
+                </view>
+            </view>
+        </view>
+
+        <view class="page-section page-section-gap">
+            <view class="page-section-title">请给小程序打个分吧</view>
+            <slider value="80" name="score" show-value ></slider>
+        </view>
+
+        <view class="btn-area">
+            <button type="primary" formType="submit">提交</button>
+            <button formType="reset">重置</button>
+        </view>
+    </form>
+</view>
+
+<template is="foot" />
+</view>
