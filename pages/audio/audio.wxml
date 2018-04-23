@@ -1,0 +1,29 @@
+<view class='audioPage'>
+  <view class='topImg'>
+    <image src='./../../image/audioImg/{{topImg}}'></image>
+  </view>
+  <view class='out-audio'>
+    <view class='voice_box'>
+      <view class='progress_box'>
+        <image wx:if='{{voiceFlag}}' src='./../../image/audioImg/voice-stop.png' bindtap="start"></image>
+        <image wx:else src='./../../image/audioImg/voice-play.gif' bindtap="pause"></image>
+
+      </view>
+      <view class='navi_url'>
+        <view class='navText_box'>
+          <text bindtap='naviTo' class='navigator_content'>{{navigator_content}}</text>
+          <text class='navigator_num'>播放：{{navigator_num}}</text>
+          <text bindtap='naviTo' class='navigator_date'>{{navigator_date}}</text>
+        </view>
+
+        <progress percent='{{precent}}' color='#515151' bindtap='changeProgress' stroke-width="4" id='progress'></progress>
+        <text class='startTime'>{{audioStartTime}}</text>
+        <text class='endTime'>{{audioEndTime}}</text>    
+      </view>
+    </view>
+  </view>
+  <view class='newsAudio'>
+  <rich-text nodes="{{newsInfo}}" bindtap="tap"></rich-text>
+  </view>
+  <rich-text nodes="{{newsAudio}}"></rich-text>
+</view>

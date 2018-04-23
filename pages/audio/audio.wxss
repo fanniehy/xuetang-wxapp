@@ -1,0 +1,163 @@
+/* pages/audio/audio.wxss */
+
+/*下面是语音  */
+page{
+  width: 100%;
+  box-sizing: border-box;
+}
+.audioPage {
+   width: 96%; 
+  padding: 20rpx 10px 20px 25px;
+  box-sizing: border-box;   
+}
+
+.topImg image {
+  width: 100%;
+  height: 320rpx;
+}
+
+/**index.wxss**/
+
+.out_audio {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.voice_box {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #efefef;
+  border: 1px solid #ccc;
+  margin: 10rpx 0;
+  border-radius: 10rpx;
+}
+
+.navi_url {
+  position: relative;
+  width: 72%;
+  overflow: hidden;
+}
+
+.navText_box {
+  padding: 10rpx 5rpx 20rpx 5rpx;
+}
+
+.navi_url .navigator_content {
+  display: block;
+  font-size: 33rpx;
+  line-height: 32rpx;
+  text-align: left;
+  color: #515151;
+}
+.navigator_num{
+  margin-right: 30rpx;
+}
+.navigator_num,.navigator_date,.startTime,.endTime{
+  line-height: 32rpx;
+  font-size: 20rpx;
+  color: #8a8a8a;
+}
+.startTime,.endTime{
+  position: absolute;
+  bottom: 10rpx;
+}
+.startTime{
+  left: 0;
+}
+.endTime{
+  right: 28rpx;
+}
+
+.navigator_from {
+  font-size: 24rpx;
+  font-weight: 600;
+}
+
+.voice_box .navi_url progress {
+  width: 95%;
+  background-color: #b8b8b8;
+}
+
+.voice_box image {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.progress_box {
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.progress_bg {
+   position: absolute; 
+  width: 80px;
+  height: 80px;
+}
+
+.progress_canvas {
+  width: 80px;
+  height: 80px;
+}
+
+.progress_box image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%) translateY(-50%);
+}
+
+/*上面是语音  */
+
+.newsUl {
+  padding: 0;
+  width: 100%;
+  padding-bottom: 60rpx;
+  border-bottom: 10rpx solid #ccc;
+}
+
+.newsUl .newsLi {
+  font-family: "黑体";
+  margin-left: 50rpx;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.newAudioInfoTitle {
+  width: 90%;
+  font-size: 26rpx;
+  font-weight: 500;
+  line-height: 60rpx;
+  color: #333;
+}
+
+.newAudioInfoImg {
+  width: 100%;
+   margin-left: -50rpx; 
+}
+
+.moreAudio {
+  padding: 20rpx;
+  font-size: 24rpx;
+  color: #ddd;
+}
+
+.audioLists, .audioLists {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.audioLists .audioli {
+  padding-top: 20rpx;
+  font-size: 26rpx;
+  border-top: 1px solid #ccc;
+}
+
+.audioLists .audioData {
+  font-size: 20rpx;
+  color: #ccc;
+}

@@ -163,6 +163,7 @@ function loadrec(cookie, offset, limit, id, cb, type) {
         }
     })
 }
+
 function formatTime(date) {
     var year = date.getFullYear()
     var month = date.getMonth() + 1
@@ -172,9 +173,17 @@ function formatTime(date) {
     var minute = date.getMinutes()
     var second = date.getSeconds()
 
+    // 斜杠分开年月日
+    var nyr = [year, month, day].map(formatNumber).join('/');
+    
+    // 获得年月日
+    var ymd = [year, month, day].map(formatNumber).join('-');
 
-    return [year, month, day].map(formatNumber).join('-') + ' ' + [hour, minute, second].map(formatNumber).join(':')
+    //获得年月日时分秒
+    var fullDate = [year, month, day].map(formatNumber).join('-') + ' ' + [hour, minute, second].map(formatNumber).join(':')
+    return {ymd:ymd,fullDate:fullDate,nyr:nyr}
 }
+
 
 function toggleplay(that, app, cb) {
     cb = cb || null;

@@ -5,7 +5,8 @@
 * @Last Modified time: 2017-01-13 15:21:36
 */
 // mgtv API 操作
-import newData from '../Datas/httputils.js';
+import newData from '../Datas/httputils.js'
+const util = require("./../utils/utils.js")
 const innerAudioContext = wx.createInnerAudioContext()
 
 var app = getApp();
@@ -24,13 +25,14 @@ Page({
       { name: '进阶课程', id: '1003' }, { name: '行业会议', id: '1004' },
       { name: '学术沙龙', id: '1005' }, { name: '前沿讲座', id: '1021' }
     ],
-    status: 'play',
+    audioImg:"newsAudioPic.jpg",
+    audioTime:null,
     precent: 0,
     duration: 0,
     voiceFlag: true,
     navigetor_content: "矿冶院信息资源平台",
     navigetor_from: "矿冶园",
-    src: "http://fs.w.kugou.com/201804211457/8afdcbc9dc9401b143c8868cc561407c/G093/M01/0C/08/nQ0DAFiOyGiAJXFkADpFudDpIqU734.mp3",
+    src: "http://fs.w.kugou.com/201804231242/e1ccfc5475242e72c243aab952740605/G034/M00/0C/11/ApQEAFWcEu2AGDtXADwoxwa9Y34111.mp3",
   },
 
   isEmptyObject: function (e) { //判断Object对象是否为空
@@ -47,16 +49,22 @@ Page({
     console.log('--------123-------', e);
   },
   onReady: function () {
+
+    // 语音 播放
     innerAudioContext.src = this.data.src
     innerAudioContext.autoplay = true
-    setTimeout(function () { innerAudioContext.pause() }, 500) //小程序bug,获取时间会有延迟
-    this.drawProgressbg();
-    innerAudioContext.onTimeUpdate(() => {
-      this.drawCircle(innerAudioContext.currentTime * 2 / innerAudioContext.duration)
-      this.setData({
-        precent: (innerAudioContext.currentTime / innerAudioContext.duration) * 100
-      })
-    })
+    setTimeout( ()=> { 
+      innerAudioContext.pause() 
+    wx.setStorageSync("audioEndTime", innerAudioContext.duration)
+    wx.setStorageSync("audioStorage", this.data.src)    
+
+      }, 500) 
+    //小程序bug,获取时间会有延迟，默认autoplay先开启，再短时间关闭
+    var time = util.formatTime(new Date()).ymd;
+    // 再通过setData更改Page()里面的data，动态更新页面的数据  
+    this.setData({
+      audioTime: time
+    }); 
   },
   onLoad: function () {
     wx.showNavigationBarLoading();
@@ -68,6 +76,10 @@ Page({
       },
     };
     newData.result(param).then(data => {
+      // console.log(data)
+      // this.setData({ //设置早报图片
+      //   audioImg: ""
+      // })
       let datas = data.data.data,
         bannerData = [],
         livingData = [],
@@ -163,6 +175,13 @@ Page({
     });
     this.initProf();
   },
+  audioTo:function(){
+    this.start()
+    setTimeout(()=>{this.pause()},500)
+    wx.navigateTo({
+      url: 'audio/audio',
+    })
+  },
   handleTap: function (e) {
 
     console.log(e);
@@ -191,6 +210,7 @@ Page({
       duration: 2000
     });
     // debugger;
+
     setTimeout(function () {
       wx.navigateTo({
         url: e.detail.target.dataset.url
@@ -274,7 +294,6 @@ Page({
     innerAudioContext.pause()
     this.setData({
       voiceFlag: true,
-      status: "play"
     })
   },
   start: function () {
@@ -284,63 +303,12 @@ Page({
     setTimeout(() => {
       innerAudioContext.duration
     }, 10)
+    wx.setStorageSync("audioEndTime", innerAudioContext.duration)
     this.setData({
       voiceFlag: false,
-      status: "stop"
-    })
-    // innerAudioContext.onTimeUpdate(() => {
-    //   this.drawCircle(innerAudioContext.currentTime * 2 / innerAudioContext.duration)
-    //   console.log(innerAudioContext.duration)
-    //   console.log(innerAudioContext.currentTime)
-    //   this.setData({
-    //     precent: (innerAudioContext.currentTime / innerAudioContext.duration) * 100
-    //   })
-    // })
-  },
-  changeProgress: function (e) {
-    //用户可自行改变进度
-    var changeWidth = e.detail.x - e.target.offsetLeft //获得点击之后的进度
-    var totalWidth = 0;
-    var query = wx.createSelectorQuery();
-    //选择id
-    query.select('#progress').boundingClientRect()
-    query.exec((res) => {
-      //res就是 所有标签为mjltest的元素的信息 的数组
-      totalWidth = res[0].width;
-
-      this.setData({
-        precent: (changeWidth / totalWidth) * 100,
-      })
-      innerAudioContext.seek((changeWidth * innerAudioContext.duration / totalWidth))
-      this.drawCircle((innerAudioContext.currentTime + 5) * 2 / innerAudioContext.duration)
     })
   },
-  drawProgressbg: function () {
-    var ctx = wx.createCanvasContext('canvasProgressbg')
-    ctx.setLineWidth(2);// 设置圆环的宽度
-    ctx.setStrokeStyle('#20183b'); // 设置圆环的颜色
-    ctx.setLineCap('round') // 设置圆环端点的形状
-    ctx.beginPath();//开始一个新的路径
-    ctx.arc(40, 40, 30, 0, 2 * Math.PI, false);
-    //设置一个原点(100,100)，半径为90的圆的路径到当前路径
-    ctx.stroke();//对当前路径进行描边
-    ctx.draw();
-  },
-  drawCircle: function (step) {
-    var context = wx.createCanvasContext('canvasProgress');
-    // 设置渐变
-    var gradient = context.createLinearGradient(200, 100, 100, 200);
-    gradient.addColorStop("0", "#2661DD");
-    gradient.addColorStop("0.5", "#40ED94");
-    gradient.addColorStop("1.0", "#5956CC");
-
-    context.setLineWidth(4);
-    context.setStrokeStyle(gradient);
-    context.setLineCap('round')
-    context.beginPath();
-    // 参数step 为绘制的圆环周长，从0到2为一周 。 -Math.PI / 2 将起始角设在12点钟位置 ，结束角 通过改变 step 的值确定
-    context.arc(40, 40, 30, -Math.PI / 2, step * Math.PI - Math.PI / 2, false);
-    context.stroke();
-    context.draw()
-  },
+  onHide:function(){
+    this.pause() //切换页面后，早报停止
+  }
 });

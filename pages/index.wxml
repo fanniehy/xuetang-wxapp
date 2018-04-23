@@ -31,7 +31,24 @@
     </swiper>
   </view>
 
-  <view class="roundAvatorText {{AvatorText.length?'show':'hide'}}">
+  <!-- <view class='out_audio'> -->
+
+<view class='out-audioBox'>
+    <view class='voice_box'>
+      <view class='navi_url'>
+        <image src='./../image/audioImg/{{audioImg}}' mode='scaleToFill' bindtap='audioTo'></image>
+        <view class='showAudioTime'> {{audioTime}}</view>
+      </view>
+      <view class='progress_box'>
+        <image wx:if='{{voiceFlag}}' src='./../image/audioImg/voice-stop.png' bindtap="start"></image>
+        <image wx:else src='./../image/audioImg/voice-play.gif' bindtap="pause"></image>
+      </view>
+
+    </view>
+</view>
+  <!-- </view> -->
+  <!-- 原来的 小分类 -->
+  <!-- <view class="roundAvatorText {{AvatorText.length?'show':'hide'}}">
     <block wx:for="{{AvatorText}}" wx:key="name">
       <navigator url="{{item.webUrl}}" class="roundList">
         <view>
@@ -40,9 +57,9 @@
         </view>
       </navigator>
     </block>
-  </view>
-
-  <view class="textRollLink {{RollLink.length?'show':'hide'}}">
+  </view> -->
+  <!-- 原来的滚动播放 -->
+  <!-- <view class="textRollLink {{RollLink.length?'show':'hide'}}">
     <swiper class="Rollswiper" vertical="true">
       <block wx:for="{{RollLink}}" wx:key="videoId">
         <swiper-item>
@@ -55,7 +72,7 @@
         </swiper-item>
       </block>
     </swiper>
-  </view>
+  </view> -->
 
   <view style="margin: 10px 8px 0">
     <view class="listTitle">
@@ -79,23 +96,6 @@
 
   </view>
 
-  <view class='voice_box'>    
-    <view class='progress_box'>
-      <canvas class="progress_bg" canvas-id="canvasProgressbg"> </canvas>
-      <canvas class="progress_canvas" canvas-id="canvasProgress"> </canvas>
-      <image wx:if='{{voiceFlag}}' src='./../image/voice-{{status}}.png' bindtap="start"></image>
-      <image wx:else src='./../image/voice-{{status}}.png' bindtap="pause"></image>
-
-    </view>
-    <view class='navi_url'>
-    <view class='navText_box'>
-      <text bindtap='naviTo' class='navigetor_content'>{{navigetor_content}}</text>
-      <text bindtap='naviTo' class='navigetor_from'>{{navigetor_from}}</text>
-    </view>
-      
-      <progress percent='{{precent}}' color='#4077D6' bindtap='changeProgress' stroke-width="4" id='progress'></progress>
-    </view>
-  </view>
   <template is="prof" data="{{prof}}" />
 
 

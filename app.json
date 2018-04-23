@@ -13,7 +13,8 @@
         "pages/cate/cate",
         "pages/report/report",
         "pages/live/live",
-        "pages/trump/trump"
+        "pages/trump/trump",
+        "pages/audio/audio"
     ],
     "window": {
         "navigationBarBackgroundColor":"#f06000",
