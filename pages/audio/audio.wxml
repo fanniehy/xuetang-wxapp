@@ -17,8 +17,10 @@
         </view>
 
         <progress percent='{{precent}}' color='#515151' bindtap='changeProgress' stroke-width="4" id='progress'></progress>
+        <view class='start_end'>
         <text class='startTime'>{{audioStartTime}}</text>
-        <text class='endTime'>{{audioEndTime}}</text>    
+        <text class='endTime'>{{audioEndTime}}</text> 
+        </view>   
       </view>
     </view>
   </view>

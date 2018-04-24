@@ -36,7 +36,6 @@ page{
 }
 
 .navi_url {
-  position: relative;
   width: 72%;
   overflow: hidden;
 }
@@ -60,10 +59,16 @@ page{
   font-size: 20rpx;
   color: #8a8a8a;
 }
-.startTime,.endTime{
-  position: absolute;
-  bottom: 10rpx;
+.start_end{
+  position: relative;
+  height:30rpx;
+
+
 }
+ .startTime,.endTime{
+  position: absolute;
+  bottom: 0;
+} 
 .startTime{
   left: 0;
 }
@@ -78,9 +83,7 @@ page{
 
 .voice_box .navi_url progress {
   width: 95%;
-  background-color: #b8b8b8;
 }
-
 .voice_box image {
   width: 100rpx;
   height: 100rpx;

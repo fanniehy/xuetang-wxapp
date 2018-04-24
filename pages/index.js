@@ -177,7 +177,7 @@ Page({
   },
   audioTo:function(){
     this.start()
-    setTimeout(()=>{this.pause()},500)
+    setTimeout(()=>{this.pause()},10)
     wx.navigateTo({
       url: 'audio/audio',
     })
